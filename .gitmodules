@@ -1,0 +1,8 @@
+[submodule "Packages/Congroo.UI"]
+	path = Packages/Congroo.UI
+	url = https://github.com/chasinghope/Congroo.UI.git
+	branch = main
+[submodule "Packages/Congroo.Core"]
+	path = Packages/Congroo.Core
+	url = https://github.com/chasinghope/Congroo.Core.git
+	branch = main
