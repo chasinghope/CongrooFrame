@@ -5,153 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eecd261a-c3e8-4836-aa31-1142c36522ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Game/AOTGather.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/AOTGather/AOTGather.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/AOTGather/AOTGather.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Main/ResMgr.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Main/ResMgr.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Main/TBExpand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Main/TBExpand.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CongrooFrame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CongrooFrame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfBattleLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfBattleLevel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfCellUnlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfCellUnlock.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfChapterLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfChapterLevel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfFeatureUnlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfFeatureUnlock.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfGoods.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfGoods.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfLevel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfMonster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfMonster.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfRogueSkill.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfRogueSkill.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfShopChapter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfShopChapter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfShopDaily.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfShopDaily.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfShopFirstRecharge.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfShopFirstRecharge.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfShopGem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfShopGem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfShopGold.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfShopGold.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfShopMember.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfShopMember.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfTalent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfTalent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfTaskAchievement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfTaskAchievement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfTaskChallenge.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfTaskChallenge.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfTaskCheckin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfTaskCheckin.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfTaskList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfTaskList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfTaskScore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfTaskScore.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfTaskType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfTaskType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfTutorial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfTutorial.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfWeapon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfWeaponAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfWeaponAttribute.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfWeaponGrade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfWeaponGrade.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfWeaponPray.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfWeaponPray.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfWeaponPrayEnsure.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfWeaponPrayEnsure.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfWeaponQuality.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/CfWeaponQuality.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/GLConst.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/GLConst.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/ItemStuff.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/ItemStuff.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBBattleLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBBattleLevel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBCellUnlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBCellUnlock.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBChapterLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBChapterLevel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBFeatureUnlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBFeatureUnlock.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBGLConst.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBGLConst.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBGoods.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBGoods.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBLevel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBMonster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBMonster.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBRogueSkill.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBRogueSkill.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBShopChapter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBShopChapter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBShopDaily.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBShopDaily.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBShopFirstRecharge.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBShopFirstRecharge.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBShopGem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBShopGem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBShopGold.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBShopGold.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBShopMember.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBShopMember.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBTalent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBTalent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBTaskAchievement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBTaskAchievement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBTaskChallenge.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBTaskChallenge.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBTaskCheckin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBTaskCheckin.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBTaskList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBTaskList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBTaskScore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBTaskScore.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBTaskType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBTaskType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBTutorial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBTutorial.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBWeapon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBWeaponAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBWeaponAttribute.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBWeaponGrade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBWeaponGrade.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBWeaponPray.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBWeaponPray.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBWeaponPrayEnsure.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBWeaponPrayEnsure.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBWeaponQuality.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/TBWeaponQuality.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/WaveConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Battle/WaveConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/CfLocalization.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/CfLocalization.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Com/ItemRewards.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Com/ItemRewards.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/TBLocalization.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/TBLocalization.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/Tables.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/Tables.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/test/Circle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/test/Circle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/test/Shape.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/test/Shape.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/test/TestExcelBean1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/test/TestExcelBean1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/test/TestExcelBean2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/test/TestExcelBean2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/GenCfgs/test2/Rectangle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/GenCfgs/test2/Rectangle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Main/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Main/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SplashScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SplashScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbbattlelevel.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbbattlelevel.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbcellunlock.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbcellunlock.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbchapterlevel.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbchapterlevel.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbfeatureunlock.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbfeatureunlock.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbglconst.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbglconst.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbgoods.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbgoods.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tblevel.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tblevel.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbmonster.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbmonster.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbrogueskill.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbrogueskill.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbshopchapter.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbshopchapter.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbshopdaily.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbshopdaily.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbshopfirstrecharge.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbshopfirstrecharge.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbshopgem.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbshopgem.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbshopgold.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbshopgold.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbshopmember.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbshopmember.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbtalent.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbtalent.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbtaskachievement.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbtaskachievement.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbtaskchallenge.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbtaskchallenge.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbtaskcheckin.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbtaskcheckin.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbtasklist.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbtasklist.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbtaskscore.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbtaskscore.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbtasktype.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbtasktype.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbtutorial.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbtutorial.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbweapon.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbweapon.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbweaponattribute.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbweaponattribute.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbweapongrade.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbweapongrade.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbweaponpray.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbweaponpray.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbweaponprayensure.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbweaponprayensure.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbweaponquality.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/battle_tbweaponquality.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/tblocalization.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cfgs/bytes/tblocalization.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LuBan/gen_code_bin.bat" beforeDir="false" afterPath="$PROJECT_DIR$/LuBan/gen_code_bin.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LuBan/gen_code_json.bat" beforeDir="false" afterPath="$PROJECT_DIR$/LuBan/gen_code_json.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Packages/Congroo.Core" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5e6ebaa7d75c4d5399dc81ecead6b43f952600/ce/9d566860/ProjectWindowUtil.cs" root0="SKIP_HIGHLIGHTING" />
@@ -176,9 +32,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2lbJfQbBX1C0ZsScjhF6kJqEafF" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -199,6 +56,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editing.templates",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -236,10 +94,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="13780">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="13780" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -267,34 +125,21 @@
       <workItem from="1725871926043" duration="668000" />
       <workItem from="1725873203763" duration="1565000" />
       <workItem from="1725932273302" duration="13717000" />
+      <workItem from="1725950410530" duration="2721000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Game/Main/CfgTable.cs</url>
-          <line>60</line>
-          <properties documentPath="D:\CongrooClass\CongrooFrame\Assets\Game\Main\CfgTable.cs" initialLine="60" containingFunctionPresentation="Method 'PostProcess'">
-            <startOffsets>
-              <option value="1727" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1769" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

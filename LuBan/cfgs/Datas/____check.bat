@@ -1,9 +1,9 @@
-set LUBAN_DLL=../../luban\Luban.dll
+set LUBAN_DLL=../../Luban\Luban.dll
 
 dotnet %LUBAN_DLL% ^
     -t all ^
-    -c cs-simple-json ^
-    -d json  ^
+    -f ^
     --conf ../luban.conf ^
-    -x forceLoadDatas=1
+    ...
+
 pause
