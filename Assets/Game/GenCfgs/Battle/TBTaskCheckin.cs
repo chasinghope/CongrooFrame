@@ -8,6 +8,7 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
@@ -17,15 +18,15 @@ public partial class TBTaskCheckin
     private readonly System.Collections.Generic.Dictionary<int, Battle.CfTaskCheckin> _dataMap;
     private readonly System.Collections.Generic.List<Battle.CfTaskCheckin> _dataList;
     
-    public TBTaskCheckin(ByteBuf _buf)
+    public TBTaskCheckin(JSONNode _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Battle.CfTaskCheckin>();
         _dataList = new System.Collections.Generic.List<Battle.CfTaskCheckin>();
         
-        for(int n = _buf.ReadSize() ; n > 0 ; --n)
+        foreach(JSONNode _ele in _buf.Children)
         {
             Battle.CfTaskCheckin _v;
-            _v = Battle.CfTaskCheckin.DeserializeCfTaskCheckin(_buf);
+            { if(!_ele.IsObject) { throw new SerializationException(); }  _v = Battle.CfTaskCheckin.DeserializeCfTaskCheckin(_ele);  }
             _dataList.Add(_v);
             _dataMap.Add(_v.Id, _v);
         }

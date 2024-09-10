@@ -8,23 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
 {
 public sealed partial class CfBattleLevel : Luban.BeanBase
 {
-    public CfBattleLevel(ByteBuf _buf) 
+    public CfBattleLevel(JSONNode _buf) 
     {
-        Id = _buf.ReadInt();
-        ChapterId = _buf.ReadInt();
-        ChapterName = _buf.ReadInt();
-        LevelId = _buf.ReadInt();
-        UpgradeExp = _buf.ReadInt();
-        UpgradeExpAmount = _buf.ReadInt();
+        { if(!_buf["Id"].IsNumber) { throw new SerializationException(); }  Id = _buf["Id"]; }
+        { if(!_buf["ChapterId"].IsNumber) { throw new SerializationException(); }  ChapterId = _buf["ChapterId"]; }
+        { if(!_buf["ChapterName"].IsNumber) { throw new SerializationException(); }  ChapterName = _buf["ChapterName"]; }
+        { if(!_buf["LevelId"].IsNumber) { throw new SerializationException(); }  LevelId = _buf["LevelId"]; }
+        { if(!_buf["UpgradeExp"].IsNumber) { throw new SerializationException(); }  UpgradeExp = _buf["UpgradeExp"]; }
+        { if(!_buf["UpgradeExpAmount"].IsNumber) { throw new SerializationException(); }  UpgradeExpAmount = _buf["UpgradeExpAmount"]; }
     }
 
-    public static CfBattleLevel DeserializeCfBattleLevel(ByteBuf _buf)
+    public static CfBattleLevel DeserializeCfBattleLevel(JSONNode _buf)
     {
         return new Battle.CfBattleLevel(_buf);
     }

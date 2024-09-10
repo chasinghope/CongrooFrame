@@ -8,34 +8,35 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
 {
 public sealed partial class CfRogueSkill : Luban.BeanBase
 {
-    public CfRogueSkill(ByteBuf _buf) 
+    public CfRogueSkill(JSONNode _buf) 
     {
-        Id = _buf.ReadInt();
-        {int n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);PreSkills = new System.Collections.Generic.List<int>(n0);for(var i0 = 0 ; i0 < n0 ; i0++) { int _e0;  _e0 = _buf.ReadInt(); PreSkills.Add(_e0);}}
-        IsUseBattle = _buf.ReadBool();
-        IsInPool = _buf.ReadBool();
-        Type = _buf.ReadString();
-        Param1 = _buf.ReadString();
-        Param2 = _buf.ReadString();
-        Param3 = _buf.ReadString();
-        Param4 = _buf.ReadString();
-        Param5 = _buf.ReadString();
-        Desc = _buf.ReadString();
-        CanStack = _buf.ReadBool();
-        Quality = _buf.ReadInt();
-        Importance = _buf.ReadInt();
-        Pct = _buf.ReadInt();
-        Name = _buf.ReadInt();
-        IconPath = _buf.ReadString();
+        { if(!_buf["id"].IsNumber) { throw new SerializationException(); }  Id = _buf["id"]; }
+        { var __json0 = _buf["PreSkills"]; if(!__json0.IsArray) { throw new SerializationException(); } PreSkills = new System.Collections.Generic.List<int>(__json0.Count); foreach(JSONNode __e0 in __json0.Children) { int __v0;  { if(!__e0.IsNumber) { throw new SerializationException(); }  __v0 = __e0; }  PreSkills.Add(__v0); }   }
+        { if(!_buf["IsUseBattle"].IsBoolean) { throw new SerializationException(); }  IsUseBattle = _buf["IsUseBattle"]; }
+        { if(!_buf["IsInPool"].IsBoolean) { throw new SerializationException(); }  IsInPool = _buf["IsInPool"]; }
+        { if(!_buf["Type"].IsString) { throw new SerializationException(); }  Type = _buf["Type"]; }
+        { if(!_buf["Param1"].IsString) { throw new SerializationException(); }  Param1 = _buf["Param1"]; }
+        { if(!_buf["Param2"].IsString) { throw new SerializationException(); }  Param2 = _buf["Param2"]; }
+        { if(!_buf["Param3"].IsString) { throw new SerializationException(); }  Param3 = _buf["Param3"]; }
+        { if(!_buf["Param4"].IsString) { throw new SerializationException(); }  Param4 = _buf["Param4"]; }
+        { if(!_buf["Param5"].IsString) { throw new SerializationException(); }  Param5 = _buf["Param5"]; }
+        { if(!_buf["Desc"].IsString) { throw new SerializationException(); }  Desc = _buf["Desc"]; }
+        { if(!_buf["CanStack"].IsBoolean) { throw new SerializationException(); }  CanStack = _buf["CanStack"]; }
+        { if(!_buf["Quality"].IsNumber) { throw new SerializationException(); }  Quality = _buf["Quality"]; }
+        { if(!_buf["Importance"].IsNumber) { throw new SerializationException(); }  Importance = _buf["Importance"]; }
+        { if(!_buf["Pct"].IsNumber) { throw new SerializationException(); }  Pct = _buf["Pct"]; }
+        { if(!_buf["Name"].IsNumber) { throw new SerializationException(); }  Name = _buf["Name"]; }
+        { if(!_buf["IconPath"].IsString) { throw new SerializationException(); }  IconPath = _buf["IconPath"]; }
     }
 
-    public static CfRogueSkill DeserializeCfRogueSkill(ByteBuf _buf)
+    public static CfRogueSkill DeserializeCfRogueSkill(JSONNode _buf)
     {
         return new Battle.CfRogueSkill(_buf);
     }

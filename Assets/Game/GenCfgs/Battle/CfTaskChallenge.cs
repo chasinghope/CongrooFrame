@@ -8,23 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
 {
 public sealed partial class CfTaskChallenge : Luban.BeanBase
 {
-    public CfTaskChallenge(ByteBuf _buf) 
+    public CfTaskChallenge(JSONNode _buf) 
     {
-        Id = _buf.ReadInt();
-        Day = _buf.ReadInt();
-        TaskType = _buf.ReadInt();
-        Param = _buf.ReadInt();
-        RewardScore = _buf.ReadInt();
-        RewardGoods = Battle.ItemStuff.DeserializeItemStuff(_buf);
+        { if(!_buf["Id"].IsNumber) { throw new SerializationException(); }  Id = _buf["Id"]; }
+        { if(!_buf["Day"].IsNumber) { throw new SerializationException(); }  Day = _buf["Day"]; }
+        { if(!_buf["TaskType"].IsNumber) { throw new SerializationException(); }  TaskType = _buf["TaskType"]; }
+        { if(!_buf["Param"].IsNumber) { throw new SerializationException(); }  Param = _buf["Param"]; }
+        { if(!_buf["RewardScore"].IsNumber) { throw new SerializationException(); }  RewardScore = _buf["RewardScore"]; }
+        { if(!_buf["RewardGoods"].IsObject) { throw new SerializationException(); }  RewardGoods = Battle.ItemStuff.DeserializeItemStuff(_buf["RewardGoods"]);  }
     }
 
-    public static CfTaskChallenge DeserializeCfTaskChallenge(ByteBuf _buf)
+    public static CfTaskChallenge DeserializeCfTaskChallenge(JSONNode _buf)
     {
         return new Battle.CfTaskChallenge(_buf);
     }

@@ -8,21 +8,22 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
 {
 public sealed partial class CfTaskCheckin : Luban.BeanBase
 {
-    public CfTaskCheckin(ByteBuf _buf) 
+    public CfTaskCheckin(JSONNode _buf) 
     {
-        Id = _buf.ReadInt();
-        CheckinType = (Task.CheckinType)_buf.ReadInt();
-        Daily = _buf.ReadInt();
-        {int n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Rewards = new System.Collections.Generic.List<Battle.ItemStuff>(n0);for(var i0 = 0 ; i0 < n0 ; i0++) { Battle.ItemStuff _e0;  _e0 = Battle.ItemStuff.DeserializeItemStuff(_buf); Rewards.Add(_e0);}}
+        { if(!_buf["Id"].IsNumber) { throw new SerializationException(); }  Id = _buf["Id"]; }
+        { if(!_buf["CheckinType"].IsNumber) { throw new SerializationException(); }  CheckinType = (Task.CheckinType)_buf["CheckinType"].AsInt; }
+        { if(!_buf["Daily"].IsNumber) { throw new SerializationException(); }  Daily = _buf["Daily"]; }
+        { var __json0 = _buf["Rewards"]; if(!__json0.IsArray) { throw new SerializationException(); } Rewards = new System.Collections.Generic.List<Battle.ItemStuff>(__json0.Count); foreach(JSONNode __e0 in __json0.Children) { Battle.ItemStuff __v0;  { if(!__e0.IsObject) { throw new SerializationException(); }  __v0 = Battle.ItemStuff.DeserializeItemStuff(__e0);  }  Rewards.Add(__v0); }   }
     }
 
-    public static CfTaskCheckin DeserializeCfTaskCheckin(ByteBuf _buf)
+    public static CfTaskCheckin DeserializeCfTaskCheckin(JSONNode _buf)
     {
         return new Battle.CfTaskCheckin(_buf);
     }

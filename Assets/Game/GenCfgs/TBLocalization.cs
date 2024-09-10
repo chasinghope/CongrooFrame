@@ -8,6 +8,7 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg
@@ -17,15 +18,15 @@ public partial class TBLocalization
     private readonly System.Collections.Generic.Dictionary<int, CfLocalization> _dataMap;
     private readonly System.Collections.Generic.List<CfLocalization> _dataList;
     
-    public TBLocalization(ByteBuf _buf)
+    public TBLocalization(JSONNode _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, CfLocalization>();
         _dataList = new System.Collections.Generic.List<CfLocalization>();
         
-        for(int n = _buf.ReadSize() ; n > 0 ; --n)
+        foreach(JSONNode _ele in _buf.Children)
         {
             CfLocalization _v;
-            _v = CfLocalization.DeserializeCfLocalization(_buf);
+            { if(!_ele.IsObject) { throw new SerializationException(); }  _v = CfLocalization.DeserializeCfLocalization(_ele);  }
             _dataList.Add(_v);
             _dataMap.Add(_v.LanguageID, _v);
         }

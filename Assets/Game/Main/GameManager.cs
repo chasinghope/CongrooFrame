@@ -1,18 +1,20 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
+using Congroo.Core;
 using UnityEngine;
+
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        
+        Init();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Init()
     {
-        
+#if UNITY_EDITOR
+        UniqueIdValidCheck.Check(typeof(EventID));
+#endif
+        CfgTable.Ins.Init();
     }
 }

@@ -8,25 +8,26 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
 {
 public sealed partial class CfTalent : Luban.BeanBase
 {
-    public CfTalent(ByteBuf _buf) 
+    public CfTalent(JSONNode _buf) 
     {
-        Id = _buf.ReadInt();
-        UnlockLevel = _buf.ReadInt();
-        AddBlood = _buf.ReadInt();
-        AddAttack = _buf.ReadInt();
-        UnlockParams = Battle.ItemStuff.DeserializeItemStuff(_buf);
-        IsSpecial = _buf.ReadBool();
-        SkillID = _buf.ReadInt();
-        AddPower = _buf.ReadInt();
+        { if(!_buf["Id"].IsNumber) { throw new SerializationException(); }  Id = _buf["Id"]; }
+        { if(!_buf["UnlockLevel"].IsNumber) { throw new SerializationException(); }  UnlockLevel = _buf["UnlockLevel"]; }
+        { if(!_buf["AddBlood"].IsNumber) { throw new SerializationException(); }  AddBlood = _buf["AddBlood"]; }
+        { if(!_buf["AddAttack"].IsNumber) { throw new SerializationException(); }  AddAttack = _buf["AddAttack"]; }
+        { if(!_buf["UnlockParams"].IsObject) { throw new SerializationException(); }  UnlockParams = Battle.ItemStuff.DeserializeItemStuff(_buf["UnlockParams"]);  }
+        { if(!_buf["IsSpecial"].IsBoolean) { throw new SerializationException(); }  IsSpecial = _buf["IsSpecial"]; }
+        { if(!_buf["SkillID"].IsNumber) { throw new SerializationException(); }  SkillID = _buf["SkillID"]; }
+        { if(!_buf["AddPower"].IsNumber) { throw new SerializationException(); }  AddPower = _buf["AddPower"]; }
     }
 
-    public static CfTalent DeserializeCfTalent(ByteBuf _buf)
+    public static CfTalent DeserializeCfTalent(JSONNode _buf)
     {
         return new Battle.CfTalent(_buf);
     }

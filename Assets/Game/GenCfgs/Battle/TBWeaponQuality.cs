@@ -8,6 +8,7 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
@@ -17,15 +18,15 @@ public partial class TBWeaponQuality
     private readonly System.Collections.Generic.Dictionary<int, Battle.CfWeaponQuality> _dataMap;
     private readonly System.Collections.Generic.List<Battle.CfWeaponQuality> _dataList;
     
-    public TBWeaponQuality(ByteBuf _buf)
+    public TBWeaponQuality(JSONNode _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Battle.CfWeaponQuality>();
         _dataList = new System.Collections.Generic.List<Battle.CfWeaponQuality>();
         
-        for(int n = _buf.ReadSize() ; n > 0 ; --n)
+        foreach(JSONNode _ele in _buf.Children)
         {
             Battle.CfWeaponQuality _v;
-            _v = Battle.CfWeaponQuality.DeserializeCfWeaponQuality(_buf);
+            { if(!_ele.IsObject) { throw new SerializationException(); }  _v = Battle.CfWeaponQuality.DeserializeCfWeaponQuality(_ele);  }
             _dataList.Add(_v);
             _dataMap.Add(_v.Id, _v);
         }

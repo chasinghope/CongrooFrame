@@ -8,21 +8,22 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
 {
 public sealed partial class CfWeaponQuality : Luban.BeanBase
 {
-    public CfWeaponQuality(ByteBuf _buf) 
+    public CfWeaponQuality(JSONNode _buf) 
     {
-        Id = _buf.ReadInt();
-        ItemAttrPct = _buf.ReadInt();
-        AssetPath = _buf.ReadString();
-        BulletPath = _buf.ReadString();
+        { if(!_buf["id"].IsNumber) { throw new SerializationException(); }  Id = _buf["id"]; }
+        { if(!_buf["itemAttrPct"].IsNumber) { throw new SerializationException(); }  ItemAttrPct = _buf["itemAttrPct"]; }
+        { if(!_buf["AssetPath"].IsString) { throw new SerializationException(); }  AssetPath = _buf["AssetPath"]; }
+        { if(!_buf["BulletPath"].IsString) { throw new SerializationException(); }  BulletPath = _buf["BulletPath"]; }
     }
 
-    public static CfWeaponQuality DeserializeCfWeaponQuality(ByteBuf _buf)
+    public static CfWeaponQuality DeserializeCfWeaponQuality(JSONNode _buf)
     {
         return new Battle.CfWeaponQuality(_buf);
     }

@@ -8,6 +8,7 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
@@ -17,15 +18,15 @@ public partial class TBFeatureUnlock
     private readonly System.Collections.Generic.Dictionary<int, Battle.CfFeatureUnlock> _dataMap;
     private readonly System.Collections.Generic.List<Battle.CfFeatureUnlock> _dataList;
     
-    public TBFeatureUnlock(ByteBuf _buf)
+    public TBFeatureUnlock(JSONNode _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Battle.CfFeatureUnlock>();
         _dataList = new System.Collections.Generic.List<Battle.CfFeatureUnlock>();
         
-        for(int n = _buf.ReadSize() ; n > 0 ; --n)
+        foreach(JSONNode _ele in _buf.Children)
         {
             Battle.CfFeatureUnlock _v;
-            _v = Battle.CfFeatureUnlock.DeserializeCfFeatureUnlock(_buf);
+            { if(!_ele.IsObject) { throw new SerializationException(); }  _v = Battle.CfFeatureUnlock.DeserializeCfFeatureUnlock(_ele);  }
             _dataList.Add(_v);
             _dataMap.Add(_v.FunctionId, _v);
         }

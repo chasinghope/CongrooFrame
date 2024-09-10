@@ -8,6 +8,7 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
@@ -17,15 +18,15 @@ public partial class TBRogueSkill
     private readonly System.Collections.Generic.Dictionary<int, Battle.CfRogueSkill> _dataMap;
     private readonly System.Collections.Generic.List<Battle.CfRogueSkill> _dataList;
     
-    public TBRogueSkill(ByteBuf _buf)
+    public TBRogueSkill(JSONNode _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Battle.CfRogueSkill>();
         _dataList = new System.Collections.Generic.List<Battle.CfRogueSkill>();
         
-        for(int n = _buf.ReadSize() ; n > 0 ; --n)
+        foreach(JSONNode _ele in _buf.Children)
         {
             Battle.CfRogueSkill _v;
-            _v = Battle.CfRogueSkill.DeserializeCfRogueSkill(_buf);
+            { if(!_ele.IsObject) { throw new SerializationException(); }  _v = Battle.CfRogueSkill.DeserializeCfRogueSkill(_ele);  }
             _dataList.Add(_v);
             _dataMap.Add(_v.Id, _v);
         }

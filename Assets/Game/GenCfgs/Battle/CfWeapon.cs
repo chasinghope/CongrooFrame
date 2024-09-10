@@ -8,31 +8,32 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
 {
 public sealed partial class CfWeapon : Luban.BeanBase
 {
-    public CfWeapon(ByteBuf _buf) 
+    public CfWeapon(JSONNode _buf) 
     {
-        Id = _buf.ReadInt();
-        ItemName = _buf.ReadInt();
-        IsInBag = _buf.ReadBool();
-        {int n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);AttributeList = new System.Collections.Generic.List<int>(n0);for(var i0 = 0 ; i0 < n0 ; i0++) { int _e0;  _e0 = _buf.ReadInt(); AttributeList.Add(_e0);}}
-        TargetSelectType = (Battle.TargetSelectType)_buf.ReadInt();
-        AttackNum = _buf.ReadInt();
-        GridX = _buf.ReadInt();
-        GridY = _buf.ReadInt();
-        WeaponSound = _buf.ReadString();
-        CellType = (Battle.CellType)_buf.ReadInt();
-        IconName = _buf.ReadString();
-        ItemType = (Battle.ItemType)_buf.ReadInt();
-        ElementType = (Battle.ElementType)_buf.ReadInt();
-        Quality = (Battle.ItemQuality)_buf.ReadInt();
+        { if(!_buf["id"].IsNumber) { throw new SerializationException(); }  Id = _buf["id"]; }
+        { if(!_buf["ItemName"].IsNumber) { throw new SerializationException(); }  ItemName = _buf["ItemName"]; }
+        { if(!_buf["IsInBag"].IsBoolean) { throw new SerializationException(); }  IsInBag = _buf["IsInBag"]; }
+        { var __json0 = _buf["AttributeList"]; if(!__json0.IsArray) { throw new SerializationException(); } AttributeList = new System.Collections.Generic.List<int>(__json0.Count); foreach(JSONNode __e0 in __json0.Children) { int __v0;  { if(!__e0.IsNumber) { throw new SerializationException(); }  __v0 = __e0; }  AttributeList.Add(__v0); }   }
+        { if(!_buf["TargetSelectType"].IsNumber) { throw new SerializationException(); }  TargetSelectType = (Battle.TargetSelectType)_buf["TargetSelectType"].AsInt; }
+        { if(!_buf["AttackNum"].IsNumber) { throw new SerializationException(); }  AttackNum = _buf["AttackNum"]; }
+        { if(!_buf["GridX"].IsNumber) { throw new SerializationException(); }  GridX = _buf["GridX"]; }
+        { if(!_buf["GridY"].IsNumber) { throw new SerializationException(); }  GridY = _buf["GridY"]; }
+        { if(!_buf["WeaponSound"].IsString) { throw new SerializationException(); }  WeaponSound = _buf["WeaponSound"]; }
+        { if(!_buf["CellType"].IsNumber) { throw new SerializationException(); }  CellType = (Battle.CellType)_buf["CellType"].AsInt; }
+        { if(!_buf["IconName"].IsString) { throw new SerializationException(); }  IconName = _buf["IconName"]; }
+        { if(!_buf["ItemType"].IsNumber) { throw new SerializationException(); }  ItemType = (Battle.ItemType)_buf["ItemType"].AsInt; }
+        { if(!_buf["ElementType"].IsNumber) { throw new SerializationException(); }  ElementType = (Battle.ElementType)_buf["ElementType"].AsInt; }
+        { if(!_buf["Quality"].IsNumber) { throw new SerializationException(); }  Quality = (Battle.ItemQuality)_buf["Quality"].AsInt; }
     }
 
-    public static CfWeapon DeserializeCfWeapon(ByteBuf _buf)
+    public static CfWeapon DeserializeCfWeapon(JSONNode _buf)
     {
         return new Battle.CfWeapon(_buf);
     }

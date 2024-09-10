@@ -8,23 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
 {
 public sealed partial class CfShopGem : Luban.BeanBase
 {
-    public CfShopGem(ByteBuf _buf) 
+    public CfShopGem(JSONNode _buf) 
     {
-        Id = _buf.ReadInt();
-        Price = _buf.ReadFloat();
-        DollarPrice = _buf.ReadFloat();
-        Gem = _buf.ReadInt();
-        FirstGift = _buf.ReadInt();
-        FirstGiftDesc = _buf.ReadInt();
+        { if(!_buf["Id"].IsNumber) { throw new SerializationException(); }  Id = _buf["Id"]; }
+        { if(!_buf["Price"].IsNumber) { throw new SerializationException(); }  Price = _buf["Price"]; }
+        { if(!_buf["DollarPrice"].IsNumber) { throw new SerializationException(); }  DollarPrice = _buf["DollarPrice"]; }
+        { if(!_buf["Gem"].IsNumber) { throw new SerializationException(); }  Gem = _buf["Gem"]; }
+        { if(!_buf["FirstGift"].IsNumber) { throw new SerializationException(); }  FirstGift = _buf["FirstGift"]; }
+        { if(!_buf["FirstGiftDesc"].IsNumber) { throw new SerializationException(); }  FirstGiftDesc = _buf["FirstGiftDesc"]; }
     }
 
-    public static CfShopGem DeserializeCfShopGem(ByteBuf _buf)
+    public static CfShopGem DeserializeCfShopGem(JSONNode _buf)
     {
         return new Battle.CfShopGem(_buf);
     }

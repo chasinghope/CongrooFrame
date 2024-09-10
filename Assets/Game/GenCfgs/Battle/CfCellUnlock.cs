@@ -8,20 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
 {
 public sealed partial class CfCellUnlock : Luban.BeanBase
 {
-    public CfCellUnlock(ByteBuf _buf) 
+    public CfCellUnlock(JSONNode _buf) 
     {
-        FunctionId = _buf.ReadInt();
-        FuctionText = _buf.ReadInt();
-        StageID = _buf.ReadInt();
+        { if(!_buf["FunctionId"].IsNumber) { throw new SerializationException(); }  FunctionId = _buf["FunctionId"]; }
+        { if(!_buf["FuctionText"].IsNumber) { throw new SerializationException(); }  FuctionText = _buf["FuctionText"]; }
+        { if(!_buf["StageID"].IsNumber) { throw new SerializationException(); }  StageID = _buf["StageID"]; }
     }
 
-    public static CfCellUnlock DeserializeCfCellUnlock(ByteBuf _buf)
+    public static CfCellUnlock DeserializeCfCellUnlock(JSONNode _buf)
     {
         return new Battle.CfCellUnlock(_buf);
     }

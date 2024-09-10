@@ -8,27 +8,28 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
 {
 public sealed partial class CfGoods : Luban.BeanBase
 {
-    public CfGoods(ByteBuf _buf) 
+    public CfGoods(JSONNode _buf) 
     {
-        Id = _buf.ReadInt();
-        ItemName = _buf.ReadInt();
-        ItemType = (Bag.ItemGoodsType)_buf.ReadInt();
-        IsInPackage = _buf.ReadBool();
-        ItemMaterialType = (Bag.ItemMateralType)_buf.ReadInt();
-        ItemParams = _buf.ReadInt();
-        {int n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ItemRewards = new System.Collections.Generic.List<Com.ItemRewards>(n0);for(var i0 = 0 ; i0 < n0 ; i0++) { Com.ItemRewards _e0;  _e0 = Com.ItemRewards.DeserializeItemRewards(_buf); ItemRewards.Add(_e0);}}
-        ItemDescription = _buf.ReadInt();
-        ItemQuality = _buf.ReadInt();
-        {int n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ItemCollect = new System.Collections.Generic.List<Common.TargetPage>(n0);for(var i0 = 0 ; i0 < n0 ; i0++) { Common.TargetPage _e0;  _e0 = (Common.TargetPage)_buf.ReadInt(); ItemCollect.Add(_e0);}}
+        { if(!_buf["id"].IsNumber) { throw new SerializationException(); }  Id = _buf["id"]; }
+        { if(!_buf["ItemName"].IsNumber) { throw new SerializationException(); }  ItemName = _buf["ItemName"]; }
+        { if(!_buf["ItemType"].IsNumber) { throw new SerializationException(); }  ItemType = (Bag.ItemGoodsType)_buf["ItemType"].AsInt; }
+        { if(!_buf["IsInPackage"].IsBoolean) { throw new SerializationException(); }  IsInPackage = _buf["IsInPackage"]; }
+        { if(!_buf["ItemMaterialType"].IsNumber) { throw new SerializationException(); }  ItemMaterialType = (Bag.ItemMateralType)_buf["ItemMaterialType"].AsInt; }
+        { if(!_buf["ItemParams"].IsNumber) { throw new SerializationException(); }  ItemParams = _buf["ItemParams"]; }
+        { var __json0 = _buf["ItemRewards"]; if(!__json0.IsArray) { throw new SerializationException(); } ItemRewards = new System.Collections.Generic.List<Com.ItemRewards>(__json0.Count); foreach(JSONNode __e0 in __json0.Children) { Com.ItemRewards __v0;  { if(!__e0.IsObject) { throw new SerializationException(); }  __v0 = Com.ItemRewards.DeserializeItemRewards(__e0);  }  ItemRewards.Add(__v0); }   }
+        { if(!_buf["ItemDescription"].IsNumber) { throw new SerializationException(); }  ItemDescription = _buf["ItemDescription"]; }
+        { if(!_buf["ItemQuality"].IsNumber) { throw new SerializationException(); }  ItemQuality = _buf["ItemQuality"]; }
+        { var __json0 = _buf["ItemCollect"]; if(!__json0.IsArray) { throw new SerializationException(); } ItemCollect = new System.Collections.Generic.List<Common.TargetPage>(__json0.Count); foreach(JSONNode __e0 in __json0.Children) { Common.TargetPage __v0;  { if(!__e0.IsNumber) { throw new SerializationException(); }  __v0 = (Common.TargetPage)__e0.AsInt; }  ItemCollect.Add(__v0); }   }
     }
 
-    public static CfGoods DeserializeCfGoods(ByteBuf _buf)
+    public static CfGoods DeserializeCfGoods(JSONNode _buf)
     {
         return new Battle.CfGoods(_buf);
     }

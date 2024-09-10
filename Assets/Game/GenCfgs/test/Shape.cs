@@ -8,22 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.test
 {
 public abstract partial class Shape : Luban.BeanBase
 {
-    public Shape(ByteBuf _buf) 
+    public Shape(JSONNode _buf) 
     {
     }
 
-    public static Shape DeserializeShape(ByteBuf _buf)
+    public static Shape DeserializeShape(JSONNode _buf)
     {
-        switch (_buf.ReadInt())
+        switch ((string)_buf["$type"])
         {
-            case test.Circle.__ID__: return new test.Circle(_buf);
-            case test2.Rectangle.__ID__: return new test2.Rectangle(_buf);
+            case "Circle": return new test.Circle(_buf);
+            case "test2.Rectangle": return new test2.Rectangle(_buf);
             default: throw new SerializationException();
         }
     }

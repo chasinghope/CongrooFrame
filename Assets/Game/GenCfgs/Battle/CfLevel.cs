@@ -8,20 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
 {
 public sealed partial class CfLevel : Luban.BeanBase
 {
-    public CfLevel(ByteBuf _buf) 
+    public CfLevel(JSONNode _buf) 
     {
-        Id = _buf.ReadInt();
-        UpgradeExp = _buf.ReadInt();
-        TotalExp = _buf.ReadInt();
+        { if(!_buf["Id"].IsNumber) { throw new SerializationException(); }  Id = _buf["Id"]; }
+        { if(!_buf["UpgradeExp"].IsNumber) { throw new SerializationException(); }  UpgradeExp = _buf["UpgradeExp"]; }
+        { if(!_buf["TotalExp"].IsNumber) { throw new SerializationException(); }  TotalExp = _buf["TotalExp"]; }
     }
 
-    public static CfLevel DeserializeCfLevel(ByteBuf _buf)
+    public static CfLevel DeserializeCfLevel(JSONNode _buf)
     {
         return new Battle.CfLevel(_buf);
     }

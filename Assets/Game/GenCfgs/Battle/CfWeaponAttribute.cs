@@ -8,26 +8,27 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
 {
 public sealed partial class CfWeaponAttribute : Luban.BeanBase
 {
-    public CfWeaponAttribute(ByteBuf _buf) 
+    public CfWeaponAttribute(JSONNode _buf) 
     {
-        Id = _buf.ReadInt();
-        Atk = _buf.ReadFloat();
-        CD = _buf.ReadFloat();
-        Hp = _buf.ReadFloat();
-        ReHp = _buf.ReadFloat();
-        Rng = _buf.ReadFloat();
-        ReShld = _buf.ReadFloat();
-        CritRate = _buf.ReadFloat();
-        CritDmg = _buf.ReadFloat();
+        { if(!_buf["id"].IsNumber) { throw new SerializationException(); }  Id = _buf["id"]; }
+        { if(!_buf["Atk"].IsNumber) { throw new SerializationException(); }  Atk = _buf["Atk"]; }
+        { if(!_buf["CD"].IsNumber) { throw new SerializationException(); }  CD = _buf["CD"]; }
+        { if(!_buf["Hp"].IsNumber) { throw new SerializationException(); }  Hp = _buf["Hp"]; }
+        { if(!_buf["reHp"].IsNumber) { throw new SerializationException(); }  ReHp = _buf["reHp"]; }
+        { if(!_buf["Rng"].IsNumber) { throw new SerializationException(); }  Rng = _buf["Rng"]; }
+        { if(!_buf["reShld"].IsNumber) { throw new SerializationException(); }  ReShld = _buf["reShld"]; }
+        { if(!_buf["CritRate"].IsNumber) { throw new SerializationException(); }  CritRate = _buf["CritRate"]; }
+        { if(!_buf["CritDmg"].IsNumber) { throw new SerializationException(); }  CritDmg = _buf["CritDmg"]; }
     }
 
-    public static CfWeaponAttribute DeserializeCfWeaponAttribute(ByteBuf _buf)
+    public static CfWeaponAttribute DeserializeCfWeaponAttribute(JSONNode _buf)
     {
         return new Battle.CfWeaponAttribute(_buf);
     }

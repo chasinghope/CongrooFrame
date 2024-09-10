@@ -8,22 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
 {
 public sealed partial class CfTaskList : Luban.BeanBase
 {
-    public CfTaskList(ByteBuf _buf) 
+    public CfTaskList(JSONNode _buf) 
     {
-        Id = _buf.ReadInt();
-        Category = (Task.Category)_buf.ReadInt();
-        TaskType = _buf.ReadInt();
-        Param = _buf.ReadInt();
-        Score = _buf.ReadInt();
+        { if(!_buf["Id"].IsNumber) { throw new SerializationException(); }  Id = _buf["Id"]; }
+        { if(!_buf["Category"].IsNumber) { throw new SerializationException(); }  Category = (Task.Category)_buf["Category"].AsInt; }
+        { if(!_buf["TaskType"].IsNumber) { throw new SerializationException(); }  TaskType = _buf["TaskType"]; }
+        { if(!_buf["Param"].IsNumber) { throw new SerializationException(); }  Param = _buf["Param"]; }
+        { if(!_buf["Score"].IsNumber) { throw new SerializationException(); }  Score = _buf["Score"]; }
     }
 
-    public static CfTaskList DeserializeCfTaskList(ByteBuf _buf)
+    public static CfTaskList DeserializeCfTaskList(JSONNode _buf)
     {
         return new Battle.CfTaskList(_buf);
     }

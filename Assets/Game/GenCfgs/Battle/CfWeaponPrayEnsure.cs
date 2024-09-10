@@ -8,21 +8,22 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
 {
 public sealed partial class CfWeaponPrayEnsure : Luban.BeanBase
 {
-    public CfWeaponPrayEnsure(ByteBuf _buf) 
+    public CfWeaponPrayEnsure(JSONNode _buf) 
     {
-        Id = _buf.ReadInt();
-        Type = (Weapon.PrayType)_buf.ReadInt();
-        Quality = (Weapon.Quality)_buf.ReadInt();
-        Number = _buf.ReadInt();
+        { if(!_buf["Id"].IsNumber) { throw new SerializationException(); }  Id = _buf["Id"]; }
+        { if(!_buf["Type"].IsNumber) { throw new SerializationException(); }  Type = (Weapon.PrayType)_buf["Type"].AsInt; }
+        { if(!_buf["Quality"].IsNumber) { throw new SerializationException(); }  Quality = (Weapon.Quality)_buf["Quality"].AsInt; }
+        { if(!_buf["Number"].IsNumber) { throw new SerializationException(); }  Number = _buf["Number"]; }
     }
 
-    public static CfWeaponPrayEnsure DeserializeCfWeaponPrayEnsure(ByteBuf _buf)
+    public static CfWeaponPrayEnsure DeserializeCfWeaponPrayEnsure(JSONNode _buf)
     {
         return new Battle.CfWeaponPrayEnsure(_buf);
     }

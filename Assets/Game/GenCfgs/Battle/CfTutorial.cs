@@ -8,19 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
 {
 public sealed partial class CfTutorial : Luban.BeanBase
 {
-    public CfTutorial(ByteBuf _buf) 
+    public CfTutorial(JSONNode _buf) 
     {
-        Id = _buf.ReadInt();
-        AssetPath = _buf.ReadString();
+        { if(!_buf["Id"].IsNumber) { throw new SerializationException(); }  Id = _buf["Id"]; }
+        { if(!_buf["AssetPath"].IsString) { throw new SerializationException(); }  AssetPath = _buf["AssetPath"]; }
     }
 
-    public static CfTutorial DeserializeCfTutorial(ByteBuf _buf)
+    public static CfTutorial DeserializeCfTutorial(JSONNode _buf)
     {
         return new Battle.CfTutorial(_buf);
     }

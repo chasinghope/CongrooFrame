@@ -8,23 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
 {
 public sealed partial class CfFeatureUnlock : Luban.BeanBase
 {
-    public CfFeatureUnlock(ByteBuf _buf) 
+    public CfFeatureUnlock(JSONNode _buf) 
     {
-        FunctionId = _buf.ReadInt();
-        IsDisplay = _buf.ReadBool();
-        FuctionIcon = _buf.ReadString();
-        FuctionName = _buf.ReadInt();
-        StageID = _buf.ReadInt();
-        UnlockNotice = _buf.ReadInt();
+        { if(!_buf["FunctionId"].IsNumber) { throw new SerializationException(); }  FunctionId = _buf["FunctionId"]; }
+        { if(!_buf["IsDisplay"].IsBoolean) { throw new SerializationException(); }  IsDisplay = _buf["IsDisplay"]; }
+        { if(!_buf["FuctionIcon"].IsString) { throw new SerializationException(); }  FuctionIcon = _buf["FuctionIcon"]; }
+        { if(!_buf["FuctionName"].IsNumber) { throw new SerializationException(); }  FuctionName = _buf["FuctionName"]; }
+        { if(!_buf["StageID"].IsNumber) { throw new SerializationException(); }  StageID = _buf["StageID"]; }
+        { if(!_buf["UnlockNotice"].IsNumber) { throw new SerializationException(); }  UnlockNotice = _buf["UnlockNotice"]; }
     }
 
-    public static CfFeatureUnlock DeserializeCfFeatureUnlock(ByteBuf _buf)
+    public static CfFeatureUnlock DeserializeCfFeatureUnlock(JSONNode _buf)
     {
         return new Battle.CfFeatureUnlock(_buf);
     }

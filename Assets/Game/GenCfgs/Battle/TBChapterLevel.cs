@@ -8,6 +8,7 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
@@ -17,15 +18,15 @@ public partial class TBChapterLevel
     private readonly System.Collections.Generic.Dictionary<int, Battle.CfChapterLevel> _dataMap;
     private readonly System.Collections.Generic.List<Battle.CfChapterLevel> _dataList;
     
-    public TBChapterLevel(ByteBuf _buf)
+    public TBChapterLevel(JSONNode _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Battle.CfChapterLevel>();
         _dataList = new System.Collections.Generic.List<Battle.CfChapterLevel>();
         
-        for(int n = _buf.ReadSize() ; n > 0 ; --n)
+        foreach(JSONNode _ele in _buf.Children)
         {
             Battle.CfChapterLevel _v;
-            _v = Battle.CfChapterLevel.DeserializeCfChapterLevel(_buf);
+            { if(!_ele.IsObject) { throw new SerializationException(); }  _v = Battle.CfChapterLevel.DeserializeCfChapterLevel(_ele);  }
             _dataList.Add(_v);
             _dataMap.Add(_v.Id, _v);
         }

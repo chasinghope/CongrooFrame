@@ -8,20 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg
 {
 public sealed partial class CfLocalization : Luban.BeanBase
 {
-    public CfLocalization(ByteBuf _buf) 
+    public CfLocalization(JSONNode _buf) 
     {
-        LanguageID = _buf.ReadInt();
-        CN = _buf.ReadString();
-        EN = _buf.ReadString();
+        { if(!_buf["LanguageID"].IsNumber) { throw new SerializationException(); }  LanguageID = _buf["LanguageID"]; }
+        { if(!_buf["CN"].IsString) { throw new SerializationException(); }  CN = _buf["CN"]; }
+        { if(!_buf["EN"].IsString) { throw new SerializationException(); }  EN = _buf["EN"]; }
     }
 
-    public static CfLocalization DeserializeCfLocalization(ByteBuf _buf)
+    public static CfLocalization DeserializeCfLocalization(JSONNode _buf)
     {
         return new CfLocalization(_buf);
     }

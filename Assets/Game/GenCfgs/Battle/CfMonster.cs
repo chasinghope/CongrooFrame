@@ -8,31 +8,32 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
 {
 public sealed partial class CfMonster : Luban.BeanBase
 {
-    public CfMonster(ByteBuf _buf) 
+    public CfMonster(JSONNode _buf) 
     {
-        Id = _buf.ReadInt();
-        AssetPath = _buf.ReadString();
-        Name = _buf.ReadInt();
-        BulletAsset = _buf.ReadString();
-        {int n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);DefaultBuffList = new System.Collections.Generic.List<int>(n0);for(var i0 = 0 ; i0 < n0 ; i0++) { int _e0;  _e0 = _buf.ReadInt(); DefaultBuffList.Add(_e0);}}
-        IsBoss = _buf.ReadBool();
-        MonsterExp = _buf.ReadInt();
-        AtkRange = (Battle.AtkRange)_buf.ReadInt();
-        AP = _buf.ReadFloat();
-        CT = _buf.ReadFloat();
-        Hp = _buf.ReadFloat();
-        Rng = _buf.ReadFloat();
-        Shld = _buf.ReadFloat();
-        MSpd = _buf.ReadFloat();
+        { if(!_buf["id"].IsNumber) { throw new SerializationException(); }  Id = _buf["id"]; }
+        { if(!_buf["AssetPath"].IsString) { throw new SerializationException(); }  AssetPath = _buf["AssetPath"]; }
+        { if(!_buf["Name"].IsNumber) { throw new SerializationException(); }  Name = _buf["Name"]; }
+        { if(!_buf["BulletAsset"].IsString) { throw new SerializationException(); }  BulletAsset = _buf["BulletAsset"]; }
+        { var __json0 = _buf["DefaultBuffList"]; if(!__json0.IsArray) { throw new SerializationException(); } DefaultBuffList = new System.Collections.Generic.List<int>(__json0.Count); foreach(JSONNode __e0 in __json0.Children) { int __v0;  { if(!__e0.IsNumber) { throw new SerializationException(); }  __v0 = __e0; }  DefaultBuffList.Add(__v0); }   }
+        { if(!_buf["IsBoss"].IsBoolean) { throw new SerializationException(); }  IsBoss = _buf["IsBoss"]; }
+        { if(!_buf["MonsterExp"].IsNumber) { throw new SerializationException(); }  MonsterExp = _buf["MonsterExp"]; }
+        { if(!_buf["AtkRange"].IsNumber) { throw new SerializationException(); }  AtkRange = (Battle.AtkRange)_buf["AtkRange"].AsInt; }
+        { if(!_buf["AP"].IsNumber) { throw new SerializationException(); }  AP = _buf["AP"]; }
+        { if(!_buf["CT"].IsNumber) { throw new SerializationException(); }  CT = _buf["CT"]; }
+        { if(!_buf["Hp"].IsNumber) { throw new SerializationException(); }  Hp = _buf["Hp"]; }
+        { if(!_buf["Rng"].IsNumber) { throw new SerializationException(); }  Rng = _buf["Rng"]; }
+        { if(!_buf["Shld"].IsNumber) { throw new SerializationException(); }  Shld = _buf["Shld"]; }
+        { if(!_buf["MSpd"].IsNumber) { throw new SerializationException(); }  MSpd = _buf["MSpd"]; }
     }
 
-    public static CfMonster DeserializeCfMonster(ByteBuf _buf)
+    public static CfMonster DeserializeCfMonster(JSONNode _buf)
     {
         return new Battle.CfMonster(_buf);
     }

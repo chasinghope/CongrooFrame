@@ -8,6 +8,7 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
@@ -17,15 +18,15 @@ public partial class TBGLConst
     private readonly System.Collections.Generic.Dictionary<int, Battle.GLConst> _dataMap;
     private readonly System.Collections.Generic.List<Battle.GLConst> _dataList;
     
-    public TBGLConst(ByteBuf _buf)
+    public TBGLConst(JSONNode _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Battle.GLConst>();
         _dataList = new System.Collections.Generic.List<Battle.GLConst>();
         
-        for(int n = _buf.ReadSize() ; n > 0 ; --n)
+        foreach(JSONNode _ele in _buf.Children)
         {
             Battle.GLConst _v;
-            _v = Battle.GLConst.DeserializeGLConst(_buf);
+            { if(!_ele.IsObject) { throw new SerializationException(); }  _v = Battle.GLConst.DeserializeGLConst(_ele);  }
             _dataList.Add(_v);
             _dataMap.Add(_v.PoisonDamage, _v);
         }

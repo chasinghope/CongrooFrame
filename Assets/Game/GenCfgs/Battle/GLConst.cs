@@ -8,51 +8,52 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
 {
 public sealed partial class GLConst : Luban.BeanBase
 {
-    public GLConst(ByteBuf _buf) 
+    public GLConst(JSONNode _buf) 
     {
-        PoisonDamage = _buf.ReadInt();
-        TestMaxHp = _buf.ReadFloat();
-        TestMaxPower = _buf.ReadFloat();
-        MaxInjuredPercent = _buf.ReadFloat();
-        EnergyFreeLimit = _buf.ReadInt();
-        EnergyVipLimit = _buf.ReadInt();
-        EnergyBuyAdLimit = _buf.ReadInt();
-        EnergyBuyAdReward = _buf.ReadInt();
-        EnergyBuyGemLimit = _buf.ReadInt();
-        EnergyBuyGemReward = _buf.ReadInt();
-        EnergyBuyGemNum = _buf.ReadInt();
-        ShareEnergyNum = _buf.ReadInt();
-        CheckpointConsumeEnergy = _buf.ReadInt();
-        SweepConsumeEnergy = _buf.ReadInt();
-        SweepAdLimit = _buf.ReadInt();
-        SweepEnergyLimit = _buf.ReadInt();
-        SweepVipAdditionNum = _buf.ReadInt();
-        SweepSuperVipAdditionNum = _buf.ReadInt();
-        NewbiePower = _buf.ReadInt();
-        SilverCoinPerRound = _buf.ReadInt();
-        TalentUnlockId = _buf.ReadInt();
-        AdRefresh = _buf.ReadInt();
-        AdItemRefresh = _buf.ReadInt();
-        SilverBag = _buf.ReadInt();
-        PlayerBaseHP = _buf.ReadInt();
-        NormalTalentMaterial = _buf.ReadInt();
-        SpecialTalentMaterial = _buf.ReadInt();
-        PrayLuckyValuePerfect = _buf.ReadInt();
-        PrayLuckyValueRare = _buf.ReadInt();
-        PrayLuckyValueLegendary = _buf.ReadInt();
-        BattleShopRefreshPrice = _buf.ReadInt();
-        MonsterBornInverval = _buf.ReadFloat();
-        NormalFirstTalent = _buf.ReadInt();
-        SpecialFirstTalent = _buf.ReadInt();
+        { if(!_buf["PoisonDamage"].IsNumber) { throw new SerializationException(); }  PoisonDamage = _buf["PoisonDamage"]; }
+        { if(!_buf["TestMaxHp"].IsNumber) { throw new SerializationException(); }  TestMaxHp = _buf["TestMaxHp"]; }
+        { if(!_buf["TestMaxPower"].IsNumber) { throw new SerializationException(); }  TestMaxPower = _buf["TestMaxPower"]; }
+        { if(!_buf["MaxInjuredPercent"].IsNumber) { throw new SerializationException(); }  MaxInjuredPercent = _buf["MaxInjuredPercent"]; }
+        { if(!_buf["EnergyFreeLimit"].IsNumber) { throw new SerializationException(); }  EnergyFreeLimit = _buf["EnergyFreeLimit"]; }
+        { if(!_buf["EnergyVipLimit"].IsNumber) { throw new SerializationException(); }  EnergyVipLimit = _buf["EnergyVipLimit"]; }
+        { if(!_buf["EnergyBuyAdLimit"].IsNumber) { throw new SerializationException(); }  EnergyBuyAdLimit = _buf["EnergyBuyAdLimit"]; }
+        { if(!_buf["EnergyBuyAdReward"].IsNumber) { throw new SerializationException(); }  EnergyBuyAdReward = _buf["EnergyBuyAdReward"]; }
+        { if(!_buf["EnergyBuyGemLimit"].IsNumber) { throw new SerializationException(); }  EnergyBuyGemLimit = _buf["EnergyBuyGemLimit"]; }
+        { if(!_buf["EnergyBuyGemReward"].IsNumber) { throw new SerializationException(); }  EnergyBuyGemReward = _buf["EnergyBuyGemReward"]; }
+        { if(!_buf["EnergyBuyGemNum"].IsNumber) { throw new SerializationException(); }  EnergyBuyGemNum = _buf["EnergyBuyGemNum"]; }
+        { if(!_buf["ShareEnergyNum"].IsNumber) { throw new SerializationException(); }  ShareEnergyNum = _buf["ShareEnergyNum"]; }
+        { if(!_buf["CheckpointConsumeEnergy"].IsNumber) { throw new SerializationException(); }  CheckpointConsumeEnergy = _buf["CheckpointConsumeEnergy"]; }
+        { if(!_buf["SweepConsumeEnergy"].IsNumber) { throw new SerializationException(); }  SweepConsumeEnergy = _buf["SweepConsumeEnergy"]; }
+        { if(!_buf["SweepAdLimit"].IsNumber) { throw new SerializationException(); }  SweepAdLimit = _buf["SweepAdLimit"]; }
+        { if(!_buf["SweepEnergyLimit"].IsNumber) { throw new SerializationException(); }  SweepEnergyLimit = _buf["SweepEnergyLimit"]; }
+        { if(!_buf["SweepVipAdditionNum"].IsNumber) { throw new SerializationException(); }  SweepVipAdditionNum = _buf["SweepVipAdditionNum"]; }
+        { if(!_buf["SweepSuperVipAdditionNum"].IsNumber) { throw new SerializationException(); }  SweepSuperVipAdditionNum = _buf["SweepSuperVipAdditionNum"]; }
+        { if(!_buf["NewbiePower"].IsNumber) { throw new SerializationException(); }  NewbiePower = _buf["NewbiePower"]; }
+        { if(!_buf["SilverCoinPerRound"].IsNumber) { throw new SerializationException(); }  SilverCoinPerRound = _buf["SilverCoinPerRound"]; }
+        { if(!_buf["TalentUnlockId"].IsNumber) { throw new SerializationException(); }  TalentUnlockId = _buf["TalentUnlockId"]; }
+        { if(!_buf["AdRefresh"].IsNumber) { throw new SerializationException(); }  AdRefresh = _buf["AdRefresh"]; }
+        { if(!_buf["AdItemRefresh"].IsNumber) { throw new SerializationException(); }  AdItemRefresh = _buf["AdItemRefresh"]; }
+        { if(!_buf["SilverBag"].IsNumber) { throw new SerializationException(); }  SilverBag = _buf["SilverBag"]; }
+        { if(!_buf["PlayerBaseHP"].IsNumber) { throw new SerializationException(); }  PlayerBaseHP = _buf["PlayerBaseHP"]; }
+        { if(!_buf["NormalTalentMaterial"].IsNumber) { throw new SerializationException(); }  NormalTalentMaterial = _buf["NormalTalentMaterial"]; }
+        { if(!_buf["SpecialTalentMaterial"].IsNumber) { throw new SerializationException(); }  SpecialTalentMaterial = _buf["SpecialTalentMaterial"]; }
+        { if(!_buf["PrayLuckyValuePerfect"].IsNumber) { throw new SerializationException(); }  PrayLuckyValuePerfect = _buf["PrayLuckyValuePerfect"]; }
+        { if(!_buf["PrayLuckyValueRare"].IsNumber) { throw new SerializationException(); }  PrayLuckyValueRare = _buf["PrayLuckyValueRare"]; }
+        { if(!_buf["PrayLuckyValueLegendary"].IsNumber) { throw new SerializationException(); }  PrayLuckyValueLegendary = _buf["PrayLuckyValueLegendary"]; }
+        { if(!_buf["BattleShopRefreshPrice"].IsNumber) { throw new SerializationException(); }  BattleShopRefreshPrice = _buf["BattleShopRefreshPrice"]; }
+        { if(!_buf["MonsterBornInverval"].IsNumber) { throw new SerializationException(); }  MonsterBornInverval = _buf["MonsterBornInverval"]; }
+        { if(!_buf["NormalFirstTalent"].IsNumber) { throw new SerializationException(); }  NormalFirstTalent = _buf["NormalFirstTalent"]; }
+        { if(!_buf["SpecialFirstTalent"].IsNumber) { throw new SerializationException(); }  SpecialFirstTalent = _buf["SpecialFirstTalent"]; }
     }
 
-    public static GLConst DeserializeGLConst(ByteBuf _buf)
+    public static GLConst DeserializeGLConst(JSONNode _buf)
     {
         return new Battle.GLConst(_buf);
     }

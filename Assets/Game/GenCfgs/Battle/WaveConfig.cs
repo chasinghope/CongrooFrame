@@ -8,6 +8,7 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
@@ -17,14 +18,14 @@ namespace cfg.Battle
 /// </summary>
 public sealed partial class WaveConfig : Luban.BeanBase
 {
-    public WaveConfig(ByteBuf _buf) 
+    public WaveConfig(JSONNode _buf) 
     {
-        Duration = _buf.ReadFloat();
-        MonsterId = _buf.ReadInt();
-        Num = _buf.ReadInt();
+        { if(!_buf["duration"].IsNumber) { throw new SerializationException(); }  Duration = _buf["duration"]; }
+        { if(!_buf["monsterId"].IsNumber) { throw new SerializationException(); }  MonsterId = _buf["monsterId"]; }
+        { if(!_buf["num"].IsNumber) { throw new SerializationException(); }  Num = _buf["num"]; }
     }
 
-    public static WaveConfig DeserializeWaveConfig(ByteBuf _buf)
+    public static WaveConfig DeserializeWaveConfig(JSONNode _buf)
     {
         return new Battle.WaveConfig(_buf);
     }

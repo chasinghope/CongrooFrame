@@ -8,22 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
 {
 public sealed partial class CfShopDaily : Luban.BeanBase
 {
-    public CfShopDaily(ByteBuf _buf) 
+    public CfShopDaily(JSONNode _buf) 
     {
-        GoodsId = _buf.ReadInt();
-        Price = _buf.ReadInt();
-        Number = _buf.ReadInt();
-        Times = _buf.ReadInt();
-        Type = (Shop.DailyBuyType)_buf.ReadInt();
+        { if(!_buf["GoodsId"].IsNumber) { throw new SerializationException(); }  GoodsId = _buf["GoodsId"]; }
+        { if(!_buf["Price"].IsNumber) { throw new SerializationException(); }  Price = _buf["Price"]; }
+        { if(!_buf["Number"].IsNumber) { throw new SerializationException(); }  Number = _buf["Number"]; }
+        { if(!_buf["Times"].IsNumber) { throw new SerializationException(); }  Times = _buf["Times"]; }
+        { if(!_buf["Type"].IsNumber) { throw new SerializationException(); }  Type = (Shop.DailyBuyType)_buf["Type"].AsInt; }
     }
 
-    public static CfShopDaily DeserializeCfShopDaily(ByteBuf _buf)
+    public static CfShopDaily DeserializeCfShopDaily(JSONNode _buf)
     {
         return new Battle.CfShopDaily(_buf);
     }

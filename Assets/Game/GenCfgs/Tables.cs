@@ -8,6 +8,7 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 namespace cfg
 {
@@ -44,7 +45,7 @@ public partial class Tables
     public Battle.TBTutorial TBTutorial {get; }
     public TBLocalization TBLocalization {get; }
 
-    public Tables(System.Func<string, ByteBuf> loader)
+    public Tables(System.Func<string, JSONNode> loader)
     {
         TBGLConst = new Battle.TBGLConst(loader("battle_tbglconst"));
         TBWeapon = new Battle.TBWeapon(loader("battle_tbweapon"));

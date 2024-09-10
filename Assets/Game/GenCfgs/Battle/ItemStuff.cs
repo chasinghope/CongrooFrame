@@ -8,19 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
 {
 public sealed partial class ItemStuff : Luban.BeanBase
 {
-    public ItemStuff(ByteBuf _buf) 
+    public ItemStuff(JSONNode _buf) 
     {
-        ItemID = _buf.ReadInt();
-        ItemCount = _buf.ReadInt();
+        { if(!_buf["ItemID"].IsNumber) { throw new SerializationException(); }  ItemID = _buf["ItemID"]; }
+        { if(!_buf["ItemCount"].IsNumber) { throw new SerializationException(); }  ItemCount = _buf["ItemCount"]; }
     }
 
-    public static ItemStuff DeserializeItemStuff(ByteBuf _buf)
+    public static ItemStuff DeserializeItemStuff(JSONNode _buf)
     {
         return new Battle.ItemStuff(_buf);
     }

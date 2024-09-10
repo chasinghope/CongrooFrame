@@ -8,23 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
 {
 public sealed partial class CfShopFirstRecharge : Luban.BeanBase
 {
-    public CfShopFirstRecharge(ByteBuf _buf) 
+    public CfShopFirstRecharge(JSONNode _buf) 
     {
-        Id = _buf.ReadInt();
-        ProductId = _buf.ReadInt();
-        Day = _buf.ReadInt();
-        Price = _buf.ReadFloat();
-        DollarPrice = _buf.ReadFloat();
-        {int n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Rewards = new System.Collections.Generic.List<Battle.ItemStuff>(n0);for(var i0 = 0 ; i0 < n0 ; i0++) { Battle.ItemStuff _e0;  _e0 = Battle.ItemStuff.DeserializeItemStuff(_buf); Rewards.Add(_e0);}}
+        { if(!_buf["Id"].IsNumber) { throw new SerializationException(); }  Id = _buf["Id"]; }
+        { if(!_buf["ProductId"].IsNumber) { throw new SerializationException(); }  ProductId = _buf["ProductId"]; }
+        { if(!_buf["Day"].IsNumber) { throw new SerializationException(); }  Day = _buf["Day"]; }
+        { if(!_buf["Price"].IsNumber) { throw new SerializationException(); }  Price = _buf["Price"]; }
+        { if(!_buf["DollarPrice"].IsNumber) { throw new SerializationException(); }  DollarPrice = _buf["DollarPrice"]; }
+        { var __json0 = _buf["Rewards"]; if(!__json0.IsArray) { throw new SerializationException(); } Rewards = new System.Collections.Generic.List<Battle.ItemStuff>(__json0.Count); foreach(JSONNode __e0 in __json0.Children) { Battle.ItemStuff __v0;  { if(!__e0.IsObject) { throw new SerializationException(); }  __v0 = Battle.ItemStuff.DeserializeItemStuff(__e0);  }  Rewards.Add(__v0); }   }
     }
 
-    public static CfShopFirstRecharge DeserializeCfShopFirstRecharge(ByteBuf _buf)
+    public static CfShopFirstRecharge DeserializeCfShopFirstRecharge(JSONNode _buf)
     {
         return new Battle.CfShopFirstRecharge(_buf);
     }

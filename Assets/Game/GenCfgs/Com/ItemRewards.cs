@@ -8,6 +8,7 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Com
@@ -17,14 +18,14 @@ namespace cfg.Com
 /// </summary>
 public sealed partial class ItemRewards : Luban.BeanBase
 {
-    public ItemRewards(ByteBuf _buf) 
+    public ItemRewards(JSONNode _buf) 
     {
-        ItemID = _buf.ReadInt();
-        ItemCount = _buf.ReadInt();
-        ItemProb = _buf.ReadInt();
+        { if(!_buf["ItemID"].IsNumber) { throw new SerializationException(); }  ItemID = _buf["ItemID"]; }
+        { if(!_buf["ItemCount"].IsNumber) { throw new SerializationException(); }  ItemCount = _buf["ItemCount"]; }
+        { if(!_buf["ItemProb"].IsNumber) { throw new SerializationException(); }  ItemProb = _buf["ItemProb"]; }
     }
 
-    public static ItemRewards DeserializeItemRewards(ByteBuf _buf)
+    public static ItemRewards DeserializeItemRewards(JSONNode _buf)
     {
         return new Com.ItemRewards(_buf);
     }

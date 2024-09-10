@@ -8,6 +8,7 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
@@ -17,15 +18,15 @@ public partial class TBShopChapter
     private readonly System.Collections.Generic.Dictionary<int, Battle.CfShopChapter> _dataMap;
     private readonly System.Collections.Generic.List<Battle.CfShopChapter> _dataList;
     
-    public TBShopChapter(ByteBuf _buf)
+    public TBShopChapter(JSONNode _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Battle.CfShopChapter>();
         _dataList = new System.Collections.Generic.List<Battle.CfShopChapter>();
         
-        for(int n = _buf.ReadSize() ; n > 0 ; --n)
+        foreach(JSONNode _ele in _buf.Children)
         {
             Battle.CfShopChapter _v;
-            _v = Battle.CfShopChapter.DeserializeCfShopChapter(_buf);
+            { if(!_ele.IsObject) { throw new SerializationException(); }  _v = Battle.CfShopChapter.DeserializeCfShopChapter(_ele);  }
             _dataList.Add(_v);
             _dataMap.Add(_v.Id, _v);
         }

@@ -8,25 +8,26 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
 {
 public sealed partial class CfWeaponGrade : Luban.BeanBase
 {
-    public CfWeaponGrade(ByteBuf _buf) 
+    public CfWeaponGrade(JSONNode _buf) 
     {
-        Id = _buf.ReadInt();
-        ItemAttr = _buf.ReadInt();
-        QualityID = _buf.ReadInt();
-        LvlUnlockDesc = _buf.ReadInt();
-        RlUnlockDesc = _buf.ReadInt();
-        RlID = _buf.ReadInt();
-        {int n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);MergeStuff = new System.Collections.Generic.List<Battle.ItemStuff>(n0);for(var i0 = 0 ; i0 < n0 ; i0++) { Battle.ItemStuff _e0;  _e0 = Battle.ItemStuff.DeserializeItemStuff(_buf); MergeStuff.Add(_e0);}}
-        Power = _buf.ReadInt();
+        { if(!_buf["id"].IsNumber) { throw new SerializationException(); }  Id = _buf["id"]; }
+        { if(!_buf["itemAttr"].IsNumber) { throw new SerializationException(); }  ItemAttr = _buf["itemAttr"]; }
+        { if(!_buf["QualityID"].IsNumber) { throw new SerializationException(); }  QualityID = _buf["QualityID"]; }
+        { if(!_buf["LvlUnlockDesc"].IsNumber) { throw new SerializationException(); }  LvlUnlockDesc = _buf["LvlUnlockDesc"]; }
+        { if(!_buf["RlUnlockDesc"].IsNumber) { throw new SerializationException(); }  RlUnlockDesc = _buf["RlUnlockDesc"]; }
+        { if(!_buf["RlID"].IsNumber) { throw new SerializationException(); }  RlID = _buf["RlID"]; }
+        { var __json0 = _buf["MergeStuff"]; if(!__json0.IsArray) { throw new SerializationException(); } MergeStuff = new System.Collections.Generic.List<Battle.ItemStuff>(__json0.Count); foreach(JSONNode __e0 in __json0.Children) { Battle.ItemStuff __v0;  { if(!__e0.IsObject) { throw new SerializationException(); }  __v0 = Battle.ItemStuff.DeserializeItemStuff(__e0);  }  MergeStuff.Add(__v0); }   }
+        { if(!_buf["Power"].IsNumber) { throw new SerializationException(); }  Power = _buf["Power"]; }
     }
 
-    public static CfWeaponGrade DeserializeCfWeaponGrade(ByteBuf _buf)
+    public static CfWeaponGrade DeserializeCfWeaponGrade(JSONNode _buf)
     {
         return new Battle.CfWeaponGrade(_buf);
     }

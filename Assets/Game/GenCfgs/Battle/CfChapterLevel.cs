@@ -8,29 +8,30 @@
 //------------------------------------------------------------------------------
 
 using Luban;
+using SimpleJSON;
 
 
 namespace cfg.Battle
 {
 public sealed partial class CfChapterLevel : Luban.BeanBase
 {
-    public CfChapterLevel(ByteBuf _buf) 
+    public CfChapterLevel(JSONNode _buf) 
     {
-        Id = _buf.ReadInt();
-        ChapterId = _buf.ReadInt();
-        ChapterName = _buf.ReadInt();
-        LevelId = _buf.ReadInt();
-        LevelIconPath = _buf.ReadString();
-        LevelBgPath = _buf.ReadString();
-        {int n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Waves = new System.Collections.Generic.List<Battle.WaveConfig>(n0);for(var i0 = 0 ; i0 < n0 ; i0++) { Battle.WaveConfig _e0;  _e0 = Battle.WaveConfig.DeserializeWaveConfig(_buf); Waves.Add(_e0);}}
-        {int n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);StageRewards = new System.Collections.Generic.List<Battle.ItemStuff>(n0);for(var i0 = 0 ; i0 < n0 ; i0++) { Battle.ItemStuff _e0;  _e0 = Battle.ItemStuff.DeserializeItemStuff(_buf); StageRewards.Add(_e0);}}
-        {int n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);HangRewards = new System.Collections.Generic.List<Battle.ItemStuff>(n0);for(var i0 = 0 ; i0 < n0 ; i0++) { Battle.ItemStuff _e0;  _e0 = Battle.ItemStuff.DeserializeItemStuff(_buf); HangRewards.Add(_e0);}}
-        {int n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);SweepRewards = new System.Collections.Generic.List<Battle.ItemStuff>(n0);for(var i0 = 0 ; i0 < n0 ; i0++) { Battle.ItemStuff _e0;  _e0 = Battle.ItemStuff.DeserializeItemStuff(_buf); SweepRewards.Add(_e0);}}
-        {int n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);FirstPassRewards = new System.Collections.Generic.List<Battle.ItemStuff>(n0);for(var i0 = 0 ; i0 < n0 ; i0++) { Battle.ItemStuff _e0;  _e0 = Battle.ItemStuff.DeserializeItemStuff(_buf); FirstPassRewards.Add(_e0);}}
-        {int n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);FunctionId = new System.Collections.Generic.List<int>(n0);for(var i0 = 0 ; i0 < n0 ; i0++) { int _e0;  _e0 = _buf.ReadInt(); FunctionId.Add(_e0);}}
+        { if(!_buf["Id"].IsNumber) { throw new SerializationException(); }  Id = _buf["Id"]; }
+        { if(!_buf["ChapterId"].IsNumber) { throw new SerializationException(); }  ChapterId = _buf["ChapterId"]; }
+        { if(!_buf["ChapterName"].IsNumber) { throw new SerializationException(); }  ChapterName = _buf["ChapterName"]; }
+        { if(!_buf["LevelId"].IsNumber) { throw new SerializationException(); }  LevelId = _buf["LevelId"]; }
+        { if(!_buf["LevelIconPath"].IsString) { throw new SerializationException(); }  LevelIconPath = _buf["LevelIconPath"]; }
+        { if(!_buf["LevelBgPath"].IsString) { throw new SerializationException(); }  LevelBgPath = _buf["LevelBgPath"]; }
+        { var __json0 = _buf["waves"]; if(!__json0.IsArray) { throw new SerializationException(); } Waves = new System.Collections.Generic.List<Battle.WaveConfig>(__json0.Count); foreach(JSONNode __e0 in __json0.Children) { Battle.WaveConfig __v0;  { if(!__e0.IsObject) { throw new SerializationException(); }  __v0 = Battle.WaveConfig.DeserializeWaveConfig(__e0);  }  Waves.Add(__v0); }   }
+        { var __json0 = _buf["StageRewards"]; if(!__json0.IsArray) { throw new SerializationException(); } StageRewards = new System.Collections.Generic.List<Battle.ItemStuff>(__json0.Count); foreach(JSONNode __e0 in __json0.Children) { Battle.ItemStuff __v0;  { if(!__e0.IsObject) { throw new SerializationException(); }  __v0 = Battle.ItemStuff.DeserializeItemStuff(__e0);  }  StageRewards.Add(__v0); }   }
+        { var __json0 = _buf["HangRewards"]; if(!__json0.IsArray) { throw new SerializationException(); } HangRewards = new System.Collections.Generic.List<Battle.ItemStuff>(__json0.Count); foreach(JSONNode __e0 in __json0.Children) { Battle.ItemStuff __v0;  { if(!__e0.IsObject) { throw new SerializationException(); }  __v0 = Battle.ItemStuff.DeserializeItemStuff(__e0);  }  HangRewards.Add(__v0); }   }
+        { var __json0 = _buf["SweepRewards"]; if(!__json0.IsArray) { throw new SerializationException(); } SweepRewards = new System.Collections.Generic.List<Battle.ItemStuff>(__json0.Count); foreach(JSONNode __e0 in __json0.Children) { Battle.ItemStuff __v0;  { if(!__e0.IsObject) { throw new SerializationException(); }  __v0 = Battle.ItemStuff.DeserializeItemStuff(__e0);  }  SweepRewards.Add(__v0); }   }
+        { var __json0 = _buf["FirstPassRewards"]; if(!__json0.IsArray) { throw new SerializationException(); } FirstPassRewards = new System.Collections.Generic.List<Battle.ItemStuff>(__json0.Count); foreach(JSONNode __e0 in __json0.Children) { Battle.ItemStuff __v0;  { if(!__e0.IsObject) { throw new SerializationException(); }  __v0 = Battle.ItemStuff.DeserializeItemStuff(__e0);  }  FirstPassRewards.Add(__v0); }   }
+        { var __json0 = _buf["FunctionId"]; if(!__json0.IsArray) { throw new SerializationException(); } FunctionId = new System.Collections.Generic.List<int>(__json0.Count); foreach(JSONNode __e0 in __json0.Children) { int __v0;  { if(!__e0.IsNumber) { throw new SerializationException(); }  __v0 = __e0; }  FunctionId.Add(__v0); }   }
     }
 
-    public static CfChapterLevel DeserializeCfChapterLevel(ByteBuf _buf)
+    public static CfChapterLevel DeserializeCfChapterLevel(JSONNode _buf)
     {
         return new Battle.CfChapterLevel(_buf);
     }
