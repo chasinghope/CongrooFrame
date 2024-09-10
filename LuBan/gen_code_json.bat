@@ -1,7 +1,7 @@
 set LUBAN_DLL=Luban\Luban.dll
 set CONF_ROOT=cfgs
 set OUTPUT_CODE_DIR=../Assets/Game/GenCfgs
-set OUTPUT_DATA_DIR=../Assets/StreamingAssets\cfgs\jsons
+set OUTPUT_DATA_DIR=../Assets/AB\cfgs\jsons
 
 dotnet %LUBAN_DLL% ^
     -t client ^
