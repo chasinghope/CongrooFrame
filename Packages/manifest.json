@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "com.code-philosophy.luban": "1.1.0",
+    "com.newtonsoft.json": "1.0.1",
     "com.unity.addressables": "1.21.21",
     "com.unity.collab-proxy": "2.4.4",
     "com.unity.feature.2d": "2.0.0",
@@ -50,7 +51,8 @@
       "scopes": [
         "com.cysharp.unitask",
         "com.unity.uiextensions",
-        "com.code-philosophy.luban"
+        "com.code-philosophy.luban",
+        "com.newtonsoft.json"
       ]
     }
   ]
