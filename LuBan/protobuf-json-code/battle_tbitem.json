@@ -1,0 +1,3099 @@
+{
+  "data_list": [
+    {
+      "id": 1101,
+      "name": "弹珠",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        2048
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 2048,
+      "ElementType": 16,
+      "ItemQuality": 0,
+      "assetPath": "Item_1101",
+      "Price": 0
+    },
+    {
+      "id": 1102,
+      "name": "磨刀石",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        16
+      ],
+      "placingIds": [
+        100
+      ],
+      "RoleType": 0,
+      "ItemType": 4,
+      "ElementType": 0,
+      "ItemQuality": 0,
+      "assetPath": "Item_1102",
+      "Price": 0
+    },
+    {
+      "id": 1103,
+      "name": "萝卜刀",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 128,
+      "ElementType": 0,
+      "ItemQuality": 0,
+      "assetPath": "Item_1103",
+      "Price": 0
+    },
+    {
+      "id": 1104,
+      "name": "木盾",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 4096,
+      "ElementType": 0,
+      "ItemQuality": 0,
+      "assetPath": "Item_1104",
+      "Price": 0
+    },
+    {
+      "id": 1105,
+      "name": "锅铲",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [
+        103
+      ],
+      "RoleType": 0,
+      "ItemType": 128,
+      "ElementType": 0,
+      "ItemQuality": 0,
+      "assetPath": "Item_1105",
+      "Price": 0
+    },
+    {
+      "id": 1106,
+      "name": "扫帚",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 128,
+      "ElementType": 0,
+      "ItemQuality": 0,
+      "assetPath": "Item_1106",
+      "Price": 0
+    },
+    {
+      "id": 1107,
+      "name": "香蕉",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        4096
+      ],
+      "placingIds": [
+        127
+      ],
+      "RoleType": 0,
+      "ItemType": 8,
+      "ElementType": 16,
+      "ItemQuality": 0,
+      "assetPath": "Item_1107",
+      "Price": 0
+    },
+    {
+      "id": 1108,
+      "name": "火石",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 16,
+      "ElementType": 0,
+      "ItemQuality": 0,
+      "assetPath": "Item_1108",
+      "Price": 0
+    },
+    {
+      "id": 1109,
+      "name": "大葱",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        4096,
+        32768
+      ],
+      "placingIds": [
+        102
+      ],
+      "RoleType": 0,
+      "ItemType": 8,
+      "ElementType": 16,
+      "ItemQuality": 0,
+      "assetPath": "Item_1109",
+      "Price": 0
+    },
+    {
+      "id": 1110,
+      "name": "草药",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        16
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 4,
+      "ElementType": 0,
+      "ItemQuality": 0,
+      "assetPath": "Item_1110",
+      "Price": 0
+    },
+    {
+      "id": 1111,
+      "name": "短弓",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 2048,
+      "ElementType": 0,
+      "ItemQuality": 0,
+      "assetPath": "Item_1111",
+      "Price": 0
+    },
+    {
+      "id": 1112,
+      "name": "牛角",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        16
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 4,
+      "ElementType": 16,
+      "ItemQuality": 0,
+      "assetPath": "Item_1112",
+      "Price": 0
+    },
+    {
+      "id": 1113,
+      "name": "招财猫",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        16
+      ],
+      "placingIds": [
+        101
+      ],
+      "RoleType": 0,
+      "ItemType": 4,
+      "ElementType": 0,
+      "ItemQuality": 0,
+      "assetPath": "Item_1113",
+      "Price": 0
+    },
+    {
+      "id": 1114,
+      "name": "一捧家乡土",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        16
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 4,
+      "ElementType": 16,
+      "ItemQuality": 0,
+      "assetPath": "Item_1114",
+      "Price": 0
+    },
+    {
+      "id": 1115,
+      "name": "火苗",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        16,
+        256
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 4,
+      "ElementType": 2,
+      "ItemQuality": 0,
+      "assetPath": "Item_1115",
+      "Price": 0
+    },
+    {
+      "id": 1181,
+      "name": "碎裂红宝石",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 16,
+      "ElementType": 0,
+      "ItemQuality": 0,
+      "assetPath": "Attachment_1181",
+      "Price": 0
+    },
+    {
+      "id": 1182,
+      "name": "碎裂黄宝石",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 16,
+      "ElementType": 0,
+      "ItemQuality": 0,
+      "assetPath": "Attachment_1182",
+      "Price": 0
+    },
+    {
+      "id": 1183,
+      "name": "碎裂蓝宝石",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 16,
+      "ElementType": 0,
+      "ItemQuality": 0,
+      "assetPath": "Attachment_1183",
+      "Price": 0
+    },
+    {
+      "id": 1184,
+      "name": "碎裂紫宝石",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 16,
+      "ElementType": 0,
+      "ItemQuality": 0,
+      "assetPath": "Attachment_1184",
+      "Price": 0
+    },
+    {
+      "id": 1201,
+      "name": "一包弹珠",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 4,
+      "ElementType": 0,
+      "ItemQuality": 1,
+      "assetPath": "Item_1201",
+      "Price": 0
+    },
+    {
+      "id": 1202,
+      "name": "燃烧火石",
+      "compositeList": [
+        1108,
+        1115
+      ],
+      "isOrigin": false,
+      "placingType": [
+        256
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 16,
+      "ElementType": 2,
+      "ItemQuality": 1,
+      "assetPath": "Item_1202",
+      "Price": 0
+    },
+    {
+      "id": 1203,
+      "name": "木工锤",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 128,
+      "ElementType": 0,
+      "ItemQuality": 1,
+      "assetPath": "Item_1203",
+      "Price": 0
+    },
+    {
+      "id": 1204,
+      "name": "松鼠",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        32
+      ],
+      "placingIds": [
+        106
+      ],
+      "RoleType": 3,
+      "ItemType": 256,
+      "ElementType": 16,
+      "ItemQuality": 1,
+      "assetPath": "Item_1204",
+      "Price": 0
+    },
+    {
+      "id": 1205,
+      "name": "牛角短弓",
+      "compositeList": [
+        1111,
+        1112
+      ],
+      "isOrigin": false,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [],
+      "RoleType": 3,
+      "ItemType": 2048,
+      "ElementType": 16,
+      "ItemQuality": 1,
+      "assetPath": "Item_1205",
+      "Price": 0
+    },
+    {
+      "id": 1206,
+      "name": "一包金币",
+      "compositeList": [
+        1203,
+        1113
+      ],
+      "isOrigin": false,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 4,
+      "ElementType": 0,
+      "ItemQuality": 1,
+      "assetPath": "Item_1206",
+      "Price": 0
+    },
+    {
+      "id": 1207,
+      "name": "长矛",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [
+        111
+      ],
+      "RoleType": 0,
+      "ItemType": 128,
+      "ElementType": 0,
+      "ItemQuality": 1,
+      "assetPath": "Item_1207",
+      "Price": 0
+    },
+    {
+      "id": 1208,
+      "name": "匕首",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 128,
+      "ElementType": 0,
+      "ItemQuality": 1,
+      "assetPath": "Item_1208",
+      "Price": 0
+    },
+    {
+      "id": 1209,
+      "name": "硬皮甲",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        32768
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 2,
+      "ElementType": 0,
+      "ItemQuality": 1,
+      "assetPath": "Item_1209",
+      "Price": 0
+    },
+    {
+      "id": 1210,
+      "name": "加速手套",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [],
+      "placingIds": [
+        105
+      ],
+      "RoleType": 0,
+      "ItemType": 32,
+      "ElementType": 0,
+      "ItemQuality": 1,
+      "assetPath": "Item_1210",
+      "Price": 0
+    },
+    {
+      "id": 1211,
+      "name": "牛角盾",
+      "compositeList": [
+        1104,
+        1112
+      ],
+      "isOrigin": false,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 4096,
+      "ElementType": 0,
+      "ItemQuality": 1,
+      "assetPath": "Item_1211",
+      "Price": 0
+    },
+    {
+      "id": 1213,
+      "name": "治疗药水",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        1024
+      ],
+      "placingIds": [
+        114
+      ],
+      "RoleType": 0,
+      "ItemType": 1024,
+      "ElementType": 0,
+      "ItemQuality": 1,
+      "assetPath": "Item_1213",
+      "Price": 0
+    },
+    {
+      "id": 1214,
+      "name": "苹果",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        4096
+      ],
+      "placingIds": [
+        107
+      ],
+      "RoleType": 0,
+      "ItemType": 8,
+      "ElementType": 16,
+      "ItemQuality": 1,
+      "assetPath": "Item_1214",
+      "Price": 0
+    },
+    {
+      "id": 1215,
+      "name": "胡萝卜",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        4096
+      ],
+      "placingIds": [
+        108
+      ],
+      "RoleType": 0,
+      "ItemType": 8,
+      "ElementType": 16,
+      "ItemQuality": 1,
+      "assetPath": "Item_1215",
+      "Price": 0
+    },
+    {
+      "id": 1216,
+      "name": "史莱姆",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        32,
+        8192
+      ],
+      "placingIds": [
+        109
+      ],
+      "RoleType": 0,
+      "ItemType": 256,
+      "ElementType": 0,
+      "ItemQuality": 1,
+      "assetPath": "Item_1216",
+      "Price": 0
+    },
+    {
+      "id": 1217,
+      "name": "飞斧",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [],
+      "RoleType": 1,
+      "ItemType": 128,
+      "ElementType": 0,
+      "ItemQuality": 1,
+      "assetPath": "Item_1217",
+      "Price": 0
+    },
+    {
+      "id": 1218,
+      "name": "辣椒",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        4096
+      ],
+      "placingIds": [
+        110
+      ],
+      "RoleType": 0,
+      "ItemType": 8,
+      "ElementType": 16,
+      "ItemQuality": 1,
+      "assetPath": "Item_1218",
+      "Price": 0
+    },
+    {
+      "id": 1219,
+      "name": "兰花",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        16
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 4,
+      "ElementType": 16,
+      "ItemQuality": 1,
+      "assetPath": "Item_1219",
+      "Price": 0
+    },
+    {
+      "id": 1220,
+      "name": "火炬",
+      "compositeList": [
+        1103,
+        1108
+      ],
+      "isOrigin": false,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 128,
+      "ElementType": 0,
+      "ItemQuality": 1,
+      "assetPath": "Item_1220",
+      "Price": 0
+    },
+    {
+      "id": 1281,
+      "name": "圆形红宝石",
+      "compositeList": [
+        1181,
+        1181
+      ],
+      "isOrigin": false,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 16,
+      "ElementType": 0,
+      "ItemQuality": 1,
+      "assetPath": "Attachment_1281",
+      "Price": 0
+    },
+    {
+      "id": 1282,
+      "name": "圆形黄宝石",
+      "compositeList": [
+        1182,
+        1182
+      ],
+      "isOrigin": false,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 16,
+      "ElementType": 0,
+      "ItemQuality": 1,
+      "assetPath": "Attachment_1282",
+      "Price": 0
+    },
+    {
+      "id": 1283,
+      "name": "圆形蓝宝石",
+      "compositeList": [
+        1183,
+        1183
+      ],
+      "isOrigin": false,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 16,
+      "ElementType": 0,
+      "ItemQuality": 1,
+      "assetPath": "Attachment_1283",
+      "Price": 0
+    },
+    {
+      "id": 1284,
+      "name": "圆形紫宝石",
+      "compositeList": [
+        1184,
+        1184
+      ],
+      "isOrigin": false,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 16,
+      "ElementType": 0,
+      "ItemQuality": 1,
+      "assetPath": "Attachment_1284",
+      "Price": 0
+    },
+    {
+      "id": 1301,
+      "name": "血藤",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        512
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 128,
+      "ElementType": 16,
+      "ItemQuality": 2,
+      "assetPath": "Item_1301",
+      "Price": 0
+    },
+    {
+      "id": 1302,
+      "name": "硬皮靴",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        32768
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 8192,
+      "ElementType": 0,
+      "ItemQuality": 2,
+      "assetPath": "Item_1302",
+      "Price": 0
+    },
+    {
+      "id": 1303,
+      "name": "鲜血之刃",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        512,
+        8192,
+        65536
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 128,
+      "ElementType": 32,
+      "ItemQuality": 2,
+      "assetPath": "Item_1303",
+      "Price": 0
+    },
+    {
+      "id": 1304,
+      "name": "鼹鼠",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        32
+      ],
+      "placingIds": [
+        112
+      ],
+      "RoleType": 3,
+      "ItemType": 256,
+      "ElementType": 16,
+      "ItemQuality": 2,
+      "assetPath": "Item_1304",
+      "Price": 0
+    },
+    {
+      "id": 1305,
+      "name": "火焰长矛",
+      "compositeList": [
+        1207,
+        1115,
+        1115
+      ],
+      "isOrigin": false,
+      "placingType": [
+        512,
+        8192,
+        256
+      ],
+      "placingIds": [
+        113
+      ],
+      "RoleType": 0,
+      "ItemType": 128,
+      "ElementType": 2,
+      "ItemQuality": 2,
+      "assetPath": "Item_1305",
+      "Price": 0
+    },
+    {
+      "id": 1306,
+      "name": "月牙斧",
+      "compositeList": [
+        1217,
+        1217
+      ],
+      "isOrigin": false,
+      "placingType": [
+        512
+      ],
+      "placingIds": [],
+      "RoleType": 1,
+      "ItemType": 128,
+      "ElementType": 0,
+      "ItemQuality": 2,
+      "assetPath": "Item_1306",
+      "Price": 0
+    },
+    {
+      "id": 1307,
+      "name": "强化药水",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        1024
+      ],
+      "placingIds": [
+        115
+      ],
+      "RoleType": 0,
+      "ItemType": 1024,
+      "ElementType": 0,
+      "ItemQuality": 2,
+      "assetPath": "Item_1307",
+      "Price": 0
+    },
+    {
+      "id": 1308,
+      "name": "幸运短弓",
+      "compositeList": [
+        1111,
+        1219,
+        1219
+      ],
+      "isOrigin": true,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [],
+      "RoleType": 3,
+      "ItemType": 2048,
+      "ElementType": 16,
+      "ItemQuality": 2,
+      "assetPath": "Item_1308",
+      "Price": 0
+    },
+    {
+      "id": 1309,
+      "name": "火焰短刀",
+      "compositeList": [
+        1319,
+        1115,
+        1115
+      ],
+      "isOrigin": false,
+      "placingType": [
+        512,
+        8192,
+        256
+      ],
+      "placingIds": [
+        116
+      ],
+      "RoleType": 2,
+      "ItemType": 128,
+      "ElementType": 2,
+      "ItemQuality": 2,
+      "assetPath": "Item_1309",
+      "Price": 0
+    },
+    {
+      "id": 1310,
+      "name": "骷髅帽",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 64,
+      "ElementType": 0,
+      "ItemQuality": 2,
+      "assetPath": "Item_1310",
+      "Price": 0
+    },
+    {
+      "id": 1311,
+      "name": "胡萝卜史莱姆",
+      "compositeList": [
+        1216,
+        1215
+      ],
+      "isOrigin": false,
+      "placingType": [
+        32,
+        8192
+      ],
+      "placingIds": [
+        117
+      ],
+      "RoleType": 0,
+      "ItemType": 256,
+      "ElementType": 16,
+      "ItemQuality": 2,
+      "assetPath": "Item_1311",
+      "Price": 0
+    },
+    {
+      "id": 1312,
+      "name": "辣椒史莱姆",
+      "compositeList": [
+        1216,
+        1218
+      ],
+      "isOrigin": false,
+      "placingType": [
+        32,
+        8192
+      ],
+      "placingIds": [
+        118
+      ],
+      "RoleType": 0,
+      "ItemType": 256,
+      "ElementType": 16,
+      "ItemQuality": 2,
+      "assetPath": "Item_1312",
+      "Price": 0
+    },
+    {
+      "id": 1313,
+      "name": "暗影宝石",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        128
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 16,
+      "ElementType": 1,
+      "ItemQuality": 2,
+      "assetPath": "Item_1313",
+      "Price": 0
+    },
+    {
+      "id": 1314,
+      "name": "长笛",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        8192,
+        32768
+      ],
+      "placingIds": [
+        119
+      ],
+      "RoleType": 0,
+      "ItemType": 4,
+      "ElementType": 0,
+      "ItemQuality": 2,
+      "assetPath": "Item_1314",
+      "Price": 0
+    },
+    {
+      "id": 1315,
+      "name": "龙鳞皮甲",
+      "compositeList": [
+        1209,
+        1902
+      ],
+      "isOrigin": false,
+      "placingType": [
+        32768
+      ],
+      "placingIds": [],
+      "RoleType": 1,
+      "ItemType": 2,
+      "ElementType": 0,
+      "ItemQuality": 2,
+      "assetPath": "Item_1315",
+      "Price": 0
+    },
+    {
+      "id": 1316,
+      "name": "幸运招财猫",
+      "compositeList": [
+        1113,
+        1219,
+        1219
+      ],
+      "isOrigin": false,
+      "placingType": [
+        8192
+      ],
+      "placingIds": [
+        120
+      ],
+      "RoleType": 3,
+      "ItemType": 4,
+      "ElementType": 0,
+      "ItemQuality": 2,
+      "assetPath": "Item_1316",
+      "Price": 0
+    },
+    {
+      "id": 1317,
+      "name": "魔法水晶",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        8192,
+        131072
+      ],
+      "placingIds": [
+        121
+      ],
+      "RoleType": 0,
+      "ItemType": 4,
+      "ElementType": 8,
+      "ItemQuality": 2,
+      "assetPath": "Item_1317",
+      "Price": 0
+    },
+    {
+      "id": 1319,
+      "name": "精铁之刃",
+      "compositeList": [
+        1103,
+        1102,
+        1102
+      ],
+      "isOrigin": false,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [
+        122
+      ],
+      "RoleType": 0,
+      "ItemType": 128,
+      "ElementType": 0,
+      "ItemQuality": 2,
+      "assetPath": "Item_1319",
+      "Price": 0
+    },
+    {
+      "id": 1320,
+      "name": "神龙珠",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        8192,
+        256
+      ],
+      "placingIds": [],
+      "RoleType": 2,
+      "ItemType": 4,
+      "ElementType": 2,
+      "ItemQuality": 2,
+      "assetPath": "Item_1320",
+      "Price": 0
+    },
+    {
+      "id": 1321,
+      "name": "龙鳞护手",
+      "compositeList": [
+        1210,
+        1902
+      ],
+      "isOrigin": false,
+      "placingType": [],
+      "placingIds": [
+        123
+      ],
+      "RoleType": 1,
+      "ItemType": 32,
+      "ElementType": 0,
+      "ItemQuality": 2,
+      "assetPath": "Item_1321",
+      "Price": 0
+    },
+    {
+      "id": 1322,
+      "name": "狂野之爪",
+      "compositeList": [
+        1210,
+        1112
+      ],
+      "isOrigin": false,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 128,
+      "ElementType": 0,
+      "ItemQuality": 2,
+      "assetPath": "Item_1322",
+      "Price": 0
+    },
+    {
+      "id": 1323,
+      "name": "幸运手环",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [],
+      "placingIds": [
+        124
+      ],
+      "RoleType": 3,
+      "ItemType": 4,
+      "ElementType": 16,
+      "ItemQuality": 2,
+      "assetPath": "Item_1323",
+      "Price": 0
+    },
+    {
+      "id": 1324,
+      "name": "燃烧匕首",
+      "compositeList": [
+        1208,
+        1115,
+        1115
+      ],
+      "isOrigin": false,
+      "placingType": [
+        512,
+        8192,
+        256
+      ],
+      "placingIds": [],
+      "RoleType": 2,
+      "ItemType": 128,
+      "ElementType": 2,
+      "ItemQuality": 2,
+      "assetPath": "Item_1324",
+      "Price": 0
+    },
+    {
+      "id": 1325,
+      "name": "龙鳞靴",
+      "compositeList": [
+        1302,
+        1902
+      ],
+      "isOrigin": false,
+      "placingType": [
+        32768
+      ],
+      "placingIds": [],
+      "RoleType": 1,
+      "ItemType": 8192,
+      "ElementType": 0,
+      "ItemQuality": 2,
+      "assetPath": "Item_1325",
+      "Price": 0
+    },
+    {
+      "id": 1326,
+      "name": "燃烧火炬",
+      "compositeList": [
+        1220,
+        1115
+      ],
+      "isOrigin": false,
+      "placingType": [
+        512,
+        8192,
+        256
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 128,
+      "ElementType": 2,
+      "ItemQuality": 2,
+      "assetPath": "Item_1326",
+      "Price": 0
+    },
+    {
+      "id": 1327,
+      "name": "水晶法杖",
+      "compositeList": [
+        1106,
+        1317
+      ],
+      "isOrigin": false,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 2048,
+      "ElementType": 8,
+      "ItemQuality": 2,
+      "assetPath": "Item_1327",
+      "Price": 0
+    },
+    {
+      "id": 1328,
+      "name": "强效治疗药水",
+      "compositeList": [
+        1110,
+        1213
+      ],
+      "isOrigin": false,
+      "placingType": [
+        1024
+      ],
+      "placingIds": [
+        125
+      ],
+      "RoleType": 0,
+      "ItemType": 1024,
+      "ElementType": 0,
+      "ItemQuality": 2,
+      "assetPath": "Item_1328",
+      "Price": 0
+    },
+    {
+      "id": 1329,
+      "name": "法力药水",
+      "compositeList": [
+        1214,
+        1213
+      ],
+      "isOrigin": false,
+      "placingType": [
+        1024
+      ],
+      "placingIds": [
+        126
+      ],
+      "RoleType": 0,
+      "ItemType": 1024,
+      "ElementType": 8,
+      "ItemQuality": 2,
+      "assetPath": "Item_1329",
+      "Price": 0
+    },
+    {
+      "id": 1381,
+      "name": "方形红宝石",
+      "compositeList": [
+        1281,
+        1281
+      ],
+      "isOrigin": false,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 16,
+      "ElementType": 0,
+      "ItemQuality": 2,
+      "assetPath": "Attachment_1381",
+      "Price": 0
+    },
+    {
+      "id": 1382,
+      "name": "方形黄宝石",
+      "compositeList": [
+        1282,
+        1282
+      ],
+      "isOrigin": false,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 16,
+      "ElementType": 0,
+      "ItemQuality": 2,
+      "assetPath": "Attachment_1382",
+      "Price": 0
+    },
+    {
+      "id": 1383,
+      "name": "方形蓝宝石",
+      "compositeList": [
+        1283,
+        1283
+      ],
+      "isOrigin": false,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 16,
+      "ElementType": 0,
+      "ItemQuality": 2,
+      "assetPath": "Attachment_1383",
+      "Price": 0
+    },
+    {
+      "id": 1384,
+      "name": "方形紫宝石",
+      "compositeList": [
+        1284,
+        1284
+      ],
+      "isOrigin": false,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 16,
+      "ElementType": 0,
+      "ItemQuality": 2,
+      "assetPath": "Attachment_1384",
+      "Price": 0
+    },
+    {
+      "id": 1401,
+      "name": "倚天剑",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 128,
+      "ElementType": 0,
+      "ItemQuality": 3,
+      "assetPath": "Item_1401",
+      "Price": 0
+    },
+    {
+      "id": 1402,
+      "name": "光明盾牌",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [],
+      "placingIds": [
+        128
+      ],
+      "RoleType": 0,
+      "ItemType": 4096,
+      "ElementType": 4,
+      "ItemQuality": 3,
+      "assetPath": "Item_1402",
+      "Price": 0
+    },
+    {
+      "id": 1403,
+      "name": "光明板甲",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        32768,
+        16
+      ],
+      "placingIds": [
+        129
+      ],
+      "RoleType": 0,
+      "ItemType": 2,
+      "ElementType": 4,
+      "ItemQuality": 3,
+      "assetPath": "Item_1403",
+      "Price": 0
+    },
+    {
+      "id": 1404,
+      "name": "白狼幼崽",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        32,
+        32768
+      ],
+      "placingIds": [
+        130
+      ],
+      "RoleType": 1,
+      "ItemType": 256,
+      "ElementType": 0,
+      "ItemQuality": 3,
+      "assetPath": "Item_1404",
+      "Price": 0
+    },
+    {
+      "id": 1405,
+      "name": "黑狼幼崽",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        32
+      ],
+      "placingIds": [
+        131
+      ],
+      "RoleType": 1,
+      "ItemType": 384,
+      "ElementType": 0,
+      "ItemQuality": 3,
+      "assetPath": "Item_1405",
+      "Price": 0
+    },
+    {
+      "id": 1406,
+      "name": "灰狼幼崽",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        32
+      ],
+      "placingIds": [
+        132
+      ],
+      "RoleType": 1,
+      "ItemType": 256,
+      "ElementType": 0,
+      "ItemQuality": 3,
+      "assetPath": "Item_1406",
+      "Price": 0
+    },
+    {
+      "id": 1407,
+      "name": "钢铁史莱姆",
+      "compositeList": [
+        1216,
+        1319
+      ],
+      "isOrigin": false,
+      "placingType": [
+        32,
+        8192
+      ],
+      "placingIds": [
+        133,
+        134
+      ],
+      "RoleType": 0,
+      "ItemType": 256,
+      "ElementType": 0,
+      "ItemQuality": 3,
+      "assetPath": "Item_1407",
+      "Price": 0
+    },
+    {
+      "id": 1408,
+      "name": "鲜血史莱姆",
+      "compositeList": [
+        1216,
+        1423
+      ],
+      "isOrigin": false,
+      "placingType": [
+        32,
+        8192,
+        65536
+      ],
+      "placingIds": [
+        135
+      ],
+      "RoleType": 0,
+      "ItemType": 256,
+      "ElementType": 32,
+      "ItemQuality": 3,
+      "assetPath": "Item_1408",
+      "Price": 0
+    },
+    {
+      "id": 1409,
+      "name": "勇气药水",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        1024
+      ],
+      "placingIds": [
+        136
+      ],
+      "RoleType": 0,
+      "ItemType": 1024,
+      "ElementType": 0,
+      "ItemQuality": 3,
+      "assetPath": "Item_1409",
+      "Price": 0
+    },
+    {
+      "id": 1410,
+      "name": "强效勇气药水",
+      "compositeList": [],
+      "isOrigin": false,
+      "placingType": [
+        1024
+      ],
+      "placingIds": [
+        137
+      ],
+      "RoleType": 0,
+      "ItemType": 1024,
+      "ElementType": 0,
+      "ItemQuality": 3,
+      "assetPath": "Item_1410",
+      "Price": 0
+    },
+    {
+      "id": 1411,
+      "name": "强效法力药水",
+      "compositeList": [],
+      "isOrigin": false,
+      "placingType": [
+        1024
+      ],
+      "placingIds": [
+        138
+      ],
+      "RoleType": 0,
+      "ItemType": 1024,
+      "ElementType": 0,
+      "ItemQuality": 3,
+      "assetPath": "Item_1411",
+      "Price": 0
+    },
+    {
+      "id": 1412,
+      "name": "吸血药水",
+      "compositeList": [],
+      "isOrigin": false,
+      "placingType": [
+        1024
+      ],
+      "placingIds": [
+        139
+      ],
+      "RoleType": 0,
+      "ItemType": 1024,
+      "ElementType": 32,
+      "ItemQuality": 3,
+      "assetPath": "Item_1412",
+      "Price": 0
+    },
+    {
+      "id": 1413,
+      "name": "榴莲",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        4096
+      ],
+      "placingIds": [
+        140
+      ],
+      "RoleType": 0,
+      "ItemType": 8,
+      "ElementType": 16,
+      "ItemQuality": 3,
+      "assetPath": "Item_1413",
+      "Price": 0
+    },
+    {
+      "id": 1414,
+      "name": "牛角弓",
+      "compositeList": [
+        1205,
+        1112,
+        1112
+      ],
+      "isOrigin": false,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [
+        141
+      ],
+      "RoleType": 3,
+      "ItemType": 2048,
+      "ElementType": 16,
+      "ItemQuality": 3,
+      "assetPath": "Item_1414",
+      "Price": 0
+    },
+    {
+      "id": 1415,
+      "name": "幸运弓",
+      "compositeList": [
+        1219,
+        1219,
+        1308
+      ],
+      "isOrigin": false,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [
+        142
+      ],
+      "RoleType": 3,
+      "ItemType": 2048,
+      "ElementType": 16,
+      "ItemQuality": 3,
+      "assetPath": "Item_1415",
+      "Price": 0
+    },
+    {
+      "id": 1416,
+      "name": "红宝石龙蛋",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        32,
+        256
+      ],
+      "placingIds": [],
+      "RoleType": 2,
+      "ItemType": 256,
+      "ElementType": 2,
+      "ItemQuality": 3,
+      "assetPath": "Item_1416",
+      "Price": 0
+    },
+    {
+      "id": 1417,
+      "name": "蓝宝石龙蛋",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        32
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 256,
+      "ElementType": 0,
+      "ItemQuality": 3,
+      "assetPath": "Item_1417",
+      "Price": 0
+    },
+    {
+      "id": 1418,
+      "name": "紫水晶龙蛋",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        32
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 256,
+      "ElementType": 0,
+      "ItemQuality": 3,
+      "assetPath": "Item_1418",
+      "Price": 0
+    },
+    {
+      "id": 1419,
+      "name": "钢铁头盔",
+      "compositeList": [
+        1310,
+        1307
+      ],
+      "isOrigin": false,
+      "placingType": [
+        32768
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 64,
+      "ElementType": 0,
+      "ItemQuality": 3,
+      "assetPath": "Item_1419",
+      "Price": 0
+    },
+    {
+      "id": 1420,
+      "name": "钢铁手套",
+      "compositeList": [
+        1210,
+        1307
+      ],
+      "isOrigin": false,
+      "placingType": [
+        32768
+      ],
+      "placingIds": [
+        143
+      ],
+      "RoleType": 0,
+      "ItemType": 32,
+      "ElementType": 0,
+      "ItemQuality": 3,
+      "assetPath": "Item_1420",
+      "Price": 0
+    },
+    {
+      "id": 1421,
+      "name": "瘟疫锅铲",
+      "compositeList": [
+        1105,
+        1313
+      ],
+      "isOrigin": false,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [
+        144
+      ],
+      "RoleType": 0,
+      "ItemType": 128,
+      "ElementType": 1,
+      "ItemQuality": 3,
+      "assetPath": "Item_1421",
+      "Price": 0
+    },
+    {
+      "id": 1422,
+      "name": "利刃手环",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 1,
+      "ItemType": 4,
+      "ElementType": 0,
+      "ItemQuality": 3,
+      "assetPath": "Item_1422",
+      "Price": 0
+    },
+    {
+      "id": 1423,
+      "name": "鲜血护符",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        65536
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 4,
+      "ElementType": 32,
+      "ItemQuality": 3,
+      "assetPath": "Item_1423",
+      "Price": 0
+    },
+    {
+      "id": 1424,
+      "name": "咕咕鸟",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        32
+      ],
+      "placingIds": [
+        145
+      ],
+      "RoleType": 0,
+      "ItemType": 256,
+      "ElementType": 16,
+      "ItemQuality": 3,
+      "assetPath": "Item_1424",
+      "Price": 0
+    },
+    {
+      "id": 1425,
+      "name": "鲜血护甲",
+      "compositeList": [
+        1423,
+        1209
+      ],
+      "isOrigin": false,
+      "placingType": [
+        32768
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 2,
+      "ElementType": 32,
+      "ItemQuality": 3,
+      "assetPath": "Item_1425",
+      "Price": 0
+    },
+    {
+      "id": 1426,
+      "name": "火焰之鞭",
+      "compositeList": [
+        1115,
+        1115,
+        1301
+      ],
+      "isOrigin": false,
+      "placingType": [
+        512,
+        8192,
+        256
+      ],
+      "placingIds": [],
+      "RoleType": 2,
+      "ItemType": 128,
+      "ElementType": 2,
+      "ItemQuality": 3,
+      "assetPath": "Item_1426",
+      "Price": 0
+    },
+    {
+      "id": 1427,
+      "name": "凤凰",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        512,
+        8192,
+        32,
+        256
+      ],
+      "placingIds": [],
+      "RoleType": 2,
+      "ItemType": 2304,
+      "ElementType": 2,
+      "ItemQuality": 3,
+      "assetPath": "Item_1427",
+      "Price": 0
+    },
+    {
+      "id": 1428,
+      "name": "吸血匕首",
+      "compositeList": [
+        1423,
+        1208
+      ],
+      "isOrigin": false,
+      "placingType": [
+        512,
+        8192,
+        65536
+      ],
+      "placingIds": [
+        146
+      ],
+      "RoleType": 0,
+      "ItemType": 128,
+      "ElementType": 32,
+      "ItemQuality": 3,
+      "assetPath": "Item_1428",
+      "Price": 0
+    },
+    {
+      "id": 1429,
+      "name": "吸蓝刀",
+      "compositeList": [
+        1303,
+        1317
+      ],
+      "isOrigin": false,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 128,
+      "ElementType": 40,
+      "ItemQuality": 3,
+      "assetPath": "Item_1429",
+      "Price": 0
+    },
+    {
+      "id": 1430,
+      "name": "钢铁长剑",
+      "compositeList": [
+        1102,
+        1102,
+        1319
+      ],
+      "isOrigin": false,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [
+        147
+      ],
+      "RoleType": 0,
+      "ItemType": 128,
+      "ElementType": 0,
+      "ItemQuality": 3,
+      "assetPath": "Item_1430",
+      "Price": 0
+    },
+    {
+      "id": 1431,
+      "name": "凤凰之刃",
+      "compositeList": [
+        1210,
+        1210,
+        1319
+      ],
+      "isOrigin": false,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [
+        148
+      ],
+      "RoleType": 0,
+      "ItemType": 128,
+      "ElementType": 0,
+      "ItemQuality": 3,
+      "assetPath": "Item_1431",
+      "Price": 0
+    },
+    {
+      "id": 1432,
+      "name": "火焰长刀",
+      "compositeList": [
+        1309,
+        1102,
+        1102
+      ],
+      "isOrigin": false,
+      "placingType": [
+        512,
+        8192,
+        256
+      ],
+      "placingIds": [
+        149
+      ],
+      "RoleType": 2,
+      "ItemType": 128,
+      "ElementType": 2,
+      "ItemQuality": 3,
+      "assetPath": "Item_1432",
+      "Price": 0
+    },
+    {
+      "id": 1433,
+      "name": "铁链鞭",
+      "compositeList": [
+        1301,
+        1902
+      ],
+      "isOrigin": false,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [],
+      "RoleType": 1,
+      "ItemType": 128,
+      "ElementType": 4,
+      "ItemQuality": 3,
+      "assetPath": "Item_1433",
+      "Price": 0
+    },
+    {
+      "id": 1435,
+      "name": "火焰之杖",
+      "compositeList": [
+        1327,
+        1320
+      ],
+      "isOrigin": false,
+      "placingType": [
+        512,
+        8192,
+        256
+      ],
+      "placingIds": [],
+      "RoleType": 2,
+      "ItemType": 2048,
+      "ElementType": 10,
+      "ItemQuality": 3,
+      "assetPath": "Item_1435",
+      "Price": 0
+    },
+    {
+      "id": 1436,
+      "name": "神圣锅铲",
+      "compositeList": [
+        1105,
+        1409
+      ],
+      "isOrigin": false,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [
+        150
+      ],
+      "RoleType": 0,
+      "ItemType": 128,
+      "ElementType": 4,
+      "ItemQuality": 3,
+      "assetPath": "Item_1436",
+      "Price": 0
+    },
+    {
+      "id": 1437,
+      "name": "魔法火把",
+      "compositeList": [
+        1326,
+        1317
+      ],
+      "isOrigin": false,
+      "placingType": [
+        512,
+        8192,
+        256
+      ],
+      "placingIds": [
+        151
+      ],
+      "RoleType": 2,
+      "ItemType": 128,
+      "ElementType": 10,
+      "ItemQuality": 3,
+      "assetPath": "Item_1437",
+      "Price": 0
+    },
+    {
+      "id": 1438,
+      "name": "强效硬化药水",
+      "compositeList": [
+        1307,
+        1101,
+        1101
+      ],
+      "isOrigin": false,
+      "placingType": [
+        1024
+      ],
+      "placingIds": [
+        152
+      ],
+      "RoleType": 0,
+      "ItemType": 1024,
+      "ElementType": 0,
+      "ItemQuality": 3,
+      "assetPath": "Item_1438",
+      "Price": 0
+    },
+    {
+      "id": 1439,
+      "name": "石肤护甲",
+      "compositeList": [
+        1307,
+        1209
+      ],
+      "isOrigin": false,
+      "placingType": [
+        32768
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 2,
+      "ElementType": 0,
+      "ItemQuality": 3,
+      "assetPath": "Item_1439",
+      "Price": 0
+    },
+    {
+      "id": 1440,
+      "name": "奶酪",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        4096
+      ],
+      "placingIds": [
+        153
+      ],
+      "RoleType": 1,
+      "ItemType": 8,
+      "ElementType": 16,
+      "ItemQuality": 3,
+      "assetPath": "Item_1440",
+      "Price": 0
+    },
+    {
+      "id": 1441,
+      "name": "暗影头盔",
+      "compositeList": [
+        1310,
+        1313
+      ],
+      "isOrigin": false,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 64,
+      "ElementType": 1,
+      "ItemQuality": 3,
+      "assetPath": "Item_1441",
+      "Price": 0
+    },
+    {
+      "id": 1481,
+      "name": "无暇红宝石",
+      "compositeList": [
+        1381,
+        1381
+      ],
+      "isOrigin": false,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 16,
+      "ElementType": 0,
+      "ItemQuality": 3,
+      "assetPath": "Item_1481",
+      "Price": 0
+    },
+    {
+      "id": 1482,
+      "name": "无暇黄宝石",
+      "compositeList": [
+        1382,
+        1382
+      ],
+      "isOrigin": false,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 16,
+      "ElementType": 0,
+      "ItemQuality": 3,
+      "assetPath": "Item_1482",
+      "Price": 0
+    },
+    {
+      "id": 1483,
+      "name": "无暇蓝宝石",
+      "compositeList": [
+        1383,
+        1383
+      ],
+      "isOrigin": false,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 16,
+      "ElementType": 0,
+      "ItemQuality": 3,
+      "assetPath": "Item_1483",
+      "Price": 0
+    },
+    {
+      "id": 1484,
+      "name": "无暇紫宝石",
+      "compositeList": [
+        1384,
+        1384
+      ],
+      "isOrigin": false,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 16,
+      "ElementType": 0,
+      "ItemQuality": 3,
+      "assetPath": "Item_1484",
+      "Price": 0
+    },
+    {
+      "id": 1501,
+      "name": "圣剑",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 128,
+      "ElementType": 4,
+      "ItemQuality": 4,
+      "assetPath": "Item_1501",
+      "Price": 0
+    },
+    {
+      "id": 1502,
+      "name": "刺剑",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 128,
+      "ElementType": 0,
+      "ItemQuality": 4,
+      "assetPath": "Item_1502",
+      "Price": 0
+    },
+    {
+      "id": 1503,
+      "name": "菜刀",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [],
+      "RoleType": 1,
+      "ItemType": 128,
+      "ElementType": 0,
+      "ItemQuality": 4,
+      "assetPath": "Item_1503",
+      "Price": 0
+    },
+    {
+      "id": 1504,
+      "name": "十字水果刀",
+      "compositeList": [],
+      "isOrigin": false,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [
+        154,
+        155
+      ],
+      "RoleType": 0,
+      "ItemType": 128,
+      "ElementType": 0,
+      "ItemQuality": 4,
+      "assetPath": "Item_1504",
+      "Price": 0
+    },
+    {
+      "id": 1505,
+      "name": "终极彩虹史莱姆",
+      "compositeList": [],
+      "isOrigin": false,
+      "placingType": [
+        32,
+        8192
+      ],
+      "placingIds": [
+        156
+      ],
+      "RoleType": 0,
+      "ItemType": 256,
+      "ElementType": 52,
+      "ItemQuality": 4,
+      "assetPath": "Item_1505",
+      "Price": 0
+    },
+    {
+      "id": 1506,
+      "name": "神圣史莱姆",
+      "compositeList": [],
+      "isOrigin": false,
+      "placingType": [
+        32,
+        8192
+      ],
+      "placingIds": [
+        157
+      ],
+      "RoleType": 0,
+      "ItemType": 256,
+      "ElementType": 4,
+      "ItemQuality": 4,
+      "assetPath": "Item_1506",
+      "Price": 0
+    },
+    {
+      "id": 1507,
+      "name": "黑色巨龙",
+      "compositeList": [
+        1416,
+        1313
+      ],
+      "isOrigin": false,
+      "placingType": [
+        32,
+        256
+      ],
+      "placingIds": [],
+      "RoleType": 2,
+      "ItemType": 2304,
+      "ElementType": 2,
+      "ItemQuality": 4,
+      "assetPath": "Item_1507",
+      "Price": 0
+    },
+    {
+      "id": 1508,
+      "name": "火焰幼龙",
+      "compositeList": [
+        1416
+      ],
+      "isOrigin": true,
+      "placingType": [
+        32,
+        256
+      ],
+      "placingIds": [],
+      "RoleType": 2,
+      "ItemType": 2304,
+      "ElementType": 2,
+      "ItemQuality": 4,
+      "assetPath": "Item_1508",
+      "Price": 0
+    },
+    {
+      "id": 1509,
+      "name": "紫色幼龙",
+      "compositeList": [
+        1417
+      ],
+      "isOrigin": true,
+      "placingType": [
+        32
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 2304,
+      "ElementType": 0,
+      "ItemQuality": 4,
+      "assetPath": "Item_1509",
+      "Price": 0
+    },
+    {
+      "id": 1510,
+      "name": "魔法幼龙",
+      "compositeList": [
+        1418
+      ],
+      "isOrigin": true,
+      "placingType": [
+        32
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 2304,
+      "ElementType": 0,
+      "ItemQuality": 4,
+      "assetPath": "Item_1510",
+      "Price": 0
+    },
+    {
+      "id": 1511,
+      "name": "艾露恩之赐",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 4,
+      "ElementType": 4,
+      "ItemQuality": 4,
+      "assetPath": "Item_1511",
+      "Price": 0
+    },
+    {
+      "id": 1512,
+      "name": "暗影艾露恩之赐",
+      "compositeList": [
+        1511,
+        1541
+      ],
+      "isOrigin": false,
+      "placingType": [],
+      "placingIds": [
+        158
+      ],
+      "RoleType": 0,
+      "ItemType": 4,
+      "ElementType": 1,
+      "ItemQuality": 4,
+      "assetPath": "Item_1512",
+      "Price": 0
+    },
+    {
+      "id": 1513,
+      "name": "神圣灰狼幼崽",
+      "compositeList": [
+        1902,
+        1404
+      ],
+      "isOrigin": false,
+      "placingType": [
+        32
+      ],
+      "placingIds": [
+        159
+      ],
+      "RoleType": 1,
+      "ItemType": 256,
+      "ElementType": 0,
+      "ItemQuality": 4,
+      "assetPath": "Item_1513",
+      "Price": 0
+    },
+    {
+      "id": 1514,
+      "name": "毁灭黑狼幼崽",
+      "compositeList": [
+        1902,
+        1405
+      ],
+      "isOrigin": false,
+      "placingType": [
+        32,
+        512,
+        8192
+      ],
+      "placingIds": [
+        160
+      ],
+      "RoleType": 1,
+      "ItemType": 384,
+      "ElementType": 0,
+      "ItemQuality": 4,
+      "assetPath": "Item_1514",
+      "Price": 0
+    },
+    {
+      "id": 1515,
+      "name": "睿智白狼幼崽",
+      "compositeList": [
+        1902,
+        1406
+      ],
+      "isOrigin": false,
+      "placingType": [
+        32
+      ],
+      "placingIds": [
+        161
+      ],
+      "RoleType": 1,
+      "ItemType": 256,
+      "ElementType": 0,
+      "ItemQuality": 4,
+      "assetPath": "Item_1515",
+      "Price": 0
+    },
+    {
+      "id": 1516,
+      "name": "李奥瑞克的王冠",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 64,
+      "ElementType": 4,
+      "ItemQuality": 4,
+      "assetPath": "Item_1516",
+      "Price": 0
+    },
+    {
+      "id": 1517,
+      "name": "彩虹独角兽",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        32
+      ],
+      "placingIds": [
+        162
+      ],
+      "RoleType": 0,
+      "ItemType": 256,
+      "ElementType": 16,
+      "ItemQuality": 4,
+      "assetPath": "Item_1517",
+      "Price": 0
+    },
+    {
+      "id": 1518,
+      "name": "暗影护甲",
+      "compositeList": [
+        1403,
+        1313
+      ],
+      "isOrigin": false,
+      "placingType": [
+        32768
+      ],
+      "placingIds": [
+        163
+      ],
+      "RoleType": 0,
+      "ItemType": 2,
+      "ElementType": 1,
+      "ItemQuality": 4,
+      "assetPath": "Item_1518",
+      "Price": 0
+    },
+    {
+      "id": 1519,
+      "name": "艾露恩外衣",
+      "compositeList": [
+        1403,
+        1317
+      ],
+      "isOrigin": false,
+      "placingType": [
+        32768,
+        131072
+      ],
+      "placingIds": [
+        164
+      ],
+      "RoleType": 0,
+      "ItemType": 2,
+      "ElementType": 12,
+      "ItemQuality": 4,
+      "assetPath": "Item_1519",
+      "Price": 0
+    },
+    {
+      "id": 1520,
+      "name": "艾露恩之盾",
+      "compositeList": [
+        1402,
+        1317
+      ],
+      "isOrigin": false,
+      "placingType": [
+        131072
+      ],
+      "placingIds": [
+        165
+      ],
+      "RoleType": 0,
+      "ItemType": 4096,
+      "ElementType": 12,
+      "ItemQuality": 4,
+      "assetPath": "Item_1520",
+      "Price": 0
+    },
+    {
+      "id": 1521,
+      "name": "圣火护甲",
+      "compositeList": [
+        1403,
+        1115,
+        1115
+      ],
+      "isOrigin": false,
+      "placingType": [
+        32768,
+        256
+      ],
+      "placingIds": [
+        166
+      ],
+      "RoleType": 2,
+      "ItemType": 2,
+      "ElementType": 6,
+      "ItemQuality": 4,
+      "assetPath": "Item_1521",
+      "Price": 0
+    },
+    {
+      "id": 1522,
+      "name": "圣火盾牌",
+      "compositeList": [
+        1402,
+        1115,
+        1115
+      ],
+      "isOrigin": false,
+      "placingType": [
+        256
+      ],
+      "placingIds": [
+        167
+      ],
+      "RoleType": 2,
+      "ItemType": 4096,
+      "ElementType": 6,
+      "ItemQuality": 4,
+      "assetPath": "Item_1522",
+      "Price": 0
+    },
+    {
+      "id": 1523,
+      "name": "海王长戟",
+      "compositeList": [
+        1516,
+        1207
+      ],
+      "isOrigin": false,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [
+        168
+      ],
+      "RoleType": 0,
+      "ItemType": 128,
+      "ElementType": 4,
+      "ItemQuality": 4,
+      "assetPath": "Item_1523",
+      "Price": 0
+    },
+    {
+      "id": 1524,
+      "name": "终焉号角",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [],
+      "placingIds": [
+        169
+      ],
+      "RoleType": 0,
+      "ItemType": 4,
+      "ElementType": 0,
+      "ItemQuality": 4,
+      "assetPath": "Item_1524",
+      "Price": 0
+    },
+    {
+      "id": 1525,
+      "name": "阿拉丁神灯",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        131072
+      ],
+      "placingIds": [
+        170
+      ],
+      "RoleType": 0,
+      "ItemType": 4,
+      "ElementType": 8,
+      "ItemQuality": 4,
+      "assetPath": "Item_1525",
+      "Price": 0
+    },
+    {
+      "id": 1526,
+      "name": "鲜血护手",
+      "compositeList": [
+        1423,
+        1210
+      ],
+      "isOrigin": false,
+      "placingType": [],
+      "placingIds": [
+        171
+      ],
+      "RoleType": 0,
+      "ItemType": 32,
+      "ElementType": 32,
+      "ItemQuality": 4,
+      "assetPath": "Item_1526",
+      "Price": 0
+    },
+    {
+      "id": 1527,
+      "name": "血荆棘魔剑",
+      "compositeList": [
+        1303,
+        1301
+      ],
+      "isOrigin": false,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 128,
+      "ElementType": 48,
+      "ItemQuality": 4,
+      "assetPath": "Item_1527",
+      "Price": 0
+    },
+    {
+      "id": 1528,
+      "name": "暗影之吻",
+      "compositeList": [
+        1501,
+        1313
+      ],
+      "isOrigin": false,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 128,
+      "ElementType": 1,
+      "ItemQuality": 4,
+      "assetPath": "Item_1528",
+      "Price": 0
+    },
+    {
+      "id": 1529,
+      "name": "家传菜刀",
+      "compositeList": [
+        1503,
+        1902
+      ],
+      "isOrigin": false,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [],
+      "RoleType": 1,
+      "ItemType": 128,
+      "ElementType": 0,
+      "ItemQuality": 4,
+      "assetPath": "Item_1529",
+      "Price": 0
+    },
+    {
+      "id": 1581,
+      "name": "完美红宝石",
+      "compositeList": [
+        1481,
+        1481
+      ],
+      "isOrigin": false,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 16,
+      "ElementType": 0,
+      "ItemQuality": 4,
+      "assetPath": "Item_1581",
+      "Price": 0
+    },
+    {
+      "id": 1582,
+      "name": "完美黄宝石",
+      "compositeList": [
+        1482,
+        1482
+      ],
+      "isOrigin": false,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 16,
+      "ElementType": 0,
+      "ItemQuality": 4,
+      "assetPath": "Item_1582",
+      "Price": 0
+    },
+    {
+      "id": 1583,
+      "name": "完美蓝宝石",
+      "compositeList": [
+        1483,
+        1483
+      ],
+      "isOrigin": false,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 16,
+      "ElementType": 0,
+      "ItemQuality": 4,
+      "assetPath": "Item_1583",
+      "Price": 0
+    },
+    {
+      "id": 1584,
+      "name": "完美紫宝石",
+      "compositeList": [
+        1484,
+        1484
+      ],
+      "isOrigin": false,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 16,
+      "ElementType": 0,
+      "ItemQuality": 4,
+      "assetPath": "Item_1584",
+      "Price": 0
+    },
+    {
+      "id": 1902,
+      "name": "铁锤",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [],
+      "RoleType": 1,
+      "ItemType": 128,
+      "ElementType": 0,
+      "ItemQuality": 5,
+      "assetPath": "Item_1902",
+      "Price": 0
+    },
+    {
+      "id": 1903,
+      "name": "指虎",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        512,
+        8192
+      ],
+      "placingIds": [
+        172
+      ],
+      "RoleType": 1,
+      "ItemType": 128,
+      "ElementType": 0,
+      "ItemQuality": 5,
+      "assetPath": "Item_1903",
+      "Price": 0
+    },
+    {
+      "id": 1904,
+      "name": "狼图腾",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [],
+      "placingIds": [
+        173,
+        174
+      ],
+      "RoleType": 1,
+      "ItemType": 4,
+      "ElementType": 0,
+      "ItemQuality": 5,
+      "assetPath": "Item_1904",
+      "Price": 0
+    },
+    {
+      "id": 1905,
+      "name": "鹿角守护",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [],
+      "placingIds": [
+        175
+      ],
+      "RoleType": 1,
+      "ItemType": 4,
+      "ElementType": 16,
+      "ItemQuality": 5,
+      "assetPath": "Item_1905",
+      "Price": 0
+    },
+    {
+      "id": 1907,
+      "name": "命令旌旗",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        64,
+        256
+      ],
+      "placingIds": [
+        176
+      ],
+      "RoleType": 2,
+      "ItemType": 4,
+      "ElementType": 6,
+      "ItemQuality": 5,
+      "assetPath": "Item_1907",
+      "Price": 0
+    },
+    {
+      "id": 1910,
+      "name": "魔法巢穴",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [],
+      "placingIds": [
+        177
+      ],
+      "RoleType": 2,
+      "ItemType": 4,
+      "ElementType": 0,
+      "ItemQuality": 5,
+      "assetPath": "Item_1910",
+      "Price": 0
+    },
+    {
+      "id": 1912,
+      "name": "一碗美食",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        4096
+      ],
+      "placingIds": [
+        178
+      ],
+      "RoleType": 3,
+      "ItemType": 8,
+      "ElementType": 16,
+      "ItemQuality": 5,
+      "assetPath": "Item_1912",
+      "Price": 0
+    },
+    {
+      "id": 1913,
+      "name": "神机箭",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [],
+      "placingIds": [
+        179,
+        180
+      ],
+      "RoleType": 3,
+      "ItemType": 4,
+      "ElementType": 0,
+      "ItemQuality": 5,
+      "assetPath": "Item_1913",
+      "Price": 0
+    },
+    {
+      "id": 1914,
+      "name": "大四叶草",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 3,
+      "ItemType": 4,
+      "ElementType": 16,
+      "ItemQuality": 5,
+      "assetPath": "Item_1914",
+      "Price": 0
+    },
+    {
+      "id": 1908,
+      "name": "爆裂章节",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [
+        256
+      ],
+      "placingIds": [
+        191,
+        192
+      ],
+      "RoleType": 2,
+      "ItemType": 4,
+      "ElementType": 3,
+      "ItemQuality": 5,
+      "assetPath": "Item_1908",
+      "Price": 0
+    },
+    {
+      "id": 1901,
+      "name": "旅行袋",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [],
+      "placingIds": [
+        201
+      ],
+      "RoleType": 0,
+      "ItemType": 1,
+      "ElementType": 0,
+      "ItemQuality": 5,
+      "assetPath": "Bag_2_3",
+      "Price": 0
+    },
+    {
+      "id": 1906,
+      "name": "火焰储物袋",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [],
+      "placingIds": [
+        202
+      ],
+      "RoleType": 0,
+      "ItemType": 1,
+      "ElementType": 0,
+      "ItemQuality": 5,
+      "assetPath": "Bag_3_3",
+      "Price": 0
+    },
+    {
+      "id": 1911,
+      "name": "野营背包",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [],
+      "placingIds": [
+        203
+      ],
+      "RoleType": 0,
+      "ItemType": 1,
+      "ElementType": 0,
+      "ItemQuality": 5,
+      "assetPath": "Bag_3_2",
+      "Price": 0
+    },
+    {
+      "id": 1116,
+      "name": "亚麻包",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 1,
+      "ElementType": 0,
+      "ItemQuality": 0,
+      "assetPath": "Bag_2_2",
+      "Price": 0
+    },
+    {
+      "id": 1212,
+      "name": "腰包",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [],
+      "placingIds": [
+        205
+      ],
+      "RoleType": 0,
+      "ItemType": 1,
+      "ElementType": 0,
+      "ItemQuality": 1,
+      "assetPath": "Bag_2_1",
+      "Price": 0
+    },
+    {
+      "id": 1318,
+      "name": "耐力背包",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 1,
+      "ElementType": 0,
+      "ItemQuality": 2,
+      "assetPath": "Bag_3_1",
+      "Price": 0
+    },
+    {
+      "id": 1434,
+      "name": "魔法腰带",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [],
+      "placingIds": [
+        207
+      ],
+      "RoleType": 0,
+      "ItemType": 1,
+      "ElementType": 0,
+      "ItemQuality": 3,
+      "assetPath": "Bag_4_1",
+      "Price": 0
+    },
+    {
+      "id": 1530,
+      "name": "守护手包",
+      "compositeList": [],
+      "isOrigin": true,
+      "placingType": [],
+      "placingIds": [],
+      "RoleType": 0,
+      "ItemType": 1,
+      "ElementType": 0,
+      "ItemQuality": 4,
+      "assetPath": "Bag_1_1",
+      "Price": 0
+    }
+  ]
+}

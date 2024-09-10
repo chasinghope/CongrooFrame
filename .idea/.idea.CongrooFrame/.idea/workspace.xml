@@ -9,6 +9,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CongrooFrame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CongrooFrame/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/Congroo.Core/Runtime/Screen/CameraAdapter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/Congroo.Core/Runtime/Screen/CameraAdapter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/Congroo.UI/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/Congroo.UI/CHANGELOG.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,15 +18,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Packages/Congroo.UI" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5e6ebaa7d75c4d5399dc81ecead6b43f952600/ce/9d566860/ProjectWindowUtil.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7237cf7abef49bfbb552d7eb076e422174200/30/998d54fb/ColorUtility.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3ea01e77be99618395f448b16bd7cc2bd4248bd9e5d8474964b2d97f39c5d74/System.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/CurveLayout/CurveLayoutGroup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Packages/Congroo.UI/Runtime/RedDot/RangeString.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Packages/Congroo.UI/Runtime/RedDot/ReddotMgr.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Packages/Congroo.UI/Runtime/Widget/CurveLayoutGroup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Packages/Congroo.UI/Samples~/SampleStart/Scripts/SampleStartInit.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -118,7 +119,7 @@
       <workItem from="1725528131995" duration="1188000" />
       <workItem from="1725584207047" duration="14771000" />
       <workItem from="1725871926043" duration="668000" />
-      <workItem from="1725873203763" duration="1097000" />
+      <workItem from="1725873203763" duration="1565000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,8068 @@
+{
+  "data_list": [
+    {
+      "id": 110101,
+      "minAck": 2,
+      "maxAck": 4,
+      "costPower": 0,
+      "hitrate": 0.7,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 110102,
+      "minAck": 3,
+      "maxAck": 5,
+      "costPower": 0,
+      "hitrate": 0.7,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 110103,
+      "minAck": 3,
+      "maxAck": 5,
+      "costPower": 0,
+      "hitrate": 0.7,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 110104,
+      "minAck": 4,
+      "maxAck": 6,
+      "costPower": 0,
+      "hitrate": 0.7,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 110105,
+      "minAck": 5,
+      "maxAck": 7,
+      "costPower": 0,
+      "hitrate": 0.7,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 110106,
+      "minAck": 5,
+      "maxAck": 7,
+      "costPower": 0,
+      "hitrate": 0.7,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 110201,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 110202,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 110203,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 110204,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 110205,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 110206,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 110301,
+      "minAck": 1,
+      "maxAck": 3,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 110302,
+      "minAck": 2,
+      "maxAck": 4,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 110303,
+      "minAck": 2,
+      "maxAck": 4,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 110304,
+      "minAck": 3,
+      "maxAck": 5,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 110305,
+      "minAck": 4,
+      "maxAck": 6,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 110306,
+      "minAck": 4,
+      "maxAck": 6,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 110401,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 110402,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 110403,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 110404,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 110405,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 110406,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 110501,
+      "minAck": 3,
+      "maxAck": 4,
+      "costPower": 2,
+      "hitrate": 0.85,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 110502,
+      "minAck": 4,
+      "maxAck": 5,
+      "costPower": 2,
+      "hitrate": 0.85,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 110503,
+      "minAck": 4,
+      "maxAck": 5,
+      "costPower": 2,
+      "hitrate": 0.85,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 110504,
+      "minAck": 5,
+      "maxAck": 6,
+      "costPower": 2,
+      "hitrate": 0.85,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 110505,
+      "minAck": 6,
+      "maxAck": 7,
+      "costPower": 2,
+      "hitrate": 0.85,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 110506,
+      "minAck": 6,
+      "maxAck": 7,
+      "costPower": 2,
+      "hitrate": 0.85,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 110601,
+      "minAck": 2,
+      "maxAck": 4,
+      "costPower": 1.2,
+      "hitrate": 0.95,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 110602,
+      "minAck": 3,
+      "maxAck": 5,
+      "costPower": 1.2,
+      "hitrate": 0.95,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 110603,
+      "minAck": 3,
+      "maxAck": 5,
+      "costPower": 1.2,
+      "hitrate": 0.95,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 110604,
+      "minAck": 4,
+      "maxAck": 6,
+      "costPower": 1.2,
+      "hitrate": 0.95,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 110605,
+      "minAck": 5,
+      "maxAck": 7,
+      "costPower": 1.2,
+      "hitrate": 0.95,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 110606,
+      "minAck": 5,
+      "maxAck": 7,
+      "costPower": 1.2,
+      "hitrate": 0.95,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 110701,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 5
+    },
+    {
+      "id": 110702,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 5
+    },
+    {
+      "id": 110703,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 5
+    },
+    {
+      "id": 110704,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 5
+    },
+    {
+      "id": 110705,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 5
+    },
+    {
+      "id": 110706,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 5
+    },
+    {
+      "id": 110801,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 110802,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 110803,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 110804,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 110805,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 110806,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 110901,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 4
+    },
+    {
+      "id": 110902,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 4
+    },
+    {
+      "id": 110903,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 4
+    },
+    {
+      "id": 110904,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 4
+    },
+    {
+      "id": 110905,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 4
+    },
+    {
+      "id": 110906,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 4
+    },
+    {
+      "id": 111001,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111002,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111003,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111004,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111005,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111006,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111101,
+      "minAck": 2,
+      "maxAck": 3,
+      "costPower": 0.7,
+      "hitrate": 0.85,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 111102,
+      "minAck": 3,
+      "maxAck": 4,
+      "costPower": 0.7,
+      "hitrate": 0.85,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 111103,
+      "minAck": 3,
+      "maxAck": 4,
+      "costPower": 0.7,
+      "hitrate": 0.85,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 111104,
+      "minAck": 4,
+      "maxAck": 5,
+      "costPower": 0.7,
+      "hitrate": 0.85,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 111105,
+      "minAck": 5,
+      "maxAck": 6,
+      "costPower": 0.7,
+      "hitrate": 0.85,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 111106,
+      "minAck": 5,
+      "maxAck": 6,
+      "costPower": 0.7,
+      "hitrate": 0.85,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 111201,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111202,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111203,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111204,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111205,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111206,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111301,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111302,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111303,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111304,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111305,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111306,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111401,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111402,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111403,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111404,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111405,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111406,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111501,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111502,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111503,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111504,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111505,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111506,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111601,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111602,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111603,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111604,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111605,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 111606,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 118101,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 118102,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 118103,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 118104,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 118105,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 118106,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 118201,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 118202,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 118203,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 118204,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 118205,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 118206,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 118301,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 118302,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 118303,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 118304,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 118305,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 118306,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 118401,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 118402,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 118403,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 118404,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 118405,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 118406,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 120101,
+      "minAck": 3,
+      "maxAck": 5,
+      "costPower": 0,
+      "hitrate": 0.7,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 120102,
+      "minAck": 4,
+      "maxAck": 6,
+      "costPower": 0,
+      "hitrate": 0.7,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 120103,
+      "minAck": 5,
+      "maxAck": 7,
+      "costPower": 0,
+      "hitrate": 0.7,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 120104,
+      "minAck": 6,
+      "maxAck": 8,
+      "costPower": 0,
+      "hitrate": 0.7,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 120105,
+      "minAck": 7,
+      "maxAck": 9,
+      "costPower": 0,
+      "hitrate": 0.7,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 120106,
+      "minAck": 8,
+      "maxAck": 10,
+      "costPower": 0,
+      "hitrate": 0.7,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 120201,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 120202,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 120203,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 120204,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 120205,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 120206,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 120301,
+      "minAck": 8,
+      "maxAck": 12,
+      "costPower": 3,
+      "hitrate": 0.75,
+      "coolingTime": 2
+    },
+    {
+      "id": 120302,
+      "minAck": 9,
+      "maxAck": 13,
+      "costPower": 3,
+      "hitrate": 0.75,
+      "coolingTime": 2
+    },
+    {
+      "id": 120303,
+      "minAck": 10,
+      "maxAck": 14,
+      "costPower": 3,
+      "hitrate": 0.75,
+      "coolingTime": 2
+    },
+    {
+      "id": 120304,
+      "minAck": 11,
+      "maxAck": 15,
+      "costPower": 3,
+      "hitrate": 0.75,
+      "coolingTime": 2
+    },
+    {
+      "id": 120305,
+      "minAck": 12,
+      "maxAck": 16,
+      "costPower": 3,
+      "hitrate": 0.75,
+      "coolingTime": 2
+    },
+    {
+      "id": 120306,
+      "minAck": 13,
+      "maxAck": 17,
+      "costPower": 3,
+      "hitrate": 0.75,
+      "coolingTime": 2
+    },
+    {
+      "id": 120401,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 4
+    },
+    {
+      "id": 120402,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 4
+    },
+    {
+      "id": 120403,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 4
+    },
+    {
+      "id": 120404,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 120405,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 3
+    },
+    {
+      "id": 120406,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 3
+    },
+    {
+      "id": 120501,
+      "minAck": 2,
+      "maxAck": 3,
+      "costPower": 0.7,
+      "hitrate": 0.85,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 120502,
+      "minAck": 3,
+      "maxAck": 4,
+      "costPower": 0.7,
+      "hitrate": 0.85,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 120503,
+      "minAck": 4,
+      "maxAck": 5,
+      "costPower": 0.7,
+      "hitrate": 0.85,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 120504,
+      "minAck": 6,
+      "maxAck": 7,
+      "costPower": 0.7,
+      "hitrate": 0.85,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 120505,
+      "minAck": 7,
+      "maxAck": 8,
+      "costPower": 0.7,
+      "hitrate": 0.85,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 120506,
+      "minAck": 9,
+      "maxAck": 10,
+      "costPower": 0.7,
+      "hitrate": 0.85,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 120601,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 120602,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 120603,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 120604,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 120605,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 120606,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 120701,
+      "minAck": 2,
+      "maxAck": 8,
+      "costPower": 1,
+      "hitrate": 0.85,
+      "coolingTime": 1.5
+    },
+    {
+      "id": 120702,
+      "minAck": 3,
+      "maxAck": 9,
+      "costPower": 1,
+      "hitrate": 0.85,
+      "coolingTime": 1.5
+    },
+    {
+      "id": 120703,
+      "minAck": 4,
+      "maxAck": 10,
+      "costPower": 1,
+      "hitrate": 0.85,
+      "coolingTime": 1.5
+    },
+    {
+      "id": 120704,
+      "minAck": 5,
+      "maxAck": 11,
+      "costPower": 1,
+      "hitrate": 0.85,
+      "coolingTime": 1.5
+    },
+    {
+      "id": 120705,
+      "minAck": 6,
+      "maxAck": 12,
+      "costPower": 1,
+      "hitrate": 0.85,
+      "coolingTime": 1.5
+    },
+    {
+      "id": 120706,
+      "minAck": 7,
+      "maxAck": 13,
+      "costPower": 1,
+      "hitrate": 0.85,
+      "coolingTime": 1.5
+    },
+    {
+      "id": 120801,
+      "minAck": 2,
+      "maxAck": 5,
+      "costPower": 0,
+      "hitrate": 0.95,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 120802,
+      "minAck": 3,
+      "maxAck": 6,
+      "costPower": 0,
+      "hitrate": 0.95,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 120803,
+      "minAck": 4,
+      "maxAck": 7,
+      "costPower": 0,
+      "hitrate": 0.95,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 120804,
+      "minAck": 5,
+      "maxAck": 8,
+      "costPower": 0,
+      "hitrate": 0.95,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 120805,
+      "minAck": 6,
+      "maxAck": 9,
+      "costPower": 0,
+      "hitrate": 0.95,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 120806,
+      "minAck": 7,
+      "maxAck": 10,
+      "costPower": 0,
+      "hitrate": 0.95,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 120901,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 120902,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 120903,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 120904,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 120905,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 120906,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121001,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121002,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121003,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121004,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121005,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121006,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121101,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121102,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121103,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121104,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121105,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121106,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121201,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121202,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121203,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121204,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121205,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121206,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121301,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121302,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121303,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121304,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121305,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121306,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121401,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 121402,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 121403,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 121404,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 121405,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 121406,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 121501,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 4
+    },
+    {
+      "id": 121502,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 4
+    },
+    {
+      "id": 121503,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 4
+    },
+    {
+      "id": 121504,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 4
+    },
+    {
+      "id": 121505,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 4
+    },
+    {
+      "id": 121506,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 4
+    },
+    {
+      "id": 121601,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121602,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121603,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121604,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121605,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121606,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121701,
+      "minAck": 3,
+      "maxAck": 6,
+      "costPower": 1.4,
+      "hitrate": 0.85,
+      "coolingTime": 2
+    },
+    {
+      "id": 121702,
+      "minAck": 4,
+      "maxAck": 7,
+      "costPower": 1.4,
+      "hitrate": 0.85,
+      "coolingTime": 2
+    },
+    {
+      "id": 121703,
+      "minAck": 5,
+      "maxAck": 8,
+      "costPower": 1.4,
+      "hitrate": 0.85,
+      "coolingTime": 2
+    },
+    {
+      "id": 121704,
+      "minAck": 6,
+      "maxAck": 9,
+      "costPower": 1.4,
+      "hitrate": 0.85,
+      "coolingTime": 2
+    },
+    {
+      "id": 121705,
+      "minAck": 7,
+      "maxAck": 10,
+      "costPower": 1.4,
+      "hitrate": 0.85,
+      "coolingTime": 2
+    },
+    {
+      "id": 121706,
+      "minAck": 8,
+      "maxAck": 11,
+      "costPower": 1.4,
+      "hitrate": 0.85,
+      "coolingTime": 2
+    },
+    {
+      "id": 121801,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 5
+    },
+    {
+      "id": 121802,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 5
+    },
+    {
+      "id": 121803,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 5
+    },
+    {
+      "id": 121804,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 5
+    },
+    {
+      "id": 121805,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 5
+    },
+    {
+      "id": 121806,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 5
+    },
+    {
+      "id": 121901,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121902,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121903,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121904,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121905,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 121906,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 122001,
+      "minAck": 2,
+      "maxAck": 3,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 122002,
+      "minAck": 3,
+      "maxAck": 4,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 122003,
+      "minAck": 4,
+      "maxAck": 5,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 122004,
+      "minAck": 5,
+      "maxAck": 6,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 122005,
+      "minAck": 6,
+      "maxAck": 7,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 122006,
+      "minAck": 7,
+      "maxAck": 8,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 128101,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 128102,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 128103,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 128104,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 128105,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 128106,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 128201,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 128202,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 128203,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 128204,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 128205,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 128206,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 128301,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 128302,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 128303,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 128304,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 128305,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 128306,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 128401,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 128402,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 128403,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 128404,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 128405,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 128406,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 130101,
+      "minAck": 4,
+      "maxAck": 9,
+      "costPower": 2.2,
+      "hitrate": 0.8,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 130102,
+      "minAck": 5,
+      "maxAck": 10,
+      "costPower": 2.2,
+      "hitrate": 0.8,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 130103,
+      "minAck": 6,
+      "maxAck": 11,
+      "costPower": 2.2,
+      "hitrate": 0.8,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 130104,
+      "minAck": 7,
+      "maxAck": 12,
+      "costPower": 2.2,
+      "hitrate": 0.8,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 130105,
+      "minAck": 8,
+      "maxAck": 13,
+      "costPower": 2.2,
+      "hitrate": 0.8,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 130106,
+      "minAck": 9,
+      "maxAck": 14,
+      "costPower": 2.2,
+      "hitrate": 0.8,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 130201,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 130202,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 130203,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 130204,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 130205,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 130206,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 130301,
+      "minAck": 3,
+      "maxAck": 6,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 130302,
+      "minAck": 4,
+      "maxAck": 7,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 130303,
+      "minAck": 5,
+      "maxAck": 8,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 130304,
+      "minAck": 6,
+      "maxAck": 9,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 130305,
+      "minAck": 7,
+      "maxAck": 10,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 130306,
+      "minAck": 8,
+      "maxAck": 11,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 130401,
+      "minAck": 10,
+      "maxAck": 10,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 5
+    },
+    {
+      "id": 130402,
+      "minAck": 15,
+      "maxAck": 15,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 5
+    },
+    {
+      "id": 130403,
+      "minAck": 20,
+      "maxAck": 20,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 5
+    },
+    {
+      "id": 130404,
+      "minAck": 25,
+      "maxAck": 25,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 5
+    },
+    {
+      "id": 130405,
+      "minAck": 30,
+      "maxAck": 30,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 5
+    },
+    {
+      "id": 130406,
+      "minAck": 40,
+      "maxAck": 40,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 5
+    },
+    {
+      "id": 130501,
+      "minAck": 4,
+      "maxAck": 9,
+      "costPower": 1,
+      "hitrate": 0.65,
+      "coolingTime": 1.5
+    },
+    {
+      "id": 130502,
+      "minAck": 5,
+      "maxAck": 10,
+      "costPower": 1,
+      "hitrate": 0.65,
+      "coolingTime": 1.5
+    },
+    {
+      "id": 130503,
+      "minAck": 6,
+      "maxAck": 11,
+      "costPower": 1,
+      "hitrate": 0.65,
+      "coolingTime": 1.5
+    },
+    {
+      "id": 130504,
+      "minAck": 7,
+      "maxAck": 12,
+      "costPower": 1,
+      "hitrate": 0.65,
+      "coolingTime": 1.5
+    },
+    {
+      "id": 130505,
+      "minAck": 8,
+      "maxAck": 13,
+      "costPower": 1,
+      "hitrate": 0.65,
+      "coolingTime": 1.5
+    },
+    {
+      "id": 130506,
+      "minAck": 9,
+      "maxAck": 14,
+      "costPower": 1,
+      "hitrate": 0.65,
+      "coolingTime": 1.5
+    },
+    {
+      "id": 130601,
+      "minAck": 6,
+      "maxAck": 12,
+      "costPower": 2,
+      "hitrate": 0.85,
+      "coolingTime": 2
+    },
+    {
+      "id": 130602,
+      "minAck": 7,
+      "maxAck": 13,
+      "costPower": 2,
+      "hitrate": 0.85,
+      "coolingTime": 2
+    },
+    {
+      "id": 130603,
+      "minAck": 8,
+      "maxAck": 14,
+      "costPower": 2,
+      "hitrate": 0.85,
+      "coolingTime": 2
+    },
+    {
+      "id": 130604,
+      "minAck": 9,
+      "maxAck": 15,
+      "costPower": 2,
+      "hitrate": 0.85,
+      "coolingTime": 2
+    },
+    {
+      "id": 130605,
+      "minAck": 10,
+      "maxAck": 16,
+      "costPower": 2,
+      "hitrate": 0.85,
+      "coolingTime": 2
+    },
+    {
+      "id": 130606,
+      "minAck": 11,
+      "maxAck": 17,
+      "costPower": 2,
+      "hitrate": 0.85,
+      "coolingTime": 2
+    },
+    {
+      "id": 130701,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 130702,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 130703,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 130704,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 130705,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 130706,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 130801,
+      "minAck": 2,
+      "maxAck": 3,
+      "costPower": 0.7,
+      "hitrate": 1,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 130802,
+      "minAck": 3,
+      "maxAck": 4,
+      "costPower": 0.7,
+      "hitrate": 1,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 130803,
+      "minAck": 4,
+      "maxAck": 5,
+      "costPower": 0.7,
+      "hitrate": 1,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 130804,
+      "minAck": 5,
+      "maxAck": 6,
+      "costPower": 0.7,
+      "hitrate": 1,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 130805,
+      "minAck": 6,
+      "maxAck": 7,
+      "costPower": 0.7,
+      "hitrate": 1,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 130806,
+      "minAck": 7,
+      "maxAck": 8,
+      "costPower": 0.7,
+      "hitrate": 1,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 130901,
+      "minAck": 2,
+      "maxAck": 4,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 130902,
+      "minAck": 3,
+      "maxAck": 5,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 130903,
+      "minAck": 4,
+      "maxAck": 6,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 130904,
+      "minAck": 5,
+      "maxAck": 7,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 130905,
+      "minAck": 6,
+      "maxAck": 8,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 130906,
+      "minAck": 7,
+      "maxAck": 9,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 131001,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131002,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131003,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131004,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131005,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131006,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131101,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131102,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131103,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131104,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131105,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131106,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131201,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131202,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131203,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131204,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131205,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131206,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131301,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131302,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131303,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131304,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131305,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131306,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131401,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131402,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131403,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131404,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131405,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131406,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131501,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131502,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131503,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131504,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131505,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131506,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131601,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131602,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131603,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131604,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131605,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131606,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131701,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131702,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131703,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131704,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131705,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131706,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131801,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131802,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131803,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131804,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131805,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131806,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 131901,
+      "minAck": 2,
+      "maxAck": 4,
+      "costPower": 0.7,
+      "hitrate": 0.9,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 131902,
+      "minAck": 3,
+      "maxAck": 5,
+      "costPower": 0.7,
+      "hitrate": 0.9,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 131903,
+      "minAck": 4,
+      "maxAck": 6,
+      "costPower": 0.7,
+      "hitrate": 0.9,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 131904,
+      "minAck": 5,
+      "maxAck": 7,
+      "costPower": 0.7,
+      "hitrate": 0.9,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 131905,
+      "minAck": 6,
+      "maxAck": 8,
+      "costPower": 0.7,
+      "hitrate": 0.9,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 131906,
+      "minAck": 7,
+      "maxAck": 9,
+      "costPower": 0.7,
+      "hitrate": 0.9,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 132001,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132002,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132003,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132004,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132005,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132006,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132101,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132102,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132103,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132104,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132105,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132106,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132201,
+      "minAck": 4,
+      "maxAck": 5,
+      "costPower": 0.5,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 132202,
+      "minAck": 5,
+      "maxAck": 6,
+      "costPower": 0.5,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 132203,
+      "minAck": 6,
+      "maxAck": 7,
+      "costPower": 0.5,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 132204,
+      "minAck": 7,
+      "maxAck": 8,
+      "costPower": 0.5,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 132205,
+      "minAck": 8,
+      "maxAck": 9,
+      "costPower": 0.5,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 132206,
+      "minAck": 9,
+      "maxAck": 10,
+      "costPower": 0.5,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 132301,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132302,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132303,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132304,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132305,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132306,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132401,
+      "minAck": 6,
+      "maxAck": 10,
+      "costPower": 0,
+      "hitrate": 0.95,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 132402,
+      "minAck": 7,
+      "maxAck": 11,
+      "costPower": 0,
+      "hitrate": 0.95,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 132403,
+      "minAck": 8,
+      "maxAck": 12,
+      "costPower": 0,
+      "hitrate": 0.95,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 132404,
+      "minAck": 9,
+      "maxAck": 13,
+      "costPower": 0,
+      "hitrate": 0.95,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 132405,
+      "minAck": 10,
+      "maxAck": 14,
+      "costPower": 0,
+      "hitrate": 0.95,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 132406,
+      "minAck": 11,
+      "maxAck": 15,
+      "costPower": 0,
+      "hitrate": 0.95,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 132501,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132502,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132503,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132504,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132505,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132506,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132601,
+      "minAck": 2,
+      "maxAck": 3,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 132602,
+      "minAck": 3,
+      "maxAck": 4,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 132603,
+      "minAck": 4,
+      "maxAck": 5,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 132604,
+      "minAck": 5,
+      "maxAck": 6,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 132605,
+      "minAck": 6,
+      "maxAck": 7,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 132606,
+      "minAck": 7,
+      "maxAck": 8,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 132701,
+      "minAck": 6,
+      "maxAck": 8,
+      "costPower": 1,
+      "hitrate": 0.8,
+      "coolingTime": 1.8
+    },
+    {
+      "id": 132702,
+      "minAck": 7,
+      "maxAck": 9,
+      "costPower": 1,
+      "hitrate": 0.8,
+      "coolingTime": 1.8
+    },
+    {
+      "id": 132703,
+      "minAck": 8,
+      "maxAck": 10,
+      "costPower": 1,
+      "hitrate": 0.8,
+      "coolingTime": 1.8
+    },
+    {
+      "id": 132704,
+      "minAck": 9,
+      "maxAck": 11,
+      "costPower": 1,
+      "hitrate": 0.8,
+      "coolingTime": 1.8
+    },
+    {
+      "id": 132705,
+      "minAck": 10,
+      "maxAck": 12,
+      "costPower": 1,
+      "hitrate": 0.8,
+      "coolingTime": 1.8
+    },
+    {
+      "id": 132706,
+      "minAck": 11,
+      "maxAck": 13,
+      "costPower": 1,
+      "hitrate": 0.8,
+      "coolingTime": 1.8
+    },
+    {
+      "id": 132801,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132802,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132803,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132804,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132805,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132806,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132901,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132902,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132903,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132904,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132905,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 132906,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 138101,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 138102,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 138103,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 138104,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 138105,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 138106,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 138201,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 138202,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 138203,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 138204,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 138205,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 138206,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 138301,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 138302,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 138303,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 138304,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 138305,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 138306,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 138401,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 138402,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 138403,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 138404,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 138405,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 138406,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140101,
+      "minAck": 8,
+      "maxAck": 10,
+      "costPower": 1.5,
+      "hitrate": 0.9,
+      "coolingTime": 1.8
+    },
+    {
+      "id": 140102,
+      "minAck": 9,
+      "maxAck": 11,
+      "costPower": 1.5,
+      "hitrate": 0.9,
+      "coolingTime": 1.8
+    },
+    {
+      "id": 140103,
+      "minAck": 10,
+      "maxAck": 12,
+      "costPower": 1.5,
+      "hitrate": 0.9,
+      "coolingTime": 1.8
+    },
+    {
+      "id": 140104,
+      "minAck": 11,
+      "maxAck": 13,
+      "costPower": 1.5,
+      "hitrate": 0.9,
+      "coolingTime": 1.8
+    },
+    {
+      "id": 140105,
+      "minAck": 12,
+      "maxAck": 14,
+      "costPower": 1.5,
+      "hitrate": 0.9,
+      "coolingTime": 1.8
+    },
+    {
+      "id": 140106,
+      "minAck": 13,
+      "maxAck": 15,
+      "costPower": 1.5,
+      "hitrate": 0.9,
+      "coolingTime": 1.8
+    },
+    {
+      "id": 140201,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140202,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140203,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140204,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140205,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140206,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140301,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140302,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140303,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140304,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140305,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140306,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140401,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140402,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140403,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140404,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140405,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140406,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140501,
+      "minAck": 5,
+      "maxAck": 7,
+      "costPower": 0,
+      "hitrate": 0.95,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 140502,
+      "minAck": 6,
+      "maxAck": 8,
+      "costPower": 0,
+      "hitrate": 0.95,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 140503,
+      "minAck": 7,
+      "maxAck": 9,
+      "costPower": 0,
+      "hitrate": 0.95,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 140504,
+      "minAck": 8,
+      "maxAck": 10,
+      "costPower": 0,
+      "hitrate": 0.95,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 140505,
+      "minAck": 9,
+      "maxAck": 11,
+      "costPower": 0,
+      "hitrate": 0.95,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 140506,
+      "minAck": 10,
+      "maxAck": 12,
+      "costPower": 0,
+      "hitrate": 0.95,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 140601,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140602,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140603,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140604,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140605,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140606,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140701,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140702,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140703,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140704,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140705,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140706,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140801,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140802,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140803,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140804,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140805,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140806,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140901,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140902,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140903,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140904,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140905,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 140906,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141001,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141002,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141003,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141004,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141005,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141006,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141101,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141102,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141103,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141104,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141105,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141106,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141201,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141202,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141203,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141204,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141205,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141206,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141301,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141302,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141303,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141304,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141305,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141306,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141401,
+      "minAck": 9,
+      "maxAck": 12,
+      "costPower": 1.5,
+      "hitrate": 0.85,
+      "coolingTime": 3
+    },
+    {
+      "id": 141402,
+      "minAck": 10,
+      "maxAck": 13,
+      "costPower": 1.5,
+      "hitrate": 0.85,
+      "coolingTime": 3
+    },
+    {
+      "id": 141403,
+      "minAck": 11,
+      "maxAck": 14,
+      "costPower": 1.5,
+      "hitrate": 0.85,
+      "coolingTime": 3
+    },
+    {
+      "id": 141404,
+      "minAck": 12,
+      "maxAck": 15,
+      "costPower": 1.5,
+      "hitrate": 0.85,
+      "coolingTime": 3
+    },
+    {
+      "id": 141405,
+      "minAck": 13,
+      "maxAck": 16,
+      "costPower": 1.5,
+      "hitrate": 0.85,
+      "coolingTime": 3
+    },
+    {
+      "id": 141406,
+      "minAck": 14,
+      "maxAck": 17,
+      "costPower": 1.5,
+      "hitrate": 0.85,
+      "coolingTime": 3
+    },
+    {
+      "id": 141501,
+      "minAck": 6,
+      "maxAck": 9,
+      "costPower": 1.5,
+      "hitrate": 0.85,
+      "coolingTime": 3
+    },
+    {
+      "id": 141502,
+      "minAck": 7,
+      "maxAck": 10,
+      "costPower": 1.5,
+      "hitrate": 0.85,
+      "coolingTime": 3
+    },
+    {
+      "id": 141503,
+      "minAck": 8,
+      "maxAck": 11,
+      "costPower": 1.5,
+      "hitrate": 0.85,
+      "coolingTime": 3
+    },
+    {
+      "id": 141504,
+      "minAck": 9,
+      "maxAck": 12,
+      "costPower": 1.5,
+      "hitrate": 0.85,
+      "coolingTime": 3
+    },
+    {
+      "id": 141505,
+      "minAck": 10,
+      "maxAck": 13,
+      "costPower": 1.5,
+      "hitrate": 0.85,
+      "coolingTime": 3
+    },
+    {
+      "id": 141506,
+      "minAck": 11,
+      "maxAck": 14,
+      "costPower": 1.5,
+      "hitrate": 0.85,
+      "coolingTime": 3
+    },
+    {
+      "id": 141601,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141602,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141603,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141604,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141605,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141606,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141701,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141702,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141703,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141704,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141705,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141706,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141801,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141802,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141803,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141804,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141805,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141806,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141901,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141902,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141903,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141904,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141905,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 141906,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142001,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142002,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142003,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142004,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142005,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142006,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142101,
+      "minAck": 9,
+      "maxAck": 11,
+      "costPower": 0.7,
+      "hitrate": 0.9,
+      "coolingTime": 2
+    },
+    {
+      "id": 142102,
+      "minAck": 10,
+      "maxAck": 12,
+      "costPower": 0.7,
+      "hitrate": 0.9,
+      "coolingTime": 2
+    },
+    {
+      "id": 142103,
+      "minAck": 11,
+      "maxAck": 13,
+      "costPower": 0.7,
+      "hitrate": 0.9,
+      "coolingTime": 2
+    },
+    {
+      "id": 142104,
+      "minAck": 12,
+      "maxAck": 14,
+      "costPower": 0.7,
+      "hitrate": 0.9,
+      "coolingTime": 2
+    },
+    {
+      "id": 142105,
+      "minAck": 13,
+      "maxAck": 15,
+      "costPower": 0.7,
+      "hitrate": 0.9,
+      "coolingTime": 2
+    },
+    {
+      "id": 142106,
+      "minAck": 14,
+      "maxAck": 16,
+      "costPower": 0.7,
+      "hitrate": 0.9,
+      "coolingTime": 2
+    },
+    {
+      "id": 142201,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142202,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142203,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142204,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142205,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142206,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142301,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142302,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142303,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142304,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142305,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142306,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142401,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142402,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142403,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142404,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142405,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142406,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142501,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142502,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142503,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142504,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142505,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142506,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 142601,
+      "minAck": 6,
+      "maxAck": 10,
+      "costPower": 1.5,
+      "hitrate": 0.9,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 142602,
+      "minAck": 7,
+      "maxAck": 11,
+      "costPower": 1.5,
+      "hitrate": 0.9,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 142603,
+      "minAck": 8,
+      "maxAck": 12,
+      "costPower": 1.5,
+      "hitrate": 0.9,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 142604,
+      "minAck": 9,
+      "maxAck": 13,
+      "costPower": 1.5,
+      "hitrate": 0.9,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 142605,
+      "minAck": 10,
+      "maxAck": 14,
+      "costPower": 1.5,
+      "hitrate": 0.9,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 142606,
+      "minAck": 11,
+      "maxAck": 15,
+      "costPower": 1.5,
+      "hitrate": 0.9,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 142701,
+      "minAck": 15,
+      "maxAck": 20,
+      "costPower": 0,
+      "hitrate": 0.85,
+      "coolingTime": 2.5
+    },
+    {
+      "id": 142702,
+      "minAck": 16,
+      "maxAck": 21,
+      "costPower": 0,
+      "hitrate": 0.85,
+      "coolingTime": 2.5
+    },
+    {
+      "id": 142703,
+      "minAck": 17,
+      "maxAck": 22,
+      "costPower": 0,
+      "hitrate": 0.85,
+      "coolingTime": 2.5
+    },
+    {
+      "id": 142704,
+      "minAck": 18,
+      "maxAck": 23,
+      "costPower": 0,
+      "hitrate": 0.85,
+      "coolingTime": 2.5
+    },
+    {
+      "id": 142705,
+      "minAck": 19,
+      "maxAck": 24,
+      "costPower": 0,
+      "hitrate": 0.85,
+      "coolingTime": 2.5
+    },
+    {
+      "id": 142706,
+      "minAck": 20,
+      "maxAck": 25,
+      "costPower": 0,
+      "hitrate": 0.85,
+      "coolingTime": 2.5
+    },
+    {
+      "id": 142801,
+      "minAck": 4,
+      "maxAck": 7,
+      "costPower": 0,
+      "hitrate": 0.95,
+      "coolingTime": 3
+    },
+    {
+      "id": 142802,
+      "minAck": 5,
+      "maxAck": 8,
+      "costPower": 0,
+      "hitrate": 0.95,
+      "coolingTime": 3
+    },
+    {
+      "id": 142803,
+      "minAck": 6,
+      "maxAck": 9,
+      "costPower": 0,
+      "hitrate": 0.95,
+      "coolingTime": 3
+    },
+    {
+      "id": 142804,
+      "minAck": 7,
+      "maxAck": 10,
+      "costPower": 0,
+      "hitrate": 0.95,
+      "coolingTime": 3
+    },
+    {
+      "id": 142805,
+      "minAck": 8,
+      "maxAck": 11,
+      "costPower": 0,
+      "hitrate": 0.95,
+      "coolingTime": 3
+    },
+    {
+      "id": 142806,
+      "minAck": 9,
+      "maxAck": 12,
+      "costPower": 0,
+      "hitrate": 0.95,
+      "coolingTime": 3
+    },
+    {
+      "id": 142901,
+      "minAck": 5,
+      "maxAck": 7,
+      "costPower": 0.5,
+      "hitrate": 2,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 142902,
+      "minAck": 6,
+      "maxAck": 8,
+      "costPower": 0.5,
+      "hitrate": 2,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 142903,
+      "minAck": 7,
+      "maxAck": 9,
+      "costPower": 0.5,
+      "hitrate": 2,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 142904,
+      "minAck": 8,
+      "maxAck": 10,
+      "costPower": 0.5,
+      "hitrate": 2,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 142905,
+      "minAck": 9,
+      "maxAck": 11,
+      "costPower": 0.5,
+      "hitrate": 2,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 142906,
+      "minAck": 10,
+      "maxAck": 12,
+      "costPower": 0.5,
+      "hitrate": 2,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 143001,
+      "minAck": 10,
+      "maxAck": 12,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 143002,
+      "minAck": 11,
+      "maxAck": 13,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 143003,
+      "minAck": 12,
+      "maxAck": 14,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 143004,
+      "minAck": 13,
+      "maxAck": 15,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 143005,
+      "minAck": 14,
+      "maxAck": 16,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 143006,
+      "minAck": 15,
+      "maxAck": 17,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 143101,
+      "minAck": 5,
+      "maxAck": 6,
+      "costPower": 1,
+      "hitrate": 1,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 143102,
+      "minAck": 6,
+      "maxAck": 7,
+      "costPower": 1,
+      "hitrate": 1,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 143103,
+      "minAck": 7,
+      "maxAck": 8,
+      "costPower": 1,
+      "hitrate": 1,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 143104,
+      "minAck": 8,
+      "maxAck": 9,
+      "costPower": 1,
+      "hitrate": 1,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 143105,
+      "minAck": 9,
+      "maxAck": 10,
+      "costPower": 1,
+      "hitrate": 1,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 143106,
+      "minAck": 10,
+      "maxAck": 11,
+      "costPower": 1,
+      "hitrate": 1,
+      "coolingTime": 1.7
+    },
+    {
+      "id": 143201,
+      "minAck": 5,
+      "maxAck": 7,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 143202,
+      "minAck": 6,
+      "maxAck": 8,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 143203,
+      "minAck": 7,
+      "maxAck": 9,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 143204,
+      "minAck": 8,
+      "maxAck": 10,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 143205,
+      "minAck": 9,
+      "maxAck": 11,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 143206,
+      "minAck": 10,
+      "maxAck": 12,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 143301,
+      "minAck": 4,
+      "maxAck": 9,
+      "costPower": 2.1,
+      "hitrate": 0.85,
+      "coolingTime": 2.4
+    },
+    {
+      "id": 143302,
+      "minAck": 5,
+      "maxAck": 10,
+      "costPower": 2.1,
+      "hitrate": 0.85,
+      "coolingTime": 2.4
+    },
+    {
+      "id": 143303,
+      "minAck": 6,
+      "maxAck": 11,
+      "costPower": 2.1,
+      "hitrate": 0.85,
+      "coolingTime": 2.4
+    },
+    {
+      "id": 143304,
+      "minAck": 7,
+      "maxAck": 12,
+      "costPower": 2.1,
+      "hitrate": 0.85,
+      "coolingTime": 2.4
+    },
+    {
+      "id": 143305,
+      "minAck": 8,
+      "maxAck": 13,
+      "costPower": 2.1,
+      "hitrate": 0.85,
+      "coolingTime": 2.4
+    },
+    {
+      "id": 143306,
+      "minAck": 9,
+      "maxAck": 14,
+      "costPower": 2.1,
+      "hitrate": 0.85,
+      "coolingTime": 2.4
+    },
+    {
+      "id": 143401,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 143402,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 143403,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 143404,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 143405,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 143406,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 143501,
+      "minAck": 8,
+      "maxAck": 10,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.8
+    },
+    {
+      "id": 143502,
+      "minAck": 9,
+      "maxAck": 11,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.8
+    },
+    {
+      "id": 143503,
+      "minAck": 10,
+      "maxAck": 12,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.8
+    },
+    {
+      "id": 143504,
+      "minAck": 11,
+      "maxAck": 13,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.8
+    },
+    {
+      "id": 143505,
+      "minAck": 12,
+      "maxAck": 14,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.8
+    },
+    {
+      "id": 143506,
+      "minAck": 13,
+      "maxAck": 15,
+      "costPower": 1,
+      "hitrate": 0.9,
+      "coolingTime": 1.8
+    },
+    {
+      "id": 143601,
+      "minAck": 8,
+      "maxAck": 9,
+      "costPower": 1.3,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 143602,
+      "minAck": 9,
+      "maxAck": 10,
+      "costPower": 1.3,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 143603,
+      "minAck": 10,
+      "maxAck": 11,
+      "costPower": 1.3,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 143604,
+      "minAck": 11,
+      "maxAck": 12,
+      "costPower": 1.3,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 143605,
+      "minAck": 12,
+      "maxAck": 13,
+      "costPower": 1.3,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 143606,
+      "minAck": 13,
+      "maxAck": 14,
+      "costPower": 1.3,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 143701,
+      "minAck": 3,
+      "maxAck": 6,
+      "costPower": 1,
+      "hitrate": 2,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 143702,
+      "minAck": 4,
+      "maxAck": 7,
+      "costPower": 1,
+      "hitrate": 2,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 143703,
+      "minAck": 5,
+      "maxAck": 8,
+      "costPower": 1,
+      "hitrate": 2,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 143704,
+      "minAck": 6,
+      "maxAck": 9,
+      "costPower": 1,
+      "hitrate": 2,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 143705,
+      "minAck": 7,
+      "maxAck": 10,
+      "costPower": 1,
+      "hitrate": 2,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 143706,
+      "minAck": 8,
+      "maxAck": 11,
+      "costPower": 1,
+      "hitrate": 2,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 143801,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 143802,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 143803,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 143804,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 143805,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 143806,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 143901,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 143902,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 143903,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 143904,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 143905,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 143906,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 144001,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 144002,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 144003,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 144004,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 144005,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 144006,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 148101,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 148102,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 148103,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 148104,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 148105,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 148106,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 148201,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 148202,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 148203,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 148204,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 148205,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 148206,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 148301,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 148302,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 148303,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 148304,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 148305,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 148306,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 148401,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 148402,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 148403,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 148404,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 148405,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 148406,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 150101,
+      "minAck": 6,
+      "maxAck": 10,
+      "costPower": 1.2,
+      "hitrate": 0.95,
+      "coolingTime": 1.5
+    },
+    {
+      "id": 150102,
+      "minAck": 7,
+      "maxAck": 11,
+      "costPower": 1.2,
+      "hitrate": 0.95,
+      "coolingTime": 1.5
+    },
+    {
+      "id": 150103,
+      "minAck": 8,
+      "maxAck": 12,
+      "costPower": 1.2,
+      "hitrate": 0.95,
+      "coolingTime": 1.5
+    },
+    {
+      "id": 150104,
+      "minAck": 9,
+      "maxAck": 13,
+      "costPower": 1.2,
+      "hitrate": 0.95,
+      "coolingTime": 1.5
+    },
+    {
+      "id": 150105,
+      "minAck": 10,
+      "maxAck": 14,
+      "costPower": 1.2,
+      "hitrate": 0.95,
+      "coolingTime": 1.5
+    },
+    {
+      "id": 150106,
+      "minAck": 11,
+      "maxAck": 15,
+      "costPower": 1.2,
+      "hitrate": 0.95,
+      "coolingTime": 1.5
+    },
+    {
+      "id": 150201,
+      "minAck": 10,
+      "maxAck": 16,
+      "costPower": 0.8,
+      "hitrate": 0.6,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 150202,
+      "minAck": 11,
+      "maxAck": 17,
+      "costPower": 0.8,
+      "hitrate": 0.6,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 150203,
+      "minAck": 12,
+      "maxAck": 18,
+      "costPower": 0.8,
+      "hitrate": 0.6,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 150204,
+      "minAck": 13,
+      "maxAck": 19,
+      "costPower": 0.8,
+      "hitrate": 0.6,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 150205,
+      "minAck": 14,
+      "maxAck": 20,
+      "costPower": 0.8,
+      "hitrate": 0.6,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 150206,
+      "minAck": 15,
+      "maxAck": 21,
+      "costPower": 0.8,
+      "hitrate": 0.6,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 150301,
+      "minAck": 40,
+      "maxAck": 50,
+      "costPower": 5,
+      "hitrate": 0.9,
+      "coolingTime": 5
+    },
+    {
+      "id": 150302,
+      "minAck": 44,
+      "maxAck": 55,
+      "costPower": 5,
+      "hitrate": 0.9,
+      "coolingTime": 5
+    },
+    {
+      "id": 150303,
+      "minAck": 48,
+      "maxAck": 60,
+      "costPower": 5,
+      "hitrate": 0.9,
+      "coolingTime": 5
+    },
+    {
+      "id": 150304,
+      "minAck": 52,
+      "maxAck": 65,
+      "costPower": 5,
+      "hitrate": 0.9,
+      "coolingTime": 5
+    },
+    {
+      "id": 150305,
+      "minAck": 56,
+      "maxAck": 70,
+      "costPower": 5,
+      "hitrate": 0.9,
+      "coolingTime": 5
+    },
+    {
+      "id": 150306,
+      "minAck": 60,
+      "maxAck": 75,
+      "costPower": 5,
+      "hitrate": 0.9,
+      "coolingTime": 5
+    },
+    {
+      "id": 150401,
+      "minAck": 9,
+      "maxAck": 12,
+      "costPower": 1,
+      "hitrate": 1,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 150402,
+      "minAck": 10,
+      "maxAck": 13,
+      "costPower": 1,
+      "hitrate": 1,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 150403,
+      "minAck": 11,
+      "maxAck": 14,
+      "costPower": 1,
+      "hitrate": 1,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 150404,
+      "minAck": 12,
+      "maxAck": 15,
+      "costPower": 1,
+      "hitrate": 1,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 150405,
+      "minAck": 13,
+      "maxAck": 16,
+      "costPower": 1,
+      "hitrate": 1,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 150406,
+      "minAck": 14,
+      "maxAck": 17,
+      "costPower": 1,
+      "hitrate": 1,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 150501,
+      "minAck": 10,
+      "maxAck": 12,
+      "costPower": 1.6,
+      "hitrate": 0.88,
+      "coolingTime": 2.4
+    },
+    {
+      "id": 150502,
+      "minAck": 11,
+      "maxAck": 13,
+      "costPower": 1.6,
+      "hitrate": 0.88,
+      "coolingTime": 2.4
+    },
+    {
+      "id": 150503,
+      "minAck": 12,
+      "maxAck": 14,
+      "costPower": 1.6,
+      "hitrate": 0.88,
+      "coolingTime": 2.4
+    },
+    {
+      "id": 150504,
+      "minAck": 13,
+      "maxAck": 15,
+      "costPower": 1.6,
+      "hitrate": 0.88,
+      "coolingTime": 2.4
+    },
+    {
+      "id": 150505,
+      "minAck": 14,
+      "maxAck": 16,
+      "costPower": 1.6,
+      "hitrate": 0.88,
+      "coolingTime": 2.4
+    },
+    {
+      "id": 150506,
+      "minAck": 15,
+      "maxAck": 17,
+      "costPower": 1.6,
+      "hitrate": 0.88,
+      "coolingTime": 2.4
+    },
+    {
+      "id": 150601,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 150602,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 150603,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 150604,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 150605,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 150606,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 150701,
+      "minAck": 11,
+      "maxAck": 16,
+      "costPower": 0,
+      "hitrate": 0.9,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 150702,
+      "minAck": 12,
+      "maxAck": 17,
+      "costPower": 0,
+      "hitrate": 0.9,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 150703,
+      "minAck": 13,
+      "maxAck": 18,
+      "costPower": 0,
+      "hitrate": 0.9,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 150704,
+      "minAck": 14,
+      "maxAck": 19,
+      "costPower": 0,
+      "hitrate": 0.9,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 150705,
+      "minAck": 15,
+      "maxAck": 20,
+      "costPower": 0,
+      "hitrate": 0.9,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 150706,
+      "minAck": 16,
+      "maxAck": 21,
+      "costPower": 0,
+      "hitrate": 0.9,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 150801,
+      "minAck": 5,
+      "maxAck": 10,
+      "costPower": 0,
+      "hitrate": 0.9,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 150802,
+      "minAck": 6,
+      "maxAck": 11,
+      "costPower": 0,
+      "hitrate": 0.9,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 150803,
+      "minAck": 7,
+      "maxAck": 12,
+      "costPower": 0,
+      "hitrate": 0.9,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 150804,
+      "minAck": 8,
+      "maxAck": 13,
+      "costPower": 0,
+      "hitrate": 0.9,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 150805,
+      "minAck": 9,
+      "maxAck": 14,
+      "costPower": 0,
+      "hitrate": 0.9,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 150806,
+      "minAck": 10,
+      "maxAck": 15,
+      "costPower": 0,
+      "hitrate": 0.9,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 150901,
+      "minAck": 5,
+      "maxAck": 10,
+      "costPower": 0,
+      "hitrate": 0.9,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 150902,
+      "minAck": 6,
+      "maxAck": 11,
+      "costPower": 0,
+      "hitrate": 0.9,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 150903,
+      "minAck": 7,
+      "maxAck": 12,
+      "costPower": 0,
+      "hitrate": 0.9,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 150904,
+      "minAck": 8,
+      "maxAck": 13,
+      "costPower": 0,
+      "hitrate": 0.9,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 150905,
+      "minAck": 9,
+      "maxAck": 14,
+      "costPower": 0,
+      "hitrate": 0.9,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 150906,
+      "minAck": 10,
+      "maxAck": 15,
+      "costPower": 0,
+      "hitrate": 0.9,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 151001,
+      "minAck": 5,
+      "maxAck": 10,
+      "costPower": 0,
+      "hitrate": 0.9,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 151002,
+      "minAck": 6,
+      "maxAck": 11,
+      "costPower": 0,
+      "hitrate": 0.9,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 151003,
+      "minAck": 7,
+      "maxAck": 12,
+      "costPower": 0,
+      "hitrate": 0.9,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 151004,
+      "minAck": 8,
+      "maxAck": 13,
+      "costPower": 0,
+      "hitrate": 0.9,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 151005,
+      "minAck": 9,
+      "maxAck": 14,
+      "costPower": 0,
+      "hitrate": 0.9,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 151006,
+      "minAck": 10,
+      "maxAck": 15,
+      "costPower": 0,
+      "hitrate": 0.9,
+      "coolingTime": 2.2
+    },
+    {
+      "id": 151101,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151102,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151103,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151104,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151105,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151106,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151201,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151202,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151203,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151204,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151205,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151206,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151301,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151302,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151303,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151304,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151305,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151306,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151401,
+      "minAck": 7,
+      "maxAck": 9,
+      "costPower": 0,
+      "hitrate": 0.95,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 151402,
+      "minAck": 8,
+      "maxAck": 10,
+      "costPower": 0,
+      "hitrate": 0.95,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 151403,
+      "minAck": 9,
+      "maxAck": 11,
+      "costPower": 0,
+      "hitrate": 0.95,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 151404,
+      "minAck": 10,
+      "maxAck": 12,
+      "costPower": 0,
+      "hitrate": 0.95,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 151405,
+      "minAck": 11,
+      "maxAck": 13,
+      "costPower": 0,
+      "hitrate": 0.95,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 151406,
+      "minAck": 12,
+      "maxAck": 14,
+      "costPower": 0,
+      "hitrate": 0.95,
+      "coolingTime": 3.5
+    },
+    {
+      "id": 151501,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151502,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151503,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151504,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151505,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151506,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151601,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151602,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151603,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151604,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151605,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151606,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151701,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151702,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151703,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151704,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151705,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151706,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151801,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151802,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151803,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151804,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151805,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151806,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151901,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151902,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151903,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151904,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151905,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 151906,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152001,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152002,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152003,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152004,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152005,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152006,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152101,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152102,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152103,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152104,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152105,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152106,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152201,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152202,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152203,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152204,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152205,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152206,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152301,
+      "minAck": 5,
+      "maxAck": 12,
+      "costPower": 1,
+      "hitrate": 1,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 152302,
+      "minAck": 6,
+      "maxAck": 13,
+      "costPower": 1,
+      "hitrate": 1,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 152303,
+      "minAck": 7,
+      "maxAck": 14,
+      "costPower": 1,
+      "hitrate": 1,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 152304,
+      "minAck": 8,
+      "maxAck": 15,
+      "costPower": 1,
+      "hitrate": 1,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 152305,
+      "minAck": 9,
+      "maxAck": 16,
+      "costPower": 1,
+      "hitrate": 1,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 152306,
+      "minAck": 10,
+      "maxAck": 17,
+      "costPower": 1,
+      "hitrate": 1,
+      "coolingTime": 1.4
+    },
+    {
+      "id": 152401,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152402,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152403,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152404,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152405,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152406,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152501,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152502,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152503,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152504,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152505,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152506,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152601,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152602,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152603,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152604,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152605,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152606,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152701,
+      "minAck": 4,
+      "maxAck": 8,
+      "costPower": 1.6,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 152702,
+      "minAck": 5,
+      "maxAck": 9,
+      "costPower": 1.6,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 152703,
+      "minAck": 6,
+      "maxAck": 10,
+      "costPower": 1.6,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 152704,
+      "minAck": 7,
+      "maxAck": 11,
+      "costPower": 1.6,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 152705,
+      "minAck": 8,
+      "maxAck": 12,
+      "costPower": 1.6,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 152706,
+      "minAck": 9,
+      "maxAck": 13,
+      "costPower": 1.6,
+      "hitrate": 0.9,
+      "coolingTime": 1.6
+    },
+    {
+      "id": 152801,
+      "minAck": 7,
+      "maxAck": 12,
+      "costPower": 1.4,
+      "hitrate": 0.95,
+      "coolingTime": 1.5
+    },
+    {
+      "id": 152802,
+      "minAck": 8,
+      "maxAck": 13,
+      "costPower": 1.4,
+      "hitrate": 0.95,
+      "coolingTime": 1.5
+    },
+    {
+      "id": 152803,
+      "minAck": 9,
+      "maxAck": 14,
+      "costPower": 1.4,
+      "hitrate": 0.95,
+      "coolingTime": 1.5
+    },
+    {
+      "id": 152804,
+      "minAck": 10,
+      "maxAck": 15,
+      "costPower": 1.4,
+      "hitrate": 0.95,
+      "coolingTime": 1.5
+    },
+    {
+      "id": 152805,
+      "minAck": 11,
+      "maxAck": 16,
+      "costPower": 1.4,
+      "hitrate": 0.95,
+      "coolingTime": 1.5
+    },
+    {
+      "id": 152806,
+      "minAck": 12,
+      "maxAck": 17,
+      "costPower": 1.4,
+      "hitrate": 0.95,
+      "coolingTime": 1.5
+    },
+    {
+      "id": 152901,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152902,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152903,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152904,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152905,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 152906,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 153001,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 153002,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 153003,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 153004,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 153005,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 153006,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 158101,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 158102,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 158103,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 158104,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 158105,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 158106,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 158201,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 158202,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 158203,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 158204,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 158205,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 158206,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 158301,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 158302,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 158303,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 158304,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 158305,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 158306,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 158401,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 158402,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 158403,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 158404,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 158405,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 158406,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190101,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190102,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190103,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190104,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190105,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190106,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190201,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190202,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190203,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190204,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190205,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190206,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190301,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190302,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190303,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190304,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190305,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190306,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190401,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190402,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190403,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190404,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190405,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190406,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190501,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190502,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190503,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190504,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190505,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190506,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190601,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190602,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190603,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190604,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190605,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190606,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190701,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190702,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190703,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190704,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190705,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190706,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190801,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190802,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190803,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190804,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190805,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 190806,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 191001,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 191002,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 191003,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 191004,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 191005,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 191006,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 191101,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 191102,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 191103,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 191104,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 191105,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 191106,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 191201,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 191202,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 191203,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 191204,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 191205,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 191206,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 191301,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 191302,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 191303,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 191304,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 191305,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 191306,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 191401,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 191402,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 191403,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 191404,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 191405,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    },
+    {
+      "id": 191406,
+      "minAck": 0,
+      "maxAck": 0,
+      "costPower": 0,
+      "hitrate": 0,
+      "coolingTime": 0
+    }
+  ]
+}

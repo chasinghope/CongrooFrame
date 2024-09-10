@@ -1,0 +1,641 @@
+{
+  "data_list": [
+    {
+      "id": 100,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 512,
+      "skillId": 100
+    },
+    {
+      "id": 101,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 16,
+      "skillId": 101
+    },
+    {
+      "id": 102,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 4098,
+      "skillId": 102
+    },
+    {
+      "id": 103,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 4096,
+      "skillId": 103
+    },
+    {
+      "id": 104,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 2048,
+      "skillId": 104
+    },
+    {
+      "id": 105,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 8192,
+      "skillId": 105
+    },
+    {
+      "id": 106,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 36,
+      "skillId": 106
+    },
+    {
+      "id": 107,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 4098,
+      "skillId": 107
+    },
+    {
+      "id": 108,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 4098,
+      "skillId": 108
+    },
+    {
+      "id": 109,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 8208,
+      "skillId": 109
+    },
+    {
+      "id": 110,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 4098,
+      "skillId": 110
+    },
+    {
+      "id": 111,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 1,
+      "skillId": 111
+    },
+    {
+      "id": 112,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 4128,
+      "skillId": 112
+    },
+    {
+      "id": 113,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 256,
+      "skillId": 113
+    },
+    {
+      "id": 114,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 1024,
+      "skillId": 114
+    },
+    {
+      "id": 115,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 1024,
+      "skillId": 115
+    },
+    {
+      "id": 116,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 512,
+      "skillId": 116
+    },
+    {
+      "id": 117,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 8208,
+      "skillId": 117
+    },
+    {
+      "id": 118,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 8208,
+      "skillId": 118
+    },
+    {
+      "id": 119,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 8,
+      "skillId": 119
+    },
+    {
+      "id": 120,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 16384,
+      "skillId": 120
+    },
+    {
+      "id": 121,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 8208,
+      "skillId": 121
+    },
+    {
+      "id": 122,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 512,
+      "skillId": 122
+    },
+    {
+      "id": 123,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 8192,
+      "skillId": 123
+    },
+    {
+      "id": 124,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 512,
+      "skillId": 124
+    },
+    {
+      "id": 125,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 1024,
+      "skillId": 125
+    },
+    {
+      "id": 126,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 1024,
+      "skillId": 126
+    },
+    {
+      "id": 127,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 4098,
+      "skillId": 127
+    },
+    {
+      "id": 128,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 32768,
+      "skillId": 128
+    },
+    {
+      "id": 129,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 64,
+      "skillId": 129
+    },
+    {
+      "id": 130,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 32,
+      "skillId": 130
+    },
+    {
+      "id": 131,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 32,
+      "skillId": 131
+    },
+    {
+      "id": 132,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 32,
+      "skillId": 132
+    },
+    {
+      "id": 133,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 8208,
+      "skillId": 133
+    },
+    {
+      "id": 134,
+      "skillKind": 1,
+      "target": false,
+      "conditions": 8208,
+      "skillId": 134
+    },
+    {
+      "id": 135,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 8208,
+      "skillId": 135
+    },
+    {
+      "id": 136,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 1024,
+      "skillId": 136
+    },
+    {
+      "id": 137,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 1024,
+      "skillId": 137
+    },
+    {
+      "id": 138,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 1024,
+      "skillId": 138
+    },
+    {
+      "id": 139,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 1024,
+      "skillId": 139
+    },
+    {
+      "id": 140,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 4098,
+      "skillId": 140
+    },
+    {
+      "id": 141,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 512,
+      "skillId": 141
+    },
+    {
+      "id": 142,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 512,
+      "skillId": 142
+    },
+    {
+      "id": 143,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 512,
+      "skillId": 143
+    },
+    {
+      "id": 144,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 4096,
+      "skillId": 144
+    },
+    {
+      "id": 145,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 8192,
+      "skillId": 145
+    },
+    {
+      "id": 146,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 65536,
+      "skillId": 146
+    },
+    {
+      "id": 147,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 512,
+      "skillId": 147
+    },
+    {
+      "id": 148,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 8192,
+      "skillId": 148
+    },
+    {
+      "id": 149,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 512,
+      "skillId": 149
+    },
+    {
+      "id": 150,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 4096,
+      "skillId": 150
+    },
+    {
+      "id": 151,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 512,
+      "skillId": 151
+    },
+    {
+      "id": 152,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 1024,
+      "skillId": 152
+    },
+    {
+      "id": 153,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 4098,
+      "skillId": 153
+    },
+    {
+      "id": 154,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 512,
+      "skillId": 154
+    },
+    {
+      "id": 155,
+      "skillKind": 1,
+      "target": false,
+      "conditions": 8192,
+      "skillId": 155
+    },
+    {
+      "id": 156,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 8208,
+      "skillId": 156
+    },
+    {
+      "id": 157,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 8208,
+      "skillId": 157
+    },
+    {
+      "id": 158,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 128,
+      "skillId": 158
+    },
+    {
+      "id": 159,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 4128,
+      "skillId": 159
+    },
+    {
+      "id": 160,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 32,
+      "skillId": 160
+    },
+    {
+      "id": 161,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 32,
+      "skillId": 161
+    },
+    {
+      "id": 162,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 32,
+      "skillId": 162
+    },
+    {
+      "id": 163,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 64,
+      "skillId": 163
+    },
+    {
+      "id": 164,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 131072,
+      "skillId": 164
+    },
+    {
+      "id": 165,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 32768,
+      "skillId": 165
+    },
+    {
+      "id": 166,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 256,
+      "skillId": 166
+    },
+    {
+      "id": 167,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 32768,
+      "skillId": 167
+    },
+    {
+      "id": 168,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 65,
+      "skillId": 168
+    },
+    {
+      "id": 169,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 8,
+      "skillId": 169
+    },
+    {
+      "id": 170,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 512,
+      "skillId": 170
+    },
+    {
+      "id": 171,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 8192,
+      "skillId": 171
+    },
+    {
+      "id": 172,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 512,
+      "skillId": 172
+    },
+    {
+      "id": 173,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 512,
+      "skillId": 173
+    },
+    {
+      "id": 174,
+      "skillKind": 1,
+      "target": false,
+      "conditions": 32,
+      "skillId": 174
+    },
+    {
+      "id": 175,
+      "skillKind": 0,
+      "target": true,
+      "conditions": 4096,
+      "skillId": 175
+    },
+    {
+      "id": 176,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 64,
+      "skillId": 176
+    },
+    {
+      "id": 177,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 32,
+      "skillId": 177
+    },
+    {
+      "id": 178,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 4096,
+      "skillId": 178
+    },
+    {
+      "id": 179,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 512,
+      "skillId": 179
+    },
+    {
+      "id": 180,
+      "skillKind": 1,
+      "target": false,
+      "conditions": 8192,
+      "skillId": 180
+    },
+    {
+      "id": 191,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 256,
+      "skillId": 191
+    },
+    {
+      "id": 192,
+      "skillKind": 1,
+      "target": false,
+      "conditions": 128,
+      "skillId": 192
+    },
+    {
+      "id": 201,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 8192,
+      "skillId": 201
+    },
+    {
+      "id": 202,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 8192,
+      "skillId": 202
+    },
+    {
+      "id": 203,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 512,
+      "skillId": 203
+    },
+    {
+      "id": 204,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 0,
+      "skillId": 0
+    },
+    {
+      "id": 205,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 8192,
+      "skillId": 205
+    },
+    {
+      "id": 206,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 0,
+      "skillId": 0
+    },
+    {
+      "id": 207,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 1024,
+      "skillId": 207
+    },
+    {
+      "id": 208,
+      "skillKind": 0,
+      "target": false,
+      "conditions": 0,
+      "skillId": 0
+    }
+  ]
+}

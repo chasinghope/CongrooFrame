@@ -1,0 +1,149 @@
+syntax = "proto3";
+
+package cfg;
+
+enum BattlePSkillCondition {
+    BattlePSkillCondition_None = 0;
+    BattlePSkillCondition_EmptyBag = 1;
+    BattlePSkillCondition_ExceptSelf = 2;
+    BattlePSkillCondition_HaveStar = 4;
+    BattlePSkillCondition_Any = 8;
+    BattlePSkillCondition_StartBattle = 16;
+    BattlePSkillCondition_Pets = 32;
+    BattlePSkillCondition_Sacred = 64;
+    BattlePSkillCondition_Darkness = 128;
+    BattlePSkillCondition_Fire = 256;
+    BattlePSkillCondition_Weapons = 512;
+    BattlePSkillCondition_Potions = 1024;
+    BattlePSkillCondition_Stone = 2048;
+    BattlePSkillCondition_Food = 4096;
+    BattlePSkillCondition_Cooldown = 8192;
+    BattlePSkillCondition_RateActive = 16384;
+    BattlePSkillCondition_Armor = 32768;
+    BattlePSkillCondition_LifeSteal = 65536;
+    BattlePSkillCondition_Magic = 131072;
+}
+enum BattleRoleType {
+    BattleRoleType_General = 0;
+    BattleRoleType_Berserker = 1;
+    BattleRoleType_FlameMage = 2;
+    BattleRoleType_Ranger = 3;
+}
+enum BattleItemType {
+    BattleItemType_EMPTY_PLACEHOLDER = 0;
+    BattleItemType_Backpack = 1;
+    BattleItemType_Armor = 2;
+    BattleItemType_Accessory = 4;
+    BattleItemType_Food = 8;
+    BattleItemType_Gemstone = 16;
+    BattleItemType_Gloves = 32;
+    BattleItemType_Helmet = 64;
+    BattleItemType_MeleeWeapon = 128;
+    BattleItemType_Pet = 256;
+    BattleItemType_Card = 512;
+    BattleItemType_Potion = 1024;
+    BattleItemType_RangedWeapon = 2048;
+    BattleItemType_Shield = 4096;
+    BattleItemType_Boots = 8192;
+}
+enum BattleElementType {
+    BattleElementType_None = 0;
+    BattleElementType_Darkness = 1;
+    BattleElementType_Fire = 2;
+    BattleElementType_Holy = 4;
+    BattleElementType_Magic = 8;
+    BattleElementType_Nature = 16;
+    BattleElementType_Vampiric = 32;
+}
+enum BattleItemQuality {
+    BattleItemQuality_Common = 0;
+    BattleItemQuality_Rare = 1;
+    BattleItemQuality_Epic = 2;
+    BattleItemQuality_Legendary = 3;
+    BattleItemQuality_Mythical  = 4;
+    BattleItemQuality_Special = 5;
+}
+enum BattlePSkillKind {
+    BattlePSkillKind_A = 0;
+    BattlePSkillKind_B = 1;
+}
+
+message TestTestExcelBean1 {
+     int32 x1 = 1 ;
+     string x2 = 2 ;
+     int32 x3 = 3 ;
+     float x4 = 4 ;
+}
+message GLConst {
+     int32 PoisonDamage = 1 ;
+     float TestMaxHp = 2 ;
+     float TestMaxPower = 3 ;
+}
+message Item {
+     int32 id = 1 ;
+     string name = 2 ;
+    repeated int32 compositeList = 3 [packed = true];
+     bool isOrigin = 4 ;
+    repeated BattlePSkillCondition placingType = 5 [packed = false];
+    repeated int32 placingIds = 6 [packed = true];
+     BattleRoleType RoleType = 7 ;
+     BattleItemType ItemType = 8 ;
+     BattleElementType ElementType = 9 ;
+     BattleItemQuality ItemQuality = 10 ;
+     string assetPath = 11 ;
+     int32 Price = 12 ;
+}
+message Property {
+     int32 id = 1 ;
+     float minAck = 2 ;
+     float maxAck = 3 ;
+     float costPower = 4 ;
+     float hitrate = 5 ;
+     float coolingTime = 6 ;
+}
+message ItemStar {
+     int32 id = 1 ;
+     int32 itemId = 2 ;
+    repeated int32 skillList = 3 [packed = true];
+     int32 weaponSlotSkill = 4 ;
+     int32 armorSlotSkill = 5 ;
+     int32 bagSlotSkill = 6 ;
+     int32 propertyId = 7 ;
+     string des = 8 ;
+}
+message Rank {
+     int32 rankId = 1 ;
+     string name = 2 ;
+     int32 score = 3 ;
+     int32 baseHp = 4 ;
+     int32 basePower = 5 ;
+    repeated int32 winscorelist = 6 [packed = true];
+}
+message PlacingSkill {
+     int32 id = 1 ;
+     BattlePSkillKind skillKind = 2 ;
+     bool target = 3 ;
+     BattlePSkillCondition conditions = 4 ;
+     int32 skillId = 5 ;
+}
+
+message BattleTBGLConst {
+    repeated GLConst data_list = 1 [packed = false];
+}
+message BattleTBItem {
+    repeated Item data_list = 1 [packed = false];
+}
+message BattleTBProperty {
+    repeated Property data_list = 1 [packed = false];
+}
+message BattleTBItemStar {
+    repeated ItemStar data_list = 1 [packed = false];
+}
+message BattleTBRank {
+    repeated Rank data_list = 1 [packed = false];
+}
+message BattleTBPlacingSkill {
+    repeated PlacingSkill data_list = 1 [packed = false];
+}
+
+

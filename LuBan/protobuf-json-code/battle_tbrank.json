@@ -1,0 +1,454 @@
+{
+  "data_list": [
+    {
+      "rankId": 15,
+      "name": "青铜",
+      "score": 1000,
+      "baseHp": 25,
+      "basePower": 5,
+      "winscorelist": [
+        35,
+        30,
+        25,
+        10,
+        5,
+        0
+      ]
+    },
+    {
+      "rankId": 14,
+      "name": "青铜",
+      "score": 1100,
+      "baseHp": 35,
+      "basePower": 5,
+      "winscorelist": [
+        35,
+        30,
+        25,
+        10,
+        5,
+        0
+      ]
+    },
+    {
+      "rankId": 13,
+      "name": "青铜",
+      "score": 1200,
+      "baseHp": 45,
+      "basePower": 5,
+      "winscorelist": [
+        35,
+        30,
+        25,
+        10,
+        5,
+        0
+      ]
+    },
+    {
+      "rankId": 12,
+      "name": "青铜",
+      "score": 1300,
+      "baseHp": 55,
+      "basePower": 5,
+      "winscorelist": [
+        30,
+        25,
+        20,
+        8,
+        5,
+        0
+      ]
+    },
+    {
+      "rankId": 11,
+      "name": "青铜",
+      "score": 1400,
+      "baseHp": 70,
+      "basePower": 5,
+      "winscorelist": [
+        30,
+        25,
+        20,
+        8,
+        5,
+        0
+      ]
+    },
+    {
+      "rankId": 25,
+      "name": "白银",
+      "score": 1500,
+      "baseHp": 85,
+      "basePower": 6,
+      "winscorelist": [
+        25,
+        20,
+        18,
+        5,
+        2,
+        0
+      ]
+    },
+    {
+      "rankId": 24,
+      "name": "白银",
+      "score": 1600,
+      "baseHp": 110,
+      "basePower": 6,
+      "winscorelist": [
+        25,
+        20,
+        18,
+        5,
+        2,
+        0
+      ]
+    },
+    {
+      "rankId": 23,
+      "name": "白银",
+      "score": 1700,
+      "baseHp": 135,
+      "basePower": 6,
+      "winscorelist": [
+        25,
+        20,
+        18,
+        5,
+        2,
+        0
+      ]
+    },
+    {
+      "rankId": 22,
+      "name": "白银",
+      "score": 1800,
+      "baseHp": 160,
+      "basePower": 6,
+      "winscorelist": [
+        20,
+        19,
+        17,
+        2,
+        0,
+        -2
+      ]
+    },
+    {
+      "rankId": 21,
+      "name": "白银",
+      "score": 1900,
+      "baseHp": 195,
+      "basePower": 6,
+      "winscorelist": [
+        20,
+        19,
+        17,
+        2,
+        0,
+        -2
+      ]
+    },
+    {
+      "rankId": 35,
+      "name": "黄金",
+      "score": 2000,
+      "baseHp": 230,
+      "basePower": 7,
+      "winscorelist": [
+        18,
+        16,
+        15,
+        -5,
+        -8,
+        -10
+      ]
+    },
+    {
+      "rankId": 34,
+      "name": "黄金",
+      "score": 2100,
+      "baseHp": 280,
+      "basePower": 7,
+      "winscorelist": [
+        18,
+        16,
+        15,
+        -5,
+        -8,
+        -10
+      ]
+    },
+    {
+      "rankId": 33,
+      "name": "黄金",
+      "score": 2200,
+      "baseHp": 330,
+      "basePower": 7,
+      "winscorelist": [
+        18,
+        16,
+        15,
+        -5,
+        -8,
+        -10
+      ]
+    },
+    {
+      "rankId": 32,
+      "name": "黄金",
+      "score": 2300,
+      "baseHp": 380,
+      "basePower": 7,
+      "winscorelist": [
+        17,
+        14,
+        13,
+        -6,
+        -8,
+        -11
+      ]
+    },
+    {
+      "rankId": 31,
+      "name": "黄金",
+      "score": 2400,
+      "baseHp": 440,
+      "basePower": 7,
+      "winscorelist": [
+        17,
+        14,
+        13,
+        -6,
+        -8,
+        -11
+      ]
+    },
+    {
+      "rankId": 45,
+      "name": "白金",
+      "score": 2500,
+      "baseHp": 500,
+      "basePower": 8,
+      "winscorelist": [
+        16,
+        13,
+        12,
+        -8,
+        -9,
+        -12
+      ]
+    },
+    {
+      "rankId": 44,
+      "name": "白金",
+      "score": 2600,
+      "baseHp": 570,
+      "basePower": 8,
+      "winscorelist": [
+        16,
+        13,
+        12,
+        -8,
+        -9,
+        -12
+      ]
+    },
+    {
+      "rankId": 43,
+      "name": "白金",
+      "score": 2700,
+      "baseHp": 640,
+      "basePower": 8,
+      "winscorelist": [
+        16,
+        13,
+        12,
+        -8,
+        -9,
+        -12
+      ]
+    },
+    {
+      "rankId": 42,
+      "name": "白金",
+      "score": 2800,
+      "baseHp": 710,
+      "basePower": 8,
+      "winscorelist": [
+        15,
+        12,
+        11,
+        -8,
+        -10,
+        -13
+      ]
+    },
+    {
+      "rankId": 41,
+      "name": "白金",
+      "score": 2900,
+      "baseHp": 790,
+      "basePower": 8,
+      "winscorelist": [
+        15,
+        12,
+        11,
+        -8,
+        -10,
+        -13
+      ]
+    },
+    {
+      "rankId": 55,
+      "name": "钻石",
+      "score": 3000,
+      "baseHp": 870,
+      "basePower": 9,
+      "winscorelist": [
+        14,
+        11,
+        10,
+        -9,
+        -10,
+        -13
+      ]
+    },
+    {
+      "rankId": 54,
+      "name": "钻石",
+      "score": 3100,
+      "baseHp": 960,
+      "basePower": 9,
+      "winscorelist": [
+        14,
+        11,
+        10,
+        -9,
+        -10,
+        -13
+      ]
+    },
+    {
+      "rankId": 53,
+      "name": "钻石",
+      "score": 3200,
+      "baseHp": 1050,
+      "basePower": 9,
+      "winscorelist": [
+        14,
+        11,
+        10,
+        -9,
+        -10,
+        -13
+      ]
+    },
+    {
+      "rankId": 52,
+      "name": "钻石",
+      "score": 3300,
+      "baseHp": 1140,
+      "basePower": 9,
+      "winscorelist": [
+        13,
+        10,
+        9,
+        -9,
+        -11,
+        -14
+      ]
+    },
+    {
+      "rankId": 51,
+      "name": "钻石",
+      "score": 3400,
+      "baseHp": 1240,
+      "basePower": 9,
+      "winscorelist": [
+        13,
+        10,
+        9,
+        -9,
+        -11,
+        -14
+      ]
+    },
+    {
+      "rankId": 65,
+      "name": "大师",
+      "score": 3500,
+      "baseHp": 1340,
+      "basePower": 10,
+      "winscorelist": [
+        12,
+        9,
+        8,
+        -10,
+        -12,
+        -14
+      ]
+    },
+    {
+      "rankId": 64,
+      "name": "大师",
+      "score": 3600,
+      "baseHp": 1450,
+      "basePower": 10,
+      "winscorelist": [
+        12,
+        9,
+        8,
+        -10,
+        -12,
+        -14
+      ]
+    },
+    {
+      "rankId": 63,
+      "name": "大师",
+      "score": 3700,
+      "baseHp": 1560,
+      "basePower": 10,
+      "winscorelist": [
+        12,
+        9,
+        8,
+        -10,
+        -12,
+        -14
+      ]
+    },
+    {
+      "rankId": 62,
+      "name": "大师",
+      "score": 3800,
+      "baseHp": 1670,
+      "basePower": 10,
+      "winscorelist": [
+        11,
+        9,
+        8,
+        -11,
+        -13,
+        -15
+      ]
+    },
+    {
+      "rankId": 61,
+      "name": "大师",
+      "score": 3900,
+      "baseHp": 1790,
+      "basePower": 10,
+      "winscorelist": [
+        11,
+        9,
+        8,
+        -11,
+        -13,
+        -15
+      ]
+    }
+  ]
+}
