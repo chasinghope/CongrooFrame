@@ -12,9 +12,5 @@ dotnet %LUBAN_DLL% ^
     -x outputDataDir=%OUTPUT_DATA_DIR%^
     -x l10n.provider=default ^
     -x "l10n.textFile.path=Sheet1@%CONF_ROOT%\Datas\l10n\localization.xlsx" ^
-    -x l10n.textFile.keyFieldName=key ^
-    -x l10n.textFile.languageFieldName=en ^
-    -x l10n.convertTextKeyToValue=1
-
-
+    -x l10n.textFile.keyFieldName=key 
 pause

@@ -1,0 +1,17 @@
+{
+    "name": "congroo.ui.demo",
+    "rootNamespace": "",
+    "references": [
+        "congroo.ui",
+        "UniTask"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
