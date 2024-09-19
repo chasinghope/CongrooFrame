@@ -34,6 +34,7 @@ MonoBehaviour:
     - Assembly-CSharp-firstpass
     - congroo.core
     - congroo.ui
+    - congroo.ui.demo
     - Luban.Runtime
     - Sirenix.OdinInspector.Modules.Unity.Addressables
     - UniTask

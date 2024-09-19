@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="eecd261a-c3e8-4836-aa31-1142c36522ae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CongrooFrame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CongrooFrame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LuBan/cfgs/Datas/__tables__.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/LuBan/cfgs/Datas/__tables__.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LuBan/gen_code_json_withlocalization.bat" beforeDir="false" afterPath="$PROJECT_DIR$/LuBan/gen_code_json_withlocalization.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Easy Save 3/Resources/ES3/ES3Defaults.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Easy Save 3/Resources/ES3/ES3Defaults.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/Congroo.Core/Runtime/DataModel/DataModelBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/Congroo.Core/Runtime/DataModel/DataModelBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/Congroo.Core/Runtime/DataModel/DataModelMgr.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/Congroo.Core/Runtime/DataModel/DataModelMgr.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Packages/Congroo.Core" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5e6ebaa7d75c4d5399dc81ecead6b43f952600/ce/9d566860/ProjectWindowUtil.cs" root0="SKIP_HIGHLIGHTING" />
@@ -128,7 +130,8 @@
       <workItem from="1725932273302" duration="13717000" />
       <workItem from="1725950410530" duration="2721000" />
       <workItem from="1725959200208" duration="1657000" />
-      <workItem from="1726016763617" duration="5251000" />
+      <workItem from="1726016763617" duration="9476000" />
+      <workItem from="1726711217865" duration="1119000" />
     </task>
     <servers />
   </component>
